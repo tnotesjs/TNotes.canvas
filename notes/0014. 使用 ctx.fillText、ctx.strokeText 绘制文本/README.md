@@ -1,10 +1,12 @@
-# [0014. 使用 ctx.fillText、ctx.strokeText 绘制文本](https://github.com/Tdahuyou/TNotes.template/tree/main/notes/0014.%20%E4%BD%BF%E7%94%A8%20ctx.fillText%E3%80%81ctx.strokeText%20%E7%BB%98%E5%88%B6%E6%96%87%E6%9C%AC)
+# [0014. 使用 ctx.fillText、ctx.strokeText 绘制文本](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0014.%20%E4%BD%BF%E7%94%A8%20ctx.fillText%E3%80%81ctx.strokeText%20%E7%BB%98%E5%88%B6%E6%96%87%E6%9C%AC)
 
 <!-- region:toc -->
+
 - [1. 📒 notes](#1--notes)
 - [2. 💻 demo1](#2--demo1)
 - [3. 💻 demo2](#3--demo2)
 - [4. 💻 demo3](#4--demo3)
+
 <!-- endregion:toc -->
 
 ## 1. 📒 notes

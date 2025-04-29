@@ -1,9 +1,7 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.canvas",
-  "keywords": [
-    "TNotes.canvas"
-  ],
+  "keywords": ["TNotes.canvas"],
   "ignore_dirs": [
     ".vscode",
     "0000",
@@ -13,6 +11,7 @@
     "demos",
     "assets"
   ],
+  "rootDocsSrcDir": "../_/docs/src",
   "port": 9380,
   "menuItems": [
     {

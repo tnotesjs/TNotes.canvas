@@ -1,9 +1,11 @@
-# [0022. 使用 ctx.closePath 闭合路径](https://github.com/Tdahuyou/TNotes.template/tree/main/notes/0022.%20%E4%BD%BF%E7%94%A8%20ctx.closePath%20%E9%97%AD%E5%90%88%E8%B7%AF%E5%BE%84)
+# [0022. 使用 ctx.closePath 闭合路径](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0022.%20%E4%BD%BF%E7%94%A8%20ctx.closePath%20%E9%97%AD%E5%90%88%E8%B7%AF%E5%BE%84)
 
 <!-- region:toc -->
+
 - [1. 📝 简介](#1--简介)
 - [2. 💻 demo1 - 自动闭合 vs. 手动闭合](#2--demo1---自动闭合-vs-手动闭合)
 - [3. 💻 demo2 - 注意 `lineWidth`](#3--demo2---注意-linewidth)
+
 <!-- endregion:toc -->
 
 ## 1. 📝 简介

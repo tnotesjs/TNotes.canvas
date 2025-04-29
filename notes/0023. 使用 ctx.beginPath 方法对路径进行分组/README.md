@@ -1,12 +1,14 @@
-# [0023. 使用 ctx.beginPath 方法对路径进行分组](https://github.com/Tdahuyou/TNotes.template/tree/main/notes/0023.%20%E4%BD%BF%E7%94%A8%20ctx.beginPath%20%E6%96%B9%E6%B3%95%E5%AF%B9%E8%B7%AF%E5%BE%84%E8%BF%9B%E8%A1%8C%E5%88%86%E7%BB%84)
+# [0023. 使用 ctx.beginPath 方法对路径进行分组](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0023.%20%E4%BD%BF%E7%94%A8%20ctx.beginPath%20%E6%96%B9%E6%B3%95%E5%AF%B9%E8%B7%AF%E5%BE%84%E8%BF%9B%E8%A1%8C%E5%88%86%E7%BB%84)
 
 
 <!-- region:toc -->
+
 - [1. 📝 简介](#1--简介)
 - [2. 📒 notes](#2--notes)
 - [3. 💻 demo1 - 错误写法](#3--demo1---错误写法)
 - [4. 💻 demo2 - 正确写法 1](#4--demo2---正确写法-1)
 - [5. 💻 demo3 - 正确写法 2](#5--demo3---正确写法-2)
+
 <!-- endregion:toc -->
 
 ## 1. 📝 简介

@@ -1,6 +1,7 @@
-# [0031. 使用 ctx.clip 实现图像裁剪](https://github.com/Tdahuyou/TNotes.template/tree/main/notes/0031.%20%E4%BD%BF%E7%94%A8%20ctx.clip%20%E5%AE%9E%E7%8E%B0%E5%9B%BE%E5%83%8F%E8%A3%81%E5%89%AA)
+# [0031. 使用 ctx.clip 实现图像裁剪](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0031.%20%E4%BD%BF%E7%94%A8%20ctx.clip%20%E5%AE%9E%E7%8E%B0%E5%9B%BE%E5%83%8F%E8%A3%81%E5%89%AA)
 
 <!-- region:toc -->
+
 - [1. 🔗 links](#1--links)
 - [2. 📒 `ctx.clip` 简介](#2--ctxclip-简介)
 - [3. 👨‍🏫 搞懂 SVG/Canvas 中 nonzero 和 evenodd 填充规则](#3--搞懂-svgcanvas-中-nonzero-和-evenodd-填充规则)
@@ -11,6 +12,7 @@
 - [5. 💻 demos.2 - 裁剪圆形](#5--demos2---裁剪圆形)
 - [6. 💻 demos.3 - 理解 fillRule](#6--demos3---理解-fillrule)
 - [7. 💻 demos.4 - 问题记录](#7--demos4---问题记录)
+
 <!-- endregion:toc -->
 - ctx.clip 的基本使用是比较简单的，但是填充规则不太好理解，并且暂时也还不清楚填充规则有何实际的应用场景……
 - 对于填充规则的介绍，文中引用了“张鑫旭”老师的博客文章 —— 搞懂 SVG/Canvas 中 nonzero 和 evenodd 填充规则。

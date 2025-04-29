@@ -1,9 +1,11 @@
-# [0006. 使用 JSDoc 来标注 canvas 变量类型](https://github.com/Tdahuyou/TNotes.template/tree/main/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B)
+# [0006. 使用 JSDoc 来标注 canvas 变量类型](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B)
 
 <!-- region:toc -->
+
 - [1. 📝 简介](#1--简介)
 - [2. 💻 demo1 - 查询已有的 canvas](#2--demo1---查询已有的-canvas)
 - [3. 💻 demo2 - 创建新的 canvas](#3--demo2---创建新的-canvas)
+
 <!-- endregion:toc -->
 
 ## 1. 📝 简介

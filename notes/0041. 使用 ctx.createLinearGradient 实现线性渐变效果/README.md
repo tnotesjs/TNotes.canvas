@@ -1,10 +1,12 @@
-# [0041. 使用 ctx.createLinearGradient 实现线性渐变效果](https://github.com/Tdahuyou/TNotes.template/tree/main/notes/0041.%20%E4%BD%BF%E7%94%A8%20ctx.createLinearGradient%20%E5%AE%9E%E7%8E%B0%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C)
+# [0041. 使用 ctx.createLinearGradient 实现线性渐变效果](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0041.%20%E4%BD%BF%E7%94%A8%20ctx.createLinearGradient%20%E5%AE%9E%E7%8E%B0%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C)
 
 <!-- region:toc -->
+
 - [1. 📝 简介](#1--简介)
 - [2. 🔗 links](#2--links)
 - [3. 💻 demo1](#3--demo1)
 - [4. 💻 demo2](#4--demo2)
+
 <!-- endregion:toc -->
 
 ## 1. 📝 简介

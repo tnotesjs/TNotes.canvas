@@ -12,6 +12,15 @@
     "assets"
   ],
   "rootDocsSrcDir": "../_/docs/src",
+  "home.features.item": {
+    "icon": {
+      "src": "https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/assets/icon--canvas.svg"
+    },
+    "title": "Canvas 笔记",
+    "completed_notes_count": 0,
+    "details": "基本完成，还需要整理，目前记录的都是一些非常基础的内容。",
+    "link": "https://tdahuyou.github.io/TNotes.canvas/"
+  },
   "port": 9380,
   "menuItems": [
     {

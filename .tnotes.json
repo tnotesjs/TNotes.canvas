@@ -1,7 +1,9 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.canvas",
-  "keywords": ["TNotes.canvas"],
+  "keywords": [
+    "TNotes.canvas"
+  ],
   "ignore_dirs": [
     ".vscode",
     "0000",
@@ -16,9 +18,9 @@
     "icon": {
       "src": "https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/assets/icon--canvas.svg"
     },
-    "title": "Canvas 笔记",
+    "title": "canvas",
     "completed_notes_count": 0,
-    "details": "基本完成，还需要整理，目前记录的都是一些非常基础的内容。",
+    "details": "Canvas 笔记",
     "link": "https://tdahuyou.github.io/TNotes.canvas/"
   },
   "port": 9380,

@@ -2,13 +2,13 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
+- [1. 📝 概述](#1--概述)
 - [2. 📒 notes](#2--notes)
 - [3. 💻 demo](#3--demo)
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
 - 知道 `<canvas>` 默认是 300x150 的行盒。
 
@@ -22,27 +22,27 @@
 <!-- 1.html -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    canvas {
-      outline: 1px solid #ddd;
-    }
-  </style>
-</head>
-<body>
-  <!--
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      canvas {
+        outline: 1px solid #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
     1. canvas 是一个行内元素
     2. canvas 默认大小是 300 * 150
 
     打开浏览器查看最终渲染效果会发现俩盒子同行显示。
     打开 devtools，查看盒模型，会发现盒子尺寸是 300 * 150。
    -->
-  <canvas></canvas>
-  <canvas></canvas>
-</body>
+    <canvas></canvas>
+    <canvas></canvas>
+  </body>
 </html>
 ```
 

@@ -2,23 +2,22 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
-- [2. 🔗 links](#2--links)
+- [1. 📝 概述](#1--概述)
+- [2. 🔗 References](#2--references)
 - [3. 💻 demo1](#3--demo1)
 - [4. 💻 demo2](#4--demo2)
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
 - ctx.textBaseline 设置文本的 **垂直** 对齐方式
 - ctx.textAlign 设置文本的 **水平** 对齐方式
 
-## 2. 🔗 links
+## 2. 🔗 References
 
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/textBaseline - MDN，textBaseline 设置文本的 垂直 对齐方式。
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/textAlign - MDN，textAlign 设置文本的 水平 对齐方式。
-
 
 ## 3. 💻 demo1
 
@@ -96,7 +95,7 @@
       // bottom 文本的底部与指定的 y 坐标对齐。
 
       ctx.textBaseline = 'middle' // 垂直居中对齐
-     ctx.textAlign = 'center' // 水平居中对齐
+      ctx.textAlign = 'center' // 水平居中对齐
 
       ctx.font = '4rem sans-serif'
       ctx.fillText('Tdahuyou', 200, 200)

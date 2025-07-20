@@ -2,18 +2,18 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
-- [2. 🔗 links](#2--links)
+- [1. 📝 概述](#1--概述)
+- [2. 🔗 References](#2--references)
 - [3. 💻 demo1](#3--demo1)
 - [4. 💻 demo2](#4--demo2)
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
 - `createLinearGradient(x0, y0, x1, y1)` 它设置的仅仅是线性渐变的区域。
 
-## 2. 🔗 links
+## 2. 🔗 References
 
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient - MDN - `ctx.createLinearGradient`。
 
@@ -100,7 +100,6 @@
         ctx.fillStyle = gradient
         ctx.fillRect(400, 0, 100, canvas.height)
       }
-
     </script>
   </body>
 </html>

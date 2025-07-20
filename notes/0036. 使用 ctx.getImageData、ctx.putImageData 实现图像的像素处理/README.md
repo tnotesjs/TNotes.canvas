@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
-- [2. 🔗 links](#2--links)
+- [1. 📝 概述](#1--概述)
+- [2. 🔗 References](#2--references)
 - [3. 📒 notes](#3--notes)
 - [4. 💻 demo1 - 置灰](#4--demo1---置灰)
 - [5. 💻 demo2 - 图像反色处理](#5--demo2---图像反色处理)
@@ -11,15 +11,15 @@
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
-先对 `ctx.getImageData`、`ctx.putImageData` 的使用有个基本的了解即可。想要玩 6️⃣ 它们，还需要去学习图像颜色处理的更多知识。
-文档中提到的示例，处理逻辑都是：
+先对 `ctx.getImageData`、`ctx.putImageData` 的使用有个基本的了解即可。想要玩 6️⃣ 它们，还需要去学习图像颜色处理的更多知识。文档中提到的示例，处理逻辑都是：
+
 1. 先读图片数据 `ctx.getImageData`
 2. 再对图片数据进行修改
 3. 最后将修改后的数据写入图片 `ctx.putImageData`
 
-## 2. 🔗 links
+## 2. 🔗 References
 
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData - MDN - CanvasRenderingContext2D: getImageData() method，读图片数据。
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/putImageData - MDN - CanvasRenderingContext2D: putImageData() method，写图片数据。
@@ -28,8 +28,7 @@
 
 ctx.getImageData、ctx.putImageData 这俩 API 的功能很强大，能玩出很多效果 —— 因为拿到了整个图像的所有像素点数据。
 
-素材原图像：
-![](assets/2024-10-04-11-50-13.png)
+素材原图像： ![](assets/2024-10-04-11-50-13.png)
 
 ## 4. 💻 demo1 - 置灰
 

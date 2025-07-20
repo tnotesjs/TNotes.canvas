@@ -2,21 +2,22 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
-- [2. 🔗 links](#2--links)
+- [1. 📝 概述](#1--概述)
+- [2. 🔗 References](#2--references)
 - [3. 💻 demo1](#3--demo1)
 - [4. 💻 demo2](#4--demo2)
 - [5. 💻 demo3](#5--demo3)
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
 `ctx.createConicGradient(startAngle, x, y)` 用于创建一个锥形渐变。
+
 - `startAngle` 渐变的起始角度
 - `x, y` 渐变的中心点坐标
 
-## 2. 🔗 links
+## 2. 🔗 References
 
 https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createConicGradient - MDN - `ctx.createConicGradient(startAngle, x, y)`。
 

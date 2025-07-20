@@ -2,17 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
+- [1. 📝 概述](#1--概述)
 - [2. 💻 demo1](#2--demo1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
-看懂实现原理即可。
-这个效果挺好玩的，不过想要监听结果如何出现，不太容易。
-**最终效果展示：**
-![](assets/使用%20ctx.globalCompositeOperation%20实现刮刮乐效果.gif)
+看懂实现原理即可。这个效果挺好玩的，不过想要监听结果如何出现，不太容易。 **最终效果展示：** ![](assets/使用%20ctx.globalCompositeOperation%20实现刮刮乐效果.gif)
 
 ## 2. 💻 demo1
 
@@ -49,7 +46,7 @@ canvas {
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./1.css">
+    <link rel="stylesheet" href="./1.css" />
     <title>Document</title>
   </head>
   <body>

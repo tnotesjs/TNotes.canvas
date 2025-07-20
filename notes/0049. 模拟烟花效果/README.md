@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
+- [1. 📝 概述](#1--概述)
 - [2. 📒 烟花 - 最终效果](#2--烟花---最终效果)
 - [3. 📒 烟花 - 上升过程分析](#3--烟花---上升过程分析)
 - [4. 💻 demo - 实现上升过程](#4--demo---实现上升过程)
@@ -11,10 +11,10 @@
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
-理解文档中提到的烟花效果的实现原理。
-本节仅仅是实现一个非常简易版本的烟花的可视化效果，最终要实现的烟花效果，重点有两个：
+理解文档中提到的烟花效果的实现原理。本节仅仅是实现一个非常简易版本的烟花的可视化效果，最终要实现的烟花效果，重点有两个：
+
 - 烟花的上升过程。
 - 烟花的爆炸过程。
 
@@ -119,7 +119,7 @@ class Firework {
     if (this.activeFireworks.length == this.maxActiveCount)
       this.activeFireworks.shift()
 
-    this.activeFireworks.forEach(fire => fire.draw())
+    this.activeFireworks.forEach((fire) => fire.draw())
   }
 }
 
@@ -172,6 +172,7 @@ animate()
 **烟花的爆炸原理分析：**
 
 爆炸后的烟花，本质上就是绘制若干个小球，小球的数量由 `this.particleCount` 变量来表示。所有爆炸的粒子实例存储在 `this.particles` 数组中，每次更新烟花 `Firework.update()` 的时候需要去绘制俩玩意儿：
+
 1. 还没爆炸的烟花 `Firework.activeFireworks`
 2. 已经爆炸的烟花 `Firework.explodeFireworks`
 

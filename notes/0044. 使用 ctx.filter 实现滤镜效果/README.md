@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
-- [2. 🔗 links](#2--links)
+- [1. 📝 概述](#1--概述)
+- [2. 🔗 References](#2--references)
 - [3. 📒 notes](#3--notes)
 - [4. 💻 demo1 - blur](#4--demo1---blur)
 - [5. 💻 demo2 - brightness](#5--demo2---brightness)
@@ -18,12 +18,11 @@
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
-文档对 ctx.filter 实现滤镜效果做了个简述，快速过了一遍和滤镜相关的部分内容。
-陌生的单词有些多…… 需要理解这些单词的含义。
+文档对 ctx.filter 实现滤镜效果做了个简述，快速过了一遍和滤镜相关的部分内容。陌生的单词有些多…… 需要理解这些单词的含义。
 
-## 2. 🔗 links
+## 2. 🔗 References
 
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/filter - MDN - ctx.filter。
 
@@ -178,7 +177,6 @@ function createCanvas(filterStr) {
 ![](assets/2024-10-04-12-05-41.png)
 
 ## 7. 💻 demo4 - drop-shadow
-
 
 ```html
 <!DOCTYPE html>
@@ -427,7 +425,6 @@ function createCanvas(filterStr) {
         </filter>
       </defs>
     </svg>
-
 
     <script src="./drawGrid.js"></script>
     <script>

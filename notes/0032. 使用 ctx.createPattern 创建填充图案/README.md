@@ -2,19 +2,18 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
-- [2. 🔗 links](#2--links)
+- [1. 📝 概述](#1--概述)
+- [2. 🔗 References](#2--references)
 - [3. 📒 notes](#3--notes)
 - [4. 💻 demo1](#4--demo1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
-- 理解 ctx.createPattern 的填充机制。
-需要注意 **填充的图案是禁止的，并不会随着我们绘制的图案而移动。**
+- 理解 ctx.createPattern 的填充机制。需要注意 **填充的图案是禁止的，并不会随着我们绘制的图案而移动。**
 
-## 2. 🔗 links
+## 2. 🔗 References
 
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createPattern - MDN - CanvasRenderingContext2D: createPattern() method
 
@@ -26,7 +25,7 @@ ctx.createPattern 重点在于理解填充的机制，这可能和你常规印�
 
 ```html
 <!-- 1.html -->
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />

@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
-- [2. 🔗 links](#2--links)
+- [1. 📝 概述](#1--概述)
+- [2. 🔗 References](#2--references)
 - [3. 📒 notes](#3--notes)
 - [4. 💻 demo1 - 保持图片原始尺寸](#4--demo1---保持图片原始尺寸)
 - [5. 💻 demo2 - 约束图片尺寸](#5--demo2---约束图片尺寸)
@@ -11,15 +11,15 @@
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
 一共有 3 种传参方式：
+
 1. `drawImage(image, dx, dy)`
 2. `drawImage(image, dx, dy, dWidth, dHeight)`
-3. `drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)`
-最后一种能用来模拟截图效果。
+3. `drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)` 最后一种能用来模拟截图效果。
 
-## 2. 🔗 links
+## 2. 🔗 References
 
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage - MDN - `ctx.drawImage`
 
@@ -75,7 +75,6 @@
 
 ## 5. 💻 demo2 - 约束图片尺寸
 
-
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -116,7 +115,6 @@
 
 ## 6. 💻 demo3 - 裁剪图片
 
-
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -143,17 +141,7 @@
         ctx.globalAlpha = 0.5
         ctx.drawImage(img, 0, 0)
 
-        ctx.drawImage(
-          img,
-          150,
-          100,
-          900,
-          img.height - 100,
-          0,
-          700,
-          300,
-          150
-        )
+        ctx.drawImage(img, 150, 100, 900, img.height - 100, 0, 700, 300, 150)
       }
     </script>
   </body>

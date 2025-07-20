@@ -1,6 +1,5 @@
 # [0002. 判断浏览器是否支持 canvas](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0002.%20%E5%88%A4%E6%96%AD%E6%B5%8F%E8%A7%88%E5%99%A8%E6%98%AF%E5%90%A6%E6%94%AF%E6%8C%81%20canvas)
 
-
 <!-- region:toc -->
 
 - [1. ⏰ TODO 待整理](#1--todo-待整理)
@@ -9,8 +8,8 @@
 
 ## 1. ⏰ TODO 待整理
 
-- 掌握判断浏览器是否支持 canvas 的两种方式。
-[1.html](./1.html) 中的内容如下：
+- 掌握判断浏览器是否支持 canvas 的两种方式。 [1.html](./1.html) 中的内容如下：
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -46,5 +45,7 @@
   </body>
 </html>
 ```
-![](assets/2024-09-19-09-26-51.png)
+
+- ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-20-12-00-13.png)
+
 因为浏览器支持 canvas，所以打开这个 1.html 之后，将看到一个空白的界面，并在 devtools 中的 console 模块中输出了 `浏览器支持canvas`。

@@ -2,21 +2,20 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
-- [2. 🔗 links](#2--links)
+- [1. 📝 概述](#1--概述)
+- [2. 🔗 References](#2--references)
 - [3. 💻 demo1](#3--demo1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
-ctx.createRadialGradient 用于创建径向渐变（或称为放射状渐变）。
-`createRadialGradient(x0, y0, r0, x1, y1, r1)`
-- `x0, y0, r0` 圆1
-- `x1, y1, r1` 圆2
-从圆 1 的边缘开始渐变到圆 2 的边缘。
+ctx.createRadialGradient 用于创建径向渐变（或称为放射状渐变）。 `createRadialGradient(x0, y0, r0, x1, y1, r1)`
 
-## 2. 🔗 links
+- `x0, y0, r0` 圆 1
+- `x1, y1, r1` 圆 2 从圆 1 的边缘开始渐变到圆 2 的边缘。
+
+## 2. 🔗 References
 
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient - MDN - `ctx.createRadialGradient`。
 

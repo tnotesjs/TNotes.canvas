@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
-- [2. 🔗 links](#2--links)
+- [1. 📝 概述](#1--概述)
+- [2. 🔗 References](#2--references)
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
-记录了一个 canvas 的在线学习站点 - HTML Canvas Deep Dive。
+- 记录了一个 canvas 的在线学习站点 - HTML Canvas Deep Dive。
 
-## 2. 🔗 links
+## 2. 🔗 References
 
 - https://joshondesign.com/p/books/canvasdeepdive/title.html
   - HTML Canvas Deep Dive

@@ -2,15 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 🔗 links](#1--links)
+- [1. 🔗 References](#1--references)
 - [2. 📒 notes](#2--notes)
 - [3. 💻 demo1](#3--demo1)
 - [4. 💻 demo2](#4--demo2)
 
 <!-- endregion:toc -->
 
-
-## 1. 🔗 links
+## 1. 🔗 References
 
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/rotate - MDN - CanvasRenderingContext2D：rotate() 方法。
 
@@ -19,6 +18,7 @@
 ctx.rotate 用于旋转画布的当前绘图。
 
 **注意：**
+
 1. 旋转不会对之前绘制好的内容有影响。
 2. 旋转的角度单位是弧度。
 3. 旋转默认是基于画布的原点来旋转的。
@@ -69,42 +69,42 @@ ctx.rotate 用于旋转画布的当前绘图。
 
       // 坐标轴旋转 10°
       // 坐标旋转 10° 再绘制一个圆
-      ctx.rotate(10 * Math.PI / 180)
+      ctx.rotate((10 * Math.PI) / 180)
       ctx.beginPath()
       ctx.arc(200, 50, 10, 0, Math.PI * 2)
       ctx.fill()
 
       // 坐标轴旋转 20°
       // 坐标旋转 10° 再绘制一个圆
-      ctx.rotate(10 * Math.PI / 180)
+      ctx.rotate((10 * Math.PI) / 180)
       ctx.beginPath()
       ctx.arc(200, 50, 10, 0, Math.PI * 2)
       ctx.fill()
 
       // 坐标轴旋转 30°
       // 坐标旋转 10° 再绘制一个圆
-      ctx.rotate(10 * Math.PI / 180)
+      ctx.rotate((10 * Math.PI) / 180)
       ctx.beginPath()
       ctx.arc(200, 50, 10, 0, Math.PI * 2)
       ctx.fill()
 
       // 坐标轴旋转 40°
       // 坐标旋转 10° 再绘制一个圆
-      ctx.rotate(10 * Math.PI / 180)
+      ctx.rotate((10 * Math.PI) / 180)
       ctx.beginPath()
       ctx.arc(200, 50, 10, 0, Math.PI * 2)
       ctx.fill()
 
       // 坐标轴旋转 50°
       // 坐标旋转 10° 再绘制一个圆
-      ctx.rotate(10 * Math.PI / 180)
+      ctx.rotate((10 * Math.PI) / 180)
       ctx.beginPath()
       ctx.arc(200, 50, 10, 0, Math.PI * 2)
       ctx.fill()
 
       // 坐标轴旋转 60°
       // 坐标旋转 10° 再绘制一个圆
-      ctx.rotate(10 * Math.PI / 180)
+      ctx.rotate((10 * Math.PI) / 180)
       ctx.beginPath()
       ctx.arc(200, 50, 10, 0, Math.PI * 2)
       ctx.fill()
@@ -148,7 +148,7 @@ ctx.rotate 用于旋转画布的当前绘图。
       // 1. 将坐标轴的原点设置为旋转矩形的中心
       ctx.translate(75, 75)
       // 2. 坐标轴旋转 45°
-      ctx.rotate(45 * Math.PI / 180)
+      ctx.rotate((45 * Math.PI) / 180)
 
       ctx.fillStyle = 'blue'
       // 3. 绘制矩形

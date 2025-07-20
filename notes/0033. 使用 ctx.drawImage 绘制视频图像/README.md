@@ -1,15 +1,14 @@
 # [0033. 使用 ctx.drawImage 绘制视频图像](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0033.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E7%BB%98%E5%88%B6%E8%A7%86%E9%A2%91%E5%9B%BE%E5%83%8F)
 
-
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
+- [1. 📝 概述](#1--概述)
 - [2. 📒 notes](#2--notes)
 - [3. 💻 demo1](#3--demo1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
 ## 2. 📒 notes
 
@@ -18,6 +17,7 @@
 可以将视频数据作为 ctx.drawImage 的第一个参数传入，将会绘制视频当前播放帧的图像，并且可以使用 canvas 技术来对图像做一些额外的处理，实现一些特殊效果。
 
 获取到视频图像数据后，结合 canvas 技术会有不少玩法。比如：
+
 - 可以对视频图像加一个滤镜、裁剪效果。
 - 由于 canvas 本身就是一张图片，你可以设置一个下载图片的钩子，想要获取某一帧图像时，执行钩子即可。
 - ……
@@ -36,7 +36,14 @@
   </head>
   <body>
     <div>
-      <video src="./01.mp4" autoplay controls width="400" height="400" muted></video>
+      <video
+        src="./01.mp4"
+        autoplay
+        controls
+        width="400"
+        height="400"
+        muted
+      ></video>
       <!--
         autoplay 属性表示视频加载完成后自动播放
         controls 属性表示显示播放控件

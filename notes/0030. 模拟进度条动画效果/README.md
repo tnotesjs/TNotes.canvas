@@ -2,13 +2,13 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
+- [1. 📝 概述](#1--概述)
 - [2. 📒 notes](#2--notes)
 - [3. 💻 demo1](#3--demo1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
 - 学会使用 `lineDashOffset` 来设置线条的动画效果。
 
@@ -20,7 +20,7 @@
 
 ```html
 <!-- 1.html -->
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />

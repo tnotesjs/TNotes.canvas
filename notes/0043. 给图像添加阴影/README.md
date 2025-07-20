@@ -2,19 +2,19 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
-- [2. 🔗 links](#2--links)
+- [1. 📝 概述](#1--概述)
+- [2. 🔗 References](#2--references)
 - [3. 📒 notes](#3--notes)
 - [4. 💻 demo1](#4--demo1)
 - [5. 💻 demo2](#5--demo2)
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
-跟 css 中的 box-shadow 类似，都可以用于给盒子添加阴影。在 canvas 中，可以给阴影添加颜色ctx.shadowColor、模糊半径shadowBlur、偏移shadowOffsetX、shadowOffsetY。
+跟 css 中的 box-shadow 类似，都可以用于给盒子添加阴影。在 canvas 中，可以给阴影添加颜色 ctx.shadowColor、模糊半径 shadowBlur、偏移 shadowOffsetX、shadowOffsetY。
 
-## 2. 🔗 links
+## 2. 🔗 References
 
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowOffsetY
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowOffsetX

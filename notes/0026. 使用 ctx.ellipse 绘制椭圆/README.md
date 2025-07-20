@@ -1,18 +1,15 @@
 # [0026. 使用 ctx.ellipse 绘制椭圆](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0026.%20%E4%BD%BF%E7%94%A8%20ctx.ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86)
 
-
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
+- [1. 📝 概述](#1--概述)
 - [2. 💻 demo1](#2--demo1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
-
-- 学会使用 ctx.ellipse 绘制椭圆，它和绘制圆弧是很类似的。
-可以对比着圆弧【0024】的绘制原理来理解椭圆的绘制。
+- 学会使用 ctx.ellipse 绘制椭圆，它和绘制圆弧是很类似的。可以对比着圆弧【0024】的绘制原理来理解椭圆的绘制。
 
 ## 2. 💻 demo1
 

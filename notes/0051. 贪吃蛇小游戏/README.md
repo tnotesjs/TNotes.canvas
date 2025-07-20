@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 
-- [1. 📝 简介](#1--简介)
+- [1. 📝 概述](#1--概述)
 - [2. 📒 贪吃蛇小游戏 - 最终效果](#2--贪吃蛇小游戏---最终效果)
 - [3. 📒 贪吃蛇小游戏 - 实现原理分析](#3--贪吃蛇小游戏---实现原理分析)
   - [3.1. 蛇头移动](#31-蛇头移动)
@@ -14,7 +14,7 @@
 
 <!-- endregion:toc -->
 
-## 1. 📝 简介
+## 1. 📝 概述
 
 理解贪吃蛇小游戏的实现的基本原理。
 
@@ -29,8 +29,8 @@
 核心要理解以下逻辑的实现：
 
 - 蛇的移动逻辑
-    - 蛇头的移动
-    - 蛇身的移动（重点）
+  - 蛇头的移动
+  - 蛇身的移动（重点）
 - 蛇吃食物的逻辑
 - 游戏的结束判定逻辑
 
@@ -257,7 +257,12 @@ class Snake {
     this.x = x * gridSize // 横坐标初始化，根据网格大小调整
     this.y = y * gridSize // 纵坐标初始化，根据网格大小调整
     this.direction = direction // 初始方向
-    this.head = new Square(this.x, this.y, CELL_TYPE_SNAKE, CELL_COLOR_SNAKE_HEAD) // 创建蛇头部的实例
+    this.head = new Square(
+      this.x,
+      this.y,
+      CELL_TYPE_SNAKE,
+      CELL_COLOR_SNAKE_HEAD
+    ) // 创建蛇头部的实例
     this.body = [] // 蛇的身体部分数组
     this.score = 0 // 初始化得分
   }
@@ -519,7 +524,12 @@ class Snake {
     this.x = x * gridSize // 横坐标初始化，根据网格大小调整
     this.y = y * gridSize // 纵坐标初始化，根据网格大小调整
     this.direction = direction // 初始方向
-    this.head = new Square(this.x, this.y, CELL_TYPE_SNAKE, CELL_COLOR_SNAKE_HEAD) // 创建蛇头部的实例
+    this.head = new Square(
+      this.x,
+      this.y,
+      CELL_TYPE_SNAKE,
+      CELL_COLOR_SNAKE_HEAD
+    ) // 创建蛇头部的实例
     this.body = [] // 蛇的身体部分数组
     this.score = 0 // 初始化得分
   }

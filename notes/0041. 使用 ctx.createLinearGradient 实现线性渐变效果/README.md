@@ -105,7 +105,7 @@
 </html>
 ```
 
-![](assets/2024-10-04-11-59-28.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-59-28.png)
 
 ## 4. 💻 demo2
 
@@ -148,4 +148,4 @@
 </html>
 ```
 
-![](assets/2024-10-04-11-59-37.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-59-37.png)

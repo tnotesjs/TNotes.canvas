@@ -10,11 +10,13 @@
 ## 1. 📒 notes
 
 学会使用 `ctx.lineJoin` 设置线条连接处的样式。
+
 - miter `>` 尖角
 - round `)` 圆角
 - bevel `]` 平角
 
 **单词**
+
 - miter，尖角
 - bevel，平角、斜角
 
@@ -22,7 +24,7 @@
 
 ```html
 <!-- 1.html -->
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -73,4 +75,4 @@
 </html>
 ```
 
-![](assets/2024-10-03-23-15-35.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-15-35.png)

@@ -84,4 +84,4 @@
 </html>
 ```
 
-![](assets/2024-10-04-10-57-32.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-10-57-32.png)

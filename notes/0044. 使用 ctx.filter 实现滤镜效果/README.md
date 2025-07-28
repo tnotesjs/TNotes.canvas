@@ -95,7 +95,7 @@ function createCanvas(filterStr) {
 </html>
 ```
 
-![](assets/2024-10-04-12-05-21.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-05-21.png)
 
 ## 5. 💻 demo2 - brightness
 
@@ -133,7 +133,7 @@ function createCanvas(filterStr) {
 </html>
 ```
 
-![](assets/2024-10-04-12-05-31.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-05-31.png)
 
 ## 6. 💻 demo3 - hue-rotate
 
@@ -174,7 +174,7 @@ function createCanvas(filterStr) {
 </html>
 ```
 
-![](assets/2024-10-04-12-05-41.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-05-41.png)
 
 ## 7. 💻 demo4 - drop-shadow
 
@@ -212,7 +212,7 @@ function createCanvas(filterStr) {
 </html>
 ```
 
-![](assets/2024-10-04-12-05-51.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-05-51.png)
 
 ## 8. 💻 demo5 - invert
 
@@ -254,7 +254,7 @@ function createCanvas(filterStr) {
 </html>
 ```
 
-![](assets/2024-10-04-12-06-02.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-02.png)
 
 ## 9. 💻 demo6 - sepia
 
@@ -291,7 +291,7 @@ function createCanvas(filterStr) {
 </html>
 ```
 
-![](assets/2024-10-04-12-06-13.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-13.png)
 
 ## 10. 💻 demo7 - grayscale
 
@@ -329,7 +329,7 @@ function createCanvas(filterStr) {
 </html>
 ```
 
-![](assets/2024-10-04-12-06-26.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-26.png)
 
 ## 11. 💻 demo8 - saturate
 
@@ -367,7 +367,7 @@ function createCanvas(filterStr) {
 </html>
 ```
 
-![](assets/2024-10-04-12-06-37.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-37.png)
 
 ## 12. 💻 demo9 - contrast
 
@@ -405,7 +405,7 @@ function createCanvas(filterStr) {
 </html>
 ```
 
-![](assets/2024-10-04-12-06-50.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-50.png)
 
 ## 13. 💻 demo10 - 使用 url 引用 svg 滤镜
 
@@ -444,4 +444,4 @@ function createCanvas(filterStr) {
 </html>
 ```
 
-![](assets/2024-10-04-12-07-07.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-07-07.png)

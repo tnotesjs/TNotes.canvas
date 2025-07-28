@@ -16,6 +16,7 @@
 `ctx.strokeText` 绘制描边文本。
 
 最多可以接收 4 个参数，分别表示：
+
 1. 文本内容
 2. 文本的横坐标
 3. 文本的纵坐标
@@ -59,7 +60,7 @@
 </html>
 ```
 
-![](assets/2024-10-03-23-17-30.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-17-30.png)
 
 ## 3. 💻 demo2
 
@@ -96,7 +97,7 @@
 </html>
 ```
 
-![](assets/2024-10-03-23-17-40.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-17-40.png)
 
 ## 4. 💻 demo3
 
@@ -133,4 +134,4 @@
 </html>
 ```
 
-![](assets/2024-10-03-23-17-53.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-17-53.png)

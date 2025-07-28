@@ -81,7 +81,7 @@ ctx.scale 用于在画布上缩放绘制的图像。
 </html>
 ```
 
-![](assets/2024-10-04-15-05-25.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-05-25.png)
 
 ## 5. 💻 demo2
 
@@ -132,4 +132,4 @@ ctx.scale 用于在画布上缩放绘制的图像。
 </html>
 ```
 
-![](assets/2024-10-04-15-05-36.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-05-36.png)

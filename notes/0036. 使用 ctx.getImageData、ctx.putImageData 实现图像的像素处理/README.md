@@ -28,7 +28,9 @@
 
 ctx.getImageData、ctx.putImageData 这俩 API 的功能很强大，能玩出很多效果 —— 因为拿到了整个图像的所有像素点数据。
 
-素材原图像： ![](assets/2024-10-04-11-50-13.png)
+素材原图像：
+
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-50-13.png)
 
 ## 4. 💻 demo1 - 置灰
 
@@ -100,7 +102,7 @@ ctx.getImageData、ctx.putImageData 这俩 API 的功能很强大，能玩出很
 </html>
 ```
 
-![](assets/2024-10-04-11-50-46.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-50-46.png)
 
 ## 5. 💻 demo2 - 图像反色处理
 
@@ -152,7 +154,7 @@ ctx.getImageData、ctx.putImageData 这俩 API 的功能很强大，能玩出很
 </html>
 ```
 
-![](assets/2024-10-04-11-51-02.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-51-02.png)
 
 ## 6. 💻 demo3 - 置蓝
 
@@ -212,4 +214,4 @@ ctx.getImageData、ctx.putImageData 这俩 API 的功能很强大，能玩出很
 </html>
 ```
 
-![](assets/2024-10-04-11-51-17.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-51-17.png)

@@ -48,10 +48,10 @@
 
 **最终的渲染结果**
 
-![](assets/2024-10-03-22-58-50.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-22-58-50.png)
 
 从最终的渲染结果（并行显示）来看，会发现其实 canvas 并非块盒。
 
 **计算属性及盒模型**
 
-![](assets/2024-10-03-22-59-01.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-22-59-01.png)

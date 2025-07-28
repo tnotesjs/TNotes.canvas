@@ -44,7 +44,7 @@
 </html>
 ```
 
-![](assets/2024-10-03-23-00-31.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-00-31.png)
 
 ## 3. 💻 demo2 - 创建新的 canvas
 
@@ -68,10 +68,10 @@
 </html>
 ```
 
-![](assets/2024-10-03-23-01-15.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-01-15.png)
 
 此时 IDE 能够推断出 canvas 变量的类型，因此它能够非常智能地给予咱们提示。
 
 比如，你输入 `canvas.getcon` 就会提示出对应的 API，此时直接按下 tap 或者回车键，即可快速生成内容。
 
-![](assets/2024-10-03-23-01-33.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-01-33.png)

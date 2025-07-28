@@ -52,7 +52,7 @@
 </html>
 ```
 
-![](assets/2024-10-04-11-40-47.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-40-47.png)
 
 ## 3. 💻 demo2 - 原地跑
 

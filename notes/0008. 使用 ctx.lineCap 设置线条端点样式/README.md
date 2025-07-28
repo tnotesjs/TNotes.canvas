@@ -73,4 +73,4 @@
 </html>
 ```
 
-![](assets/2024-10-03-23-06-25.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-06-25.png)

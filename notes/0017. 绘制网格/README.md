@@ -1,6 +1,5 @@
 # [0017. 绘制网格](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0017.%20%E7%BB%98%E5%88%B6%E7%BD%91%E6%A0%BC)
 
-
 <!-- region:toc -->
 
 - [1. 📒 notes](#1--notes)
@@ -12,6 +11,7 @@
 ## 1. 📒 notes
 
 做一个可视化的网格，作为参考坐标系，以便更直观地查看坐标，主要是辅助学习用。
+
 > 其中 `drawGrid.js` 用到的一些知识点，在其它文档中会介绍。
 
 ---
@@ -29,7 +29,14 @@
  * @param {Number} opacity 网格线透明度
  * @param {Number} fontSize 网格坐标刻度的文字大小
  */
-function drawGrid(canvas, width = 500, height = 500, cellSize = 50, opacity = 0.2, fontSize = 14) {
+function drawGrid(
+  canvas,
+  width = 500,
+  height = 500,
+  cellSize = 50,
+  opacity = 0.2,
+  fontSize = 14
+) {
   const ctx = canvas.getContext('2d')
 
   canvas.width = width // 设置画布大小（注意：这会重置画布状态）
@@ -62,7 +69,6 @@ function drawGrid(canvas, width = 500, height = 500, cellSize = 50, opacity = 0.
 
 这里提前将其丢到这里来介绍，是为了给后续内容做一个铺垫，将不可见的坐标可视化地绘制出来，参考着可视化的坐标来学习，效果也许会更好。毕竟类似 canvas 和 svg 这类的可视化技术，无时无刻不在跟不可见的坐标系打交道。
 
-
 ## 2. 💻 demo1
 
 ```html
@@ -91,7 +97,7 @@ function drawGrid(canvas, width = 500, height = 500, cellSize = 50, opacity = 0.
 </html>
 ```
 
-![](assets/2024-10-03-23-22-09.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-22-09.png)
 
 ## 3. 💻 demo2
 
@@ -122,4 +128,4 @@ function drawGrid(canvas, width = 500, height = 500, cellSize = 50, opacity = 0.
 </html>
 ```
 
-![](assets/2024-10-03-23-22-19.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-22-19.png)

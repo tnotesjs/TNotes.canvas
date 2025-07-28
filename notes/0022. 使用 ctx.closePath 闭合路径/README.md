@@ -58,7 +58,7 @@
 </html>
 ```
 
-![](assets/2024-10-04-00-49-40.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-49-40.png)
 
 ## 3. 💻 demo2 - 注意 `lineWidth`
 
@@ -103,4 +103,4 @@
 </html>
 ```
 
-![](assets/2024-10-04-00-49-54.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-49-54.png)

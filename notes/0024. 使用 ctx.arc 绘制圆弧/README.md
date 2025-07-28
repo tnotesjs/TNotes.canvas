@@ -83,7 +83,7 @@ $$
 
 可以结合这张图来辅助理解 `ctx.arc` 绘制圆弧的原理。
 
-![](assets/2024-10-04-01-00-48.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-01-00-48.png)
 
 ## 4. 💻 demo1
 
@@ -143,4 +143,4 @@ $$
 </html>
 ```
 
-![](assets/2024-10-04-01-01-24.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-01-01-24.png)

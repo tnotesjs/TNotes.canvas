@@ -18,13 +18,13 @@ $$
 
 通过下面这张图，认识 lineWidth、miterLength 表示的分别是哪部分的尺寸。
 
-![](assets/2024-10-03-23-11-03.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-11-03.png)
 
 ## 2. 💻 demo1
 
 ```html
 <!-- 1.html -->
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -111,7 +111,7 @@ $$
 </html>
 ```
 
-![](assets/2024-10-03-23-11-26.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-11-26.png)
 
 ## 3. 💻 demo2
 
@@ -163,4 +163,4 @@ $$
 </html>
 ```
 
-![](assets/2024-10-03-23-11-54.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-11-54.png)

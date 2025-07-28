@@ -31,7 +31,7 @@
 2. `drawImage(image, dx, dy, dWidth, dHeight)`
 3. `drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)`
 
-![](assets/2024-10-04-11-47-00.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-47-00.png)
 
 `ctx.drawImage` 从单词角度出发，draw 表示画，Image 表示图片，这 API 是用来画图片的。有 3 种常见用法，其中“截图”功能比较 🐂 🍺，可以玩出很多花样。
 
@@ -71,7 +71,7 @@
 </html>
 ```
 
-![](assets/2024-10-04-11-47-57.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-47-57.png)
 
 ## 5. 💻 demo2 - 约束图片尺寸
 
@@ -111,7 +111,7 @@
 </html>
 ```
 
-![](assets/2024-10-04-11-48-03.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-48-03.png)
 
 ## 6. 💻 demo3 - 裁剪图片
 
@@ -150,4 +150,4 @@
 
 `ctx.globalAlpha = 0.5` 设置为半透明的效果，以便查看坐标。
 
-![](assets/2024-10-04-11-48-10.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-48-10.png)

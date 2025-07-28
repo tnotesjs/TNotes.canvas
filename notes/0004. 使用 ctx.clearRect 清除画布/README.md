@@ -71,13 +71,13 @@
 </html>
 ```
 
-![](assets/2024-10-03-22-50-14.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-22-50-14.png)
 
 ## 3. 💻 demo2
 
 ```html
 <!-- 2.html -->
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -113,7 +113,7 @@
 </html>
 ```
 
-![](assets/2024-10-03-22-51-05.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-22-51-05.png)
 
 ## 4. 💻 demo3
 
@@ -155,13 +155,13 @@
 </html>
 ```
 
-![](assets/2024-10-03-22-51-24.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-22-51-24.png)
 
 ## 5. 💻 demo4
 
 ```html
 <!-- 4.html -->
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -203,4 +203,4 @@
 </html>
 ```
 
-![](assets/2024-10-03-22-51-38.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-22-51-38.png)

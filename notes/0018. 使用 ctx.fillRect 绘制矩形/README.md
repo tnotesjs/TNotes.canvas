@@ -52,7 +52,7 @@
 </html>
 ```
 
-![](assets/2024-10-04-00-45-56.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-45-56.png)
 
 ## 4. 💻 demo2 - 指定绘制矩形的颜色
 
@@ -83,4 +83,4 @@
 </html>
 ```
 
-![](assets/2024-10-04-00-46-11.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-46-11.png)

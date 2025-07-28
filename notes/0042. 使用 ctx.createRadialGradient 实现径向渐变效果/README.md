@@ -101,4 +101,4 @@ ctx.createRadialGradient 用于创建径向渐变（或称为放射状渐变）�
 </html>
 ```
 
-![](assets/2024-10-04-12-01-09.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-01-09.png)

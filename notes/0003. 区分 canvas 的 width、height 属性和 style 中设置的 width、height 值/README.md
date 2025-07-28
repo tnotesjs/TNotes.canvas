@@ -9,13 +9,16 @@
 ## 1. ⏰ TODO 待整理
 
 在设置画布尺寸的时候，直接设置 canvas 的 width、height 属性值，不要通过 css 来设置 width、height。
+
 - 【推荐】直接设置 canvas 的 wdith 和 height：`<canvas width="400" height="400"></canvas>`
-- 【不推荐】通过 css 来设置 width 和 height：`canvas { width: 400, height: 400 }`
-**style 设置的是容器的尺寸、canvas 的 width、height 设置的是画布坐标系的尺寸。如果两者的尺寸不一致，那么坐标系的最小单位将会自动缩小/放大，以适应容器尺寸。**
+- 【不推荐】通过 css 来设置 width 和 height：`canvas { width: 400, height: 400 }` **style 设置的是容器的尺寸、canvas 的 width、height 设置的是画布坐标系的尺寸。如果两者的尺寸不一致，那么坐标系的最小单位将会自动缩小/放大，以适应容器尺寸。**
 - 如果容器是 400x400 坐标系是 200x200，那么坐标系中的一个单位意味着 2px。（放大）
 - 如果容器是 400x400 坐标系也是 400x400，那么坐标系中的一个单位意味着 1px。（正常）
+
 **在设置画布尺寸的时候，为了方式坐标被拉伸，通常都是直接设置 canvas 的 width、height 而不是通过 style 来设置。**
+
 [1.html](./1.html) 文件内容如下：
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -86,4 +89,5 @@
   </script>
 </html>
 ```
-![](assets/2024-09-19-09-40-34.png)
+
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-19-09-40-34.png)

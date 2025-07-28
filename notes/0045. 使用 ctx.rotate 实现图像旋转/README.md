@@ -113,7 +113,7 @@ ctx.rotate 用于旋转画布的当前绘图。
 </html>
 ```
 
-![](assets/2024-10-04-15-03-44.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-03-44.png)
 
 ## 4. 💻 demo2
 
@@ -163,4 +163,4 @@ ctx.rotate 用于旋转画布的当前绘图。
 </html>
 ```
 
-![](assets/2024-10-04-15-03-54.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-03-54.png)

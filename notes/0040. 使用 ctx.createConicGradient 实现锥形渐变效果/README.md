@@ -82,7 +82,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/create
 </html>
 ```
 
-![](assets/2024-10-04-11-58-04.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-58-04.png)
 
 ## 4. 💻 demo2
 
@@ -131,7 +131,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/create
 </html>
 ```
 
-![](assets/2024-10-04-11-58-14.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-58-14.png)
 
 ## 5. 💻 demo3
 
@@ -184,4 +184,4 @@ https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/create
 </html>
 ```
 
-![](assets/2024-10-04-11-58-27.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-58-27.png)

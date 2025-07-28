@@ -68,7 +68,7 @@ shadowOffsetX 和 shadowOffsetY 属性用于设置阴影的偏移量。
 </html>
 ```
 
-![](assets/2024-10-04-12-02-11.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-02-11.png)
 
 ## 5. 💻 demo2
 
@@ -116,4 +116,4 @@ shadowOffsetX 和 shadowOffsetY 属性用于设置阴影的偏移量。
 </html>
 ```
 
-![](assets/2024-10-04-12-02-24.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-02-24.png)

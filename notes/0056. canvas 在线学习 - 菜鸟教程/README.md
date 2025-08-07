@@ -3,7 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 概述](#1--概述)
-- [2. 🔗 References](#2--references)
+- [2. 🔍 在“菜鸟教程”上搜索 canvas](#2--在菜鸟教程上搜索-canvas)
+- [3. 🔗 References](#3--references)
 
 <!-- endregion:toc -->
 
@@ -11,11 +12,23 @@
 
 - 记录了菜鸟教程上 canvas 相关的教程链接。
 
-## 2. 🔗 References
+## 2. 🔍 在“菜鸟教程”上搜索 canvas
 
-- https://www.runoob.com/html/html5-canvas.html
-  - HTML5 Canvas。
-- https://www.runoob.com/tags/ref-canvas.html
-  - HTML5 `<canvas>` 参考手册。
+- 资料相对来说是比较零散的，跟 H5 合并起来介绍了，H5 讲一些，然后 canvas 讲一些，阅读起来会比较跳跃。
+- https://www.runoob.com/?s=canvas
+- ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-07-12-05-53.png)
+
+## 3. 🔗 References
+
 - https://www.runoob.com/w3cnote/html5-canvas-intro.html
-  - 结尾有俩案例，一个是“太阳系”，一个是“时钟”效果。
+  - 文章：学习 HTML5 Canvas 这一篇文章就够了
+  - 篇幅比较长，不过讲解得也算是比较全面的，适合作为快速入门阅读。
+  - 结尾有俩案例，可以重点看看。
+    - 一个是“太阳系”的效果
+      - ![](./assets/1.gif)
+    - 一个是“时钟”的效果
+      - ![](./assets/2.gif)
+- https://www.runoob.com/html/html5-canvas.html
+  - 文章：HTML5 Canvas
+- https://www.runoob.com/tags/ref-canvas.html
+  - 文章：HTML5 `<canvas>` 参考手册

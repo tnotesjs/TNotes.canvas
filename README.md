@@ -15,9 +15,13 @@
 
 ## 1. canvas 学习资源
 
+- [x] [0053. canvas 学习资源概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0053.%20canvas%20%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E6%A6%82%E8%BF%B0/README.md)
+  - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0053.%20canvas%20%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E6%A6%82%E8%BF%B0/README.md#1--概述)
+  - [2. 🫧 评价](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0053.%20canvas%20%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E6%A6%82%E8%BF%B0/README.md#2--评价)
 - [x] [0056. canvas 在线学习 - 菜鸟教程](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0056.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0056.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README.md#1--概述)
-  - [2. 🔗 References](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0056.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README.md#2--references)
+  - [2. 🔍 在“菜鸟教程”上搜索 canvas](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0056.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README.md#2--在菜鸟教程上搜索-canvas)
+  - [3. 🔗 References](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0056.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README.md#3--references)
 - [x] [0052. canvas 在线学习 - 掘金](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0052.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E6%8E%98%E9%87%91/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0052.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E6%8E%98%E9%87%91/README.md#1--概述)
   - [2. 🔗 References](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0052.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E6%8E%98%E9%87%91/README.md#2--references)

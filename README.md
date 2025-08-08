@@ -4,12 +4,13 @@
 
 - [canvas](#canvas)
   - [1. canvas 学习资源](#1-canvas-学习资源)
-  - [2. 基本概念](#2-基本概念)
-  - [3. 绘图操作](#3-绘图操作)
-  - [4. 路径和形状](#4-路径和形状)
-  - [5. 文本处理](#5-文本处理)
-  - [6. 动画效果](#6-动画效果)
-  - [7. 图像处理](#7-图像处理)
+  - [2. canvas 核心概念](#2-canvas-核心概念)
+  - [3. canvas 的基本使用](#3-canvas-的基本使用)
+  - [4. 绘图操作](#4-绘图操作)
+  - [5. 路径和形状](#5-路径和形状)
+  - [6. 文本处理](#6-文本处理)
+  - [7. 动画效果](#7-动画效果)
+  - [8. 图像处理](#8-图像处理)
 
 <!-- endregion:toc -->
 
@@ -32,35 +33,20 @@
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0055.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20HTML%20Canvas%20Deep%20Dive/README.md#1--概述)
   - [2. 🔗 References](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0055.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20HTML%20Canvas%20Deep%20Dive/README.md#2--references)
 
-## 2. 基本概念
+## 2. canvas 核心概念
 
-- [ ] [0001. 认识 canvas 标签](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md)
-  - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#1--概述)
-  - [2. 📒 canvas 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#2--canvas-概述)
-  - [3. 📒 canvas 基本使用](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#3--canvas-基本使用)
-  - [4. 📒 canvas 基本特性](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#4--canvas-基本特性)
-  - [5. 📒 canvas 应用场景](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#5--canvas-应用场景)
-    - [5.1. 游戏开发](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#51-游戏开发)
-    - [5.2. 图形处理](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#52-图形处理)
-    - [5.3. 数据可视化](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#53-数据可视化)
-    - [5.4. 实时视频处理](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#54-实时视频处理)
-    - [5.5. 自定义绘图](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#55-自定义绘图)
-    - [5.6. 教育和模拟](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#56-教育和模拟)
-  - [6. 🆚 对比 svg 和 canvas](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#6--对比-svg-和-canvas)
-    - [6.1. 对比表格](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#61-对比表格)
-    - [6.2. 对比 svg 和 canvas](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#62-对比-svg-和-canvas)
-  - [7. 🤖 对比 svg 和 canvas](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#7--对比-svg-和-canvas)
-    - [7.1. 图形类型](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#71-图形类型)
-    - [7.2. DOM 交互](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#72-dom-交互)
-    - [7.3. 性能](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#73-性能)
-    - [7.4. 可访问性和 SEO](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#74-可访问性和-seo)
-    - [7.5. 应用场景](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#75-应用场景)
-    - [7.6. 总结](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#76-总结)
-  - [8. 🆚 区分 Image 和 Graphic](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#8--区分-image-和-graphic)
-    - [8.1. 图像（Image）](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#81-图像image)
-    - [8.2. 图形（Graphic）](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#82-图形graphic)
-    - [8.3. SVG 中的应用](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#83-svg-中的应用)
-    - [8.4. 结论](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E8%AE%A4%E8%AF%86%20canvas%20%E6%A0%87%E7%AD%BE/README.md#84-结论)
+- [x] [0001. 初始 canvas](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README.md)
+  - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README.md#1--概述)
+  - [2. 🤔 “canvas” 是什么？](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README.md#2--canvas-是什么)
+  - [3. 🤔 “canvas” 都有哪些特点？](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README.md#3--canvas-都有哪些特点)
+  - [4. 🤔 “canvas” 都有哪些应用场景？](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README.md#4--canvas-都有哪些应用场景)
+  - [5. 🆚 前端的两大绘图技术：svg 和 canvas 之间的区别都有哪些？](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README.md#5--前端的两大绘图技术svg-和-canvas-之间的区别都有哪些)
+  - [6. 🆚 区分 Image 和 Graphic](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README.md#6--区分-image-和-graphic)
+  - [7. 💻 demos.1 - canvas 的基本使用](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README.md#7--demos1---canvas-的基本使用)
+  - [8. 🔗 References](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README.md#8--references)
+
+## 3. canvas 的基本使用
+
 - [ ] [0002. 判断浏览器是否支持 canvas](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0002.%20%E5%88%A4%E6%96%AD%E6%B5%8F%E8%A7%88%E5%99%A8%E6%98%AF%E5%90%A6%E6%94%AF%E6%8C%81%20canvas/README.md)
   - [1. ⏰ TODO 待整理](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0002.%20%E5%88%A4%E6%96%AD%E6%B5%8F%E8%A7%88%E5%99%A8%E6%98%AF%E5%90%A6%E6%94%AF%E6%8C%81%20canvas/README.md#1--todo-待整理)
 - [ ] [0003. 区分 canvas 的 width、height 属性和 style 中设置的 width、height 值](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0003.%20%E5%8C%BA%E5%88%86%20canvas%20%E7%9A%84%20width%E3%80%81height%20%E5%B1%9E%E6%80%A7%E5%92%8C%20style%20%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%9A%84%20width%E3%80%81height%20%E5%80%BC/README.md)
@@ -74,7 +60,7 @@
   - [2. 💻 demo1 - 查询已有的 canvas](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README.md#2--demo1---查询已有的-canvas)
   - [3. 💻 demo2 - 创建新的 canvas](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README.md#3--demo2---创建新的-canvas)
 
-## 3. 绘图操作
+## 4. 绘图操作
 
 - [ ] [0004. 使用 ctx.clearRect 清除画布](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README.md)
   - [1. 📒 notes](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README.md#1--notes)
@@ -158,7 +144,7 @@
   - [12. 💻 demo9 - contrast](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0044.%20%E4%BD%BF%E7%94%A8%20ctx.filter%20%E5%AE%9E%E7%8E%B0%E6%BB%A4%E9%95%9C%E6%95%88%E6%9E%9C/README.md#12--demo9---contrast)
   - [13. 💻 demo10 - 使用 url 引用 svg 滤镜](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0044.%20%E4%BD%BF%E7%94%A8%20ctx.filter%20%E5%AE%9E%E7%8E%B0%E6%BB%A4%E9%95%9C%E6%95%88%E6%9E%9C/README.md#13--demo10---使用-url-引用-svg-滤镜)
 
-## 4. 路径和形状
+## 5. 路径和形状
 
 - [ ] [0022. 使用 ctx.closePath 闭合路径](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0022.%20%E4%BD%BF%E7%94%A8%20ctx.closePath%20%E9%97%AD%E5%90%88%E8%B7%AF%E5%BE%84/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0022.%20%E4%BD%BF%E7%94%A8%20ctx.closePath%20%E9%97%AD%E5%90%88%E8%B7%AF%E5%BE%84/README.md#1--概述)
@@ -177,7 +163,7 @@
   - `ctx.quadraticCurveTo`、`ctx.bezierCurveTo` 这俩 API 的使用很简单，无非就是传入 2 个点还是 3 个点。重点在于理解贝塞尔曲线的绘制原理。理解原理后，自然就理解这俩 API 应该如何使用了。
   - https://blog.csdn.net/m0_37602827/article/details/118165217 - CSDN - 贝塞尔曲线原理 - 这是 CSDN 上的一篇介绍贝塞尔曲线原理的文章。
 
-## 5. 文本处理
+## 6. 文本处理
 
 - [ ] [0014. 使用 ctx.fillText、ctx.strokeText 绘制文本](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0014.%20%E4%BD%BF%E7%94%A8%20ctx.fillText%E3%80%81ctx.strokeText%20%E7%BB%98%E5%88%B6%E6%96%87%E6%9C%AC/README.md)
   - [1. 📒 notes](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0014.%20%E4%BD%BF%E7%94%A8%20ctx.fillText%E3%80%81ctx.strokeText%20%E7%BB%98%E5%88%B6%E6%96%87%E6%9C%AC/README.md#1--notes)
@@ -193,7 +179,7 @@
   - [3. 💻 demo1](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0016.%20%E4%BD%BF%E7%94%A8%20ctx.textBaseline%E3%80%81ctx.textAlign%20%E8%AE%BE%E7%BD%AE%E6%96%87%E6%9C%AC%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F/README.md#3--demo1)
   - [4. 💻 demo2](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0016.%20%E4%BD%BF%E7%94%A8%20ctx.textBaseline%E3%80%81ctx.textAlign%20%E8%AE%BE%E7%BD%AE%E6%96%87%E6%9C%AC%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F/README.md#4--demo2)
 
-## 6. 动画效果
+## 7. 动画效果
 
 - [ ] [0007. 使用 ctx.save 和 ctx.restore 保存和恢复画布状态](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0007.%20%E4%BD%BF%E7%94%A8%20ctx.save%20%E5%92%8C%20ctx.restore%20%E4%BF%9D%E5%AD%98%E5%92%8C%E6%81%A2%E5%A4%8D%E7%94%BB%E5%B8%83%E7%8A%B6%E6%80%81/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0007.%20%E4%BD%BF%E7%94%A8%20ctx.save%20%E5%92%8C%20ctx.restore%20%E4%BF%9D%E5%AD%98%E5%92%8C%E6%81%A2%E5%A4%8D%E7%94%BB%E5%B8%83%E7%8A%B6%E6%80%81/README.md#1--概述)
@@ -284,7 +270,7 @@
     - [3.5. 动画和速度调节](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0051.%20%E8%B4%AA%E5%90%83%E8%9B%87%E5%B0%8F%E6%B8%B8%E6%88%8F/README.md#35-动画和速度调节)
   - [4. 💻 demo - 贪吃蛇小游戏 - 实现源码](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0051.%20%E8%B4%AA%E5%90%83%E8%9B%87%E5%B0%8F%E6%B8%B8%E6%88%8F/README.md#4--demo---贪吃蛇小游戏---实现源码)
 
-## 7. 图像处理
+## 8. 图像处理
 
 - [ ] [0031. 使用 ctx.clip 实现图像裁剪](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0031.%20%E4%BD%BF%E7%94%A8%20ctx.clip%20%E5%AE%9E%E7%8E%B0%E5%9B%BE%E5%83%8F%E8%A3%81%E5%89%AA/README.md)
   - [1. 🔗 References](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0031.%20%E4%BD%BF%E7%94%A8%20ctx.clip%20%E5%AE%9E%E7%8E%B0%E5%9B%BE%E5%83%8F%E8%A3%81%E5%89%AA/README.md#1--references)

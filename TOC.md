@@ -32,8 +32,11 @@
   - [7. 💻 demos.1 - canvas 的基本使用](https://tdahuyou.github.io/TNotes.canvas/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README#7--demos1---canvas-的基本使用)
   - [8. 🔗 References](https://tdahuyou.github.io/TNotes.canvas/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README#8--references)
 
-## 3. canvas 的基本使用
+## 3. 开始使用 canvas
 
+- [x] [0057. 开始使用 canvas 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0057.%20%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%20canvas%20%E6%A6%82%E8%BF%B0/README)
+  - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0057.%20%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%20canvas%20%E6%A6%82%E8%BF%B0/README#1--概述)
+  - [2. 📒 开始学习 `canvas` 绘图之前需要了解的一些基础知识点](https://tdahuyou.github.io/TNotes.canvas/notes/0057.%20%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%20canvas%20%E6%A6%82%E8%BF%B0/README#2--开始学习-canvas-绘图之前需要了解的一些基础知识点)
 - [x] [0002. 判断浏览器是否支持 canvas](https://tdahuyou.github.io/TNotes.canvas/notes/0002.%20%E5%88%A4%E6%96%AD%E6%B5%8F%E8%A7%88%E5%99%A8%E6%98%AF%E5%90%A6%E6%94%AF%E6%8C%81%20canvas/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0002.%20%E5%88%A4%E6%96%AD%E6%B5%8F%E8%A7%88%E5%99%A8%E6%98%AF%E5%90%A6%E6%94%AF%E6%8C%81%20canvas/README#1--概述)
   - [2. 💻 demos.1 - 判断浏览器是否支持 canvas 的两种方式](https://tdahuyou.github.io/TNotes.canvas/notes/0002.%20%E5%88%A4%E6%96%AD%E6%B5%8F%E8%A7%88%E5%99%A8%E6%98%AF%E5%90%A6%E6%94%AF%E6%8C%81%20canvas/README#2--demos1---判断浏览器是否支持-canvas-的两种方式)
@@ -45,24 +48,17 @@
 - [x] [0005. canvas 的默认尺寸 300 * 150](https://tdahuyou.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300%20*%20150/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300%20*%20150/README#1--概述)
   - [2. 💻 demo](https://tdahuyou.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300%20*%20150/README#2--demo)
-- [ ] [0006. 使用 JSDoc 来标注 canvas 变量类型](https://tdahuyou.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README)
+- [x] [0006. 使用 JSDoc 来标注 canvas 变量类型](https://tdahuyou.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README#1--概述)
-  - [2. 💻 demo1 - 查询已有的 canvas](https://tdahuyou.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README#2--demo1---查询已有的-canvas)
-  - [3. 💻 demo2 - 创建新的 canvas](https://tdahuyou.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README#3--demo2---创建新的-canvas)
+  - [2. 💻 demos.2 - 创建新的 canvas](https://tdahuyou.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README#2--demos2---创建新的-canvas)
+  - [3. 💻 demos.1 - 查询已有的 canvas](https://tdahuyou.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README#3--demos1---查询已有的-canvas)
 
-## 4. 绘图操作
+## 4. 使用 canvas 绘制基本图形
 
-- [ ] [0004. 使用 ctx.clearRect 清除画布](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README)
-  - [1. 📒 notes](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#1--notes)
-  - [2. 💻 demo1](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#2--demo1)
-  - [3. 💻 demo2](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#3--demo2)
-  - [4. 💻 demo3](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#4--demo3)
-  - [5. 💻 demo4](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#5--demo4)
-- [ ] [0018. 使用 ctx.fillRect 绘制矩形](https://tdahuyou.github.io/TNotes.canvas/notes/0018.%20%E4%BD%BF%E7%94%A8%20ctx.fillRect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README)
+- [x] [0018. 使用 ctx.fillRect 绘制矩形](https://tdahuyou.github.io/TNotes.canvas/notes/0018.%20%E4%BD%BF%E7%94%A8%20ctx.fillRect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0018.%20%E4%BD%BF%E7%94%A8%20ctx.fillRect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README#1--概述)
-  - [2. 📒 notes](https://tdahuyou.github.io/TNotes.canvas/notes/0018.%20%E4%BD%BF%E7%94%A8%20ctx.fillRect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README#2--notes)
-  - [3. 💻 demo1 - 绘制一个默认的黑色填充矩形](https://tdahuyou.github.io/TNotes.canvas/notes/0018.%20%E4%BD%BF%E7%94%A8%20ctx.fillRect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README#3--demo1---绘制一个默认的黑色填充矩形)
-  - [4. 💻 demo2 - 指定绘制矩形的颜色](https://tdahuyou.github.io/TNotes.canvas/notes/0018.%20%E4%BD%BF%E7%94%A8%20ctx.fillRect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README#4--demo2---指定绘制矩形的颜色)
+  - [2. 📒 `ctx.fillRect`](https://tdahuyou.github.io/TNotes.canvas/notes/0018.%20%E4%BD%BF%E7%94%A8%20ctx.fillRect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README#2--ctxfillrect)
+  - [3. 💻 demos.1 - 使用 `ctx.fillRect` 来绘制填充矩形](https://tdahuyou.github.io/TNotes.canvas/notes/0018.%20%E4%BD%BF%E7%94%A8%20ctx.fillRect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README#3--demos1---使用-ctxfillrect-来绘制填充矩形)
 - [ ] [0019. 使用 ctx.strokeRect 绘制矩形](https://tdahuyou.github.io/TNotes.canvas/notes/0019.%20%E4%BD%BF%E7%94%A8%20ctx.strokeRect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README)
   - [1. 📒 notes](https://tdahuyou.github.io/TNotes.canvas/notes/0019.%20%E4%BD%BF%E7%94%A8%20ctx.strokeRect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README#1--notes)
   - [2. 💻 demo1](https://tdahuyou.github.io/TNotes.canvas/notes/0019.%20%E4%BD%BF%E7%94%A8%20ctx.strokeRect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README#2--demo1)
@@ -171,6 +167,10 @@
 
 ## 7. 动画效果
 
+- [x] [0004. 使用 ctx.clearRect 清除画布](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README)
+  - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#1--概述)
+  - [2. 📒 `ctx.clearRect`](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#2--ctxclearrect)
+  - [3. 💻 demos.1 - 掌握 `ctx.clearRect` 的基本使用](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#3--demos1---掌握-ctxclearrect-的基本使用)
 - [ ] [0007. 使用 ctx.save 和 ctx.restore 保存和恢复画布状态](https://tdahuyou.github.io/TNotes.canvas/notes/0007.%20%E4%BD%BF%E7%94%A8%20ctx.save%20%E5%92%8C%20ctx.restore%20%E4%BF%9D%E5%AD%98%E5%92%8C%E6%81%A2%E5%A4%8D%E7%94%BB%E5%B8%83%E7%8A%B6%E6%80%81/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0007.%20%E4%BD%BF%E7%94%A8%20ctx.save%20%E5%92%8C%20ctx.restore%20%E4%BF%9D%E5%AD%98%E5%92%8C%E6%81%A2%E5%A4%8D%E7%94%BB%E5%B8%83%E7%8A%B6%E6%80%81/README#1--概述)
   - [2. 📒 notes](https://tdahuyou.github.io/TNotes.canvas/notes/0007.%20%E4%BD%BF%E7%94%A8%20ctx.save%20%E5%92%8C%20ctx.restore%20%E4%BF%9D%E5%AD%98%E5%92%8C%E6%81%A2%E5%A4%8D%E7%94%BB%E5%B8%83%E7%8A%B6%E6%80%81/README#2--notes)

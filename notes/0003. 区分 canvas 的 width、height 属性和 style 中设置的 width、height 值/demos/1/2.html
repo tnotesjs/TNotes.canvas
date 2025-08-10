@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      canvas {
+        outline: 1px solid #ddd;
+      }
+      #c1 {
+        width: 400px;
+        height: 400px;
+      }
+      .box1 {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+      }
+      .box2 {
+        width: 66px;
+        height: 133px;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>50*50 盒子的大小（作为参照）</h1>
+    <div class="box1"></div>
+    <h1>66*133 盒子的大小（作为参照）</h1>
+    <div class="box2"></div>
+
+    <h1>c1 坐标系中的一个单位会按照默认的 canvas 尺寸被拉伸</h1>
+    <canvas id="c1"></canvas>
+
+    <h1>c2 坐标系比例保持不变</h1>
+    <canvas id="c2" width="400" height="400"></canvas>
+  </body>
+  <script>
+    {
+      /**
+       * @type {HTMLCanvasElement}
+       */
+      const canvas = document.querySelector('#c1')
+      const ctx = canvas.getContext('2d')
+
+      // 如果没有明确指定 canvas 元素的 width、height 属性值
+      // 那么会使用默认值 300 x 150
+      console.log(canvas.width) // 300
+      console.log(canvas.height) // 150
+      // 此时的单位像素会按照 (400/300, 400/150) 这个比例拉升
+      // 相当于原来的 (50, 50) 的矩形会被拉升为 (50 * 400 / 300, 50 * 400 / 150)
+      // 约等于 (66, 133)
+
+      // 在 (0, 0) 位置绘制一个宽高为 50 的矩形
+      ctx.fillRect(0, 0, 50, 50)
+    }
+    {
+      /**
+       * @type {HTMLCanvasElement}
+       */
+      const canvas = document.querySelector('#c2')
+      const ctx = canvas.getContext('2d')
+      ctx.fillRect(0, 0, 50, 50)
+    }
+  </script>
+</html>

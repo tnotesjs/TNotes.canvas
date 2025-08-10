@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas 放大镜效果</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+      #canvas-container {
+        position: relative;
+      }
+      #c {
+        width: 500px;
+        height: 500px;
+        border: 1px solid #ddd;
+        transition: width 0.2s, height 0.2s;
+      }
+      .controls {
+        width: 100%;
+        max-width: 500px;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type='range'] {
+        width: 100%;
+      }
+      .size-display {
+        text-align: center;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Canvas 放大镜效果</h1>
+
+      <div id="canvas-container">
+        <canvas id="c" width="500" height="500"></canvas>
+      </div>
+
+      <div class="controls">
+        <label for="size-slider">
+          调整 Canvas 大小:
+          <span id="size-value">500px × 500px</span>
+        </label>
+        <input
+          type="range"
+          id="size-slider"
+          min="100"
+          max="500"
+          step="10"
+          value="500"
+        />
+        <div class="size-display">
+          当前大小:
+          <span id="current-size">500px × 500px</span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const canvas = document.getElementById('c')
+      const ctx = canvas.getContext('2d')
+      const sizeSlider = document.getElementById('size-slider')
+      const sizeValue = document.getElementById('size-value')
+      const currentSizeDisplay = document.getElementById('current-size')
+
+      // 绘制初始内容
+      function drawContent() {
+        // 清除画布
+        ctx.clearRect(0, 0, canvas.width, canvas.height)
+
+        // 绘制红色矩形
+        ctx.fillStyle = 'red'
+        ctx.fillRect(0, 0, 100, 100)
+
+        // 绘制一些示例图形
+        ctx.fillStyle = 'blue'
+        ctx.fillRect(150, 150, 50, 50)
+
+        ctx.strokeStyle = 'green'
+        ctx.lineWidth = 3
+        ctx.strokeRect(250, 250, 100, 100)
+
+        ctx.fillStyle = 'purple'
+        ctx.beginPath()
+        ctx.arc(400, 100, 30, 0, Math.PI * 2)
+        ctx.fill()
+      }
+
+      // 初始化绘制
+      drawContent()
+
+      // 滑块事件监听
+      sizeSlider.addEventListener('input', function () {
+        const newSize = this.value
+        canvas.width = newSize
+        canvas.height = newSize
+
+        // 更新显示
+        sizeValue.textContent = `${newSize}px × ${newSize}px`
+        currentSizeDisplay.textContent = `${newSize}px × ${newSize}px`
+
+        // 重新绘制内容
+        drawContent()
+      })
+
+      // 添加鼠标滚轮控制
+      canvas.addEventListener('wheel', function (e) {
+        e.preventDefault()
+
+        // 根据滚轮方向调整大小
+        const delta = e.deltaY > 0 ? 20 : -20
+        const newSize = Math.max(
+          100,
+          Math.min(500, parseInt(canvas.width) + delta)
+        )
+
+        // 更新滑块和画布
+        sizeSlider.value = newSize
+        canvas.width = newSize
+        canvas.height = newSize
+
+        // 更新显示
+        sizeValue.textContent = `${newSize}px × ${newSize}px`
+        currentSizeDisplay.textContent = `${newSize}px × ${newSize}px`
+
+        // 重新绘制内容
+        drawContent()
+      })
+    </script>
+  </body>
+</html>

@@ -22,15 +22,13 @@
   <body>
     <h1>50*50 盒子的大小（作为参照）</h1>
     <div class="box"></div>
-
     <!--
-    1. canvas 可以使用 style 样式设置宽高
-    2. canvas 也可以使用 width 和 height 属性设置宽高
-    区别：
-    1. style 的 width、height 设置的是画布容器尺寸
-    2. canvas 的 width、height 设置的是画布坐标系
-   -->
-
+      1. canvas 可以使用 style 样式设置宽高
+      2. canvas 也可以使用 width 和 height 属性设置宽高
+      区别：
+      1. style 的 width、height 设置的是画布容器尺寸
+      2. canvas 的 width、height 设置的是画布坐标系
+    -->
     <!--
     c1 容器的尺寸是 400 * 400
     c1 画布的坐标系是 200 * 200
@@ -39,7 +37,6 @@
     -->
     <h1>c1 坐标系中的一个单位按比例放大两倍</h1>
     <canvas id="c1" width="200" height="200"></canvas>
-
     <!--
     c2 容器的尺寸是 400 * 400
     c2 画布的坐标系是 400 * 400
@@ -55,19 +52,21 @@
   </body>
   <script>
     {
-      /** @type {HTMLCanvasElement} */
+      /**
+       * @type {HTMLCanvasElement}
+       */
       const canvas = document.querySelector('#c1')
       const ctx = canvas.getContext('2d')
 
+      // 在 (0, 0) 位置绘制一个宽高为 50 的矩形
       ctx.fillRect(0, 0, 50, 50)
-      // 表示在 (0, 0) 位置绘制一个宽高为 50 的矩形
     }
-
     {
-      /** @type {HTMLCanvasElement} */
+      /**
+       * @type {HTMLCanvasElement}
+       */
       const canvas = document.querySelector('#c2')
       const ctx = canvas.getContext('2d')
-
       ctx.fillRect(0, 0, 50, 50)
     }
   </script>

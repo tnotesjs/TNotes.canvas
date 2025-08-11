@@ -31,7 +31,24 @@
 2. `drawImage(image, dx, dy, dWidth, dHeight)`
 3. `drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)`
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-47-00.png)
+```markmap
+- [drawImage](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage)
+  - drawImage(image, dx, dy)
+    - 将图像（image）绘制到 canvas 上，图像左上角位于（dx, dy）。
+    - 这种写法图像将按照原尺寸展示。
+  - drawImage(image, dx, dy, dWidth, dHeight)
+    - 将图像（image）绘制到 canvas 上，并调整图像的大小到 dWidth 和 dHeight，图像左上角位于(dx, dy)。
+    - 这种写法可以手动约束图像的尺寸，若图像的原始宽高比和我们设置的比例不一样，那么图像会被拉伸。
+  - drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)
+    - 从源图像（image）中截取一个矩形区域 (sx, sy, sWidth, sHeight)，并将该区域缩放后绘制到 canvas 上的矩形区域 (dx, dy, dWidth, dHeight)。
+    - 这种写法可以理解为“截图”效果，可以选择性地展示这张图中我们希望展示的部分。
+    - 可用于做动画。
+    - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-12-01-13-42.png)
+  - 动画效果
+    - 每间隔一段指定的时间
+    - 在指定的区域
+    - 展示指定的图像
+```
 
 `ctx.drawImage` 从单词角度出发，draw 表示画，Image 表示图片，这 API 是用来画图片的。有 3 种常见用法，其中“截图”功能比较 🐂 🍺，可以玩出很多花样。
 

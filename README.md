@@ -4,7 +4,7 @@
 
 - [canvas](#canvas)
   - [1. canvas 学习资源](#1-canvas-学习资源)
-  - [2. canvas 核心概念](#2-canvas-核心概念)
+  - [2. 初始 canvas](#2-初始-canvas)
   - [3. 开始使用 canvas](#3-开始使用-canvas)
   - [4. 基本图形的绘制](#4-基本图形的绘制)
   - [5. 阴影](#5-阴影)
@@ -36,7 +36,7 @@
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0055.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20HTML%20Canvas%20Deep%20Dive/README.md#1--概述)
   - [2. 🔗 References](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0055.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20HTML%20Canvas%20Deep%20Dive/README.md#2--references)
 
-## 2. canvas 核心概念
+## 2. 初始 canvas
 
 - [x] [0001. 初始 canvas](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README.md#1--概述)
@@ -90,13 +90,12 @@
   - [3. 📒 `ctx.arc` 相关参数说明](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0024.%20%E4%BD%BF%E7%94%A8%20ctx.arc%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README.md#3--ctxarc-相关参数说明)
   - [4. 💡 圆参考坐标](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0024.%20%E4%BD%BF%E7%94%A8%20ctx.arc%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README.md#4--圆参考坐标)
   - [5. 💻 demos.1 - 使用 `ctx.arc` 绘制圆弧](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0024.%20%E4%BD%BF%E7%94%A8%20ctx.arc%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README.md#5--demos1---使用-ctxarc-绘制圆弧)
-- [ ] [0026. 使用 ctx.ellipse 绘制椭圆](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0026.%20%E4%BD%BF%E7%94%A8%20ctx.ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86/README.md)
+- [x] [0026. 使用 ctx.ellipse 绘制椭圆](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0026.%20%E4%BD%BF%E7%94%A8%20ctx.ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0026.%20%E4%BD%BF%E7%94%A8%20ctx.ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86/README.md#1--概述)
-  - [2. 💻 demo1](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0026.%20%E4%BD%BF%E7%94%A8%20ctx.ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86/README.md#2--demo1)
-- [ ] [0027. 使用 ctx.arcTo 绘制圆弧](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README.md)
+  - [2. 💻 demos.1 - 使用 `ctx.ellipse` 绘制椭圆](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0026.%20%E4%BD%BF%E7%94%A8%20ctx.ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86/README.md#2--demos1---使用-ctxellipse-绘制椭圆)
+- [x] [0027. 使用 ctx.arcTo 绘制圆弧](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README.md#1--概述)
-  - [2. 💻 demo1](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README.md#2--demo1)
-  - [3. 💻 demo2](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README.md#3--demo2)
+  - [2. 💻 demos.1 - 使用 `ctx.arcTo` 绘制圆弧](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README.md#2--demos1---使用-ctxarcto-绘制圆弧)
 - [ ] [0035. 使用 ctx.drawImage 引入图像](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README.md#1--概述)
   - [2. 🔗 References](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README.md#2--references)

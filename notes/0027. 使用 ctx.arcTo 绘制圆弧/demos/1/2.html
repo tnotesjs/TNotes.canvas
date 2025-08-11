@@ -6,12 +6,12 @@
     <title>📝 arcTo 方法</title>
   </head>
   <body>
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
-      const cavnas = document.createElement('canvas')
-      drawGrid(cavnas, 500, 500, 50)
-      document.body.appendChild(cavnas)
-      const ctx = cavnas.getContext('2d')
+      const canvas = document.createElement('canvas')
+      drawGrid(canvas, 500, 500, 50)
+      document.body.appendChild(canvas)
+      const ctx = canvas.getContext('2d')
 
       // #region 辅助线
       ctx.beginPath()
@@ -29,15 +29,17 @@
       ctx.lineWidth = 10
       ctx.strokeStyle = 'red'
       ctx.moveTo(100, 100) // 起点坐标
-      ctx.arcTo(100, 300, 300, 300, 50)
+      ctx.arcTo(100, 300, 300, 300, 50) // 写法 1
       // 100 300 表示第 1 个控制点
       // 300 300 表示第 2 个控制点
       // 50 表示圆角的半径
       // 注意：ctx.arcTo 这玩意儿绘制的是圆弧
       // 所以最终结束位置是在圆弧的终点，而非控制点 2 所在的位置。
       // 把控制点 2 的坐标由 300 300 改成 101 300 最终绘制的效果也是一样的。
-      // ctx.arcTo(100, 300, 101, 300, 50)
+      // ctx.arcTo(100, 300, 101, 300, 50) // 写法 2
       ctx.stroke()
+
+      // 写法 1、2 的控制点 2 的坐标不同，但是最终绘制出来的图形是一样的。
     </script>
   </body>
 </html>

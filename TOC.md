@@ -1,6 +1,5 @@
 # canvas
 
-
 ## 1. canvas 学习资源
 
 - [x] [0053. canvas 学习资源概述](https://tdahuyou.github.io/TNotes.canvas/notes/0053.%20canvas%20%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E6%A6%82%E8%BF%B0/README)
@@ -20,7 +19,7 @@
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0055.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20HTML%20Canvas%20Deep%20Dive/README#1--概述)
   - [2. 🔗 References](https://tdahuyou.github.io/TNotes.canvas/notes/0055.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20HTML%20Canvas%20Deep%20Dive/README#2--references)
 
-## 2. canvas 核心概念
+## 2. 初始 canvas
 
 - [x] [0001. 初始 canvas](https://tdahuyou.github.io/TNotes.canvas/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README#1--概述)
@@ -45,7 +44,7 @@
   - [2. 🤔 为什么推荐直接通过 canvas 的 height、width 属性来设置画布尺寸而非通过 css 的 height、width 来设置呢？](https://tdahuyou.github.io/TNotes.canvas/notes/0003.%20%E5%8C%BA%E5%88%86%20canvas%20%E7%9A%84%20width%E3%80%81height%20%E5%B1%9E%E6%80%A7%E5%92%8C%20style%20%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%9A%84%20width%E3%80%81height%20%E5%80%BC/README#2--为什么推荐直接通过-canvas-的-heightwidth-属性来设置画布尺寸而非通过-css-的-heightwidth-来设置呢)
   - [3. 💻 demos.1 - 对比两种设置画布尺寸的写法](https://tdahuyou.github.io/TNotes.canvas/notes/0003.%20%E5%8C%BA%E5%88%86%20canvas%20%E7%9A%84%20width%E3%80%81height%20%E5%B1%9E%E6%80%A7%E5%92%8C%20style%20%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%9A%84%20width%E3%80%81height%20%E5%80%BC/README#3--demos1---对比两种设置画布尺寸的写法)
   - [4. 💻 demos.2 - 模拟放大镜的效果](https://tdahuyou.github.io/TNotes.canvas/notes/0003.%20%E5%8C%BA%E5%88%86%20canvas%20%E7%9A%84%20width%E3%80%81height%20%E5%B1%9E%E6%80%A7%E5%92%8C%20style%20%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%9A%84%20width%E3%80%81height%20%E5%80%BC/README#4--demos2---模拟放大镜的效果)
-- [x] [0005. canvas 的默认尺寸 300 * 150](https://tdahuyou.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300%20*%20150/README)
+- [x] [0005. canvas 的默认尺寸 300 \* 150](https://tdahuyou.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300%20*%20150/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300%20*%20150/README#1--概述)
   - [2. 💻 demo](https://tdahuyou.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300%20*%20150/README#2--demo)
 - [x] [0006. 使用 JSDoc 来标注 canvas 变量类型](https://tdahuyou.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README)
@@ -74,13 +73,12 @@
   - [3. 📒 `ctx.arc` 相关参数说明](https://tdahuyou.github.io/TNotes.canvas/notes/0024.%20%E4%BD%BF%E7%94%A8%20ctx.arc%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README#3--ctxarc-相关参数说明)
   - [4. 💡 圆参考坐标](https://tdahuyou.github.io/TNotes.canvas/notes/0024.%20%E4%BD%BF%E7%94%A8%20ctx.arc%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README#4--圆参考坐标)
   - [5. 💻 demos.1 - 使用 `ctx.arc` 绘制圆弧](https://tdahuyou.github.io/TNotes.canvas/notes/0024.%20%E4%BD%BF%E7%94%A8%20ctx.arc%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README#5--demos1---使用-ctxarc-绘制圆弧)
-- [ ] [0026. 使用 ctx.ellipse 绘制椭圆](https://tdahuyou.github.io/TNotes.canvas/notes/0026.%20%E4%BD%BF%E7%94%A8%20ctx.ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86/README)
+- [x] [0026. 使用 ctx.ellipse 绘制椭圆](https://tdahuyou.github.io/TNotes.canvas/notes/0026.%20%E4%BD%BF%E7%94%A8%20ctx.ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0026.%20%E4%BD%BF%E7%94%A8%20ctx.ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86/README#1--概述)
-  - [2. 💻 demo1](https://tdahuyou.github.io/TNotes.canvas/notes/0026.%20%E4%BD%BF%E7%94%A8%20ctx.ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86/README#2--demo1)
-- [ ] [0027. 使用 ctx.arcTo 绘制圆弧](https://tdahuyou.github.io/TNotes.canvas/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README)
+  - [2. 💻 demos.1 - 使用 `ctx.ellipse` 绘制椭圆](https://tdahuyou.github.io/TNotes.canvas/notes/0026.%20%E4%BD%BF%E7%94%A8%20ctx.ellipse%20%E7%BB%98%E5%88%B6%E6%A4%AD%E5%9C%86/README#2--demos1---使用-ctxellipse-绘制椭圆)
+- [x] [0027. 使用 ctx.arcTo 绘制圆弧](https://tdahuyou.github.io/TNotes.canvas/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README#1--概述)
-  - [2. 💻 demo1](https://tdahuyou.github.io/TNotes.canvas/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README#2--demo1)
-  - [3. 💻 demo2](https://tdahuyou.github.io/TNotes.canvas/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README#3--demo2)
+  - [2. 💻 demos.1 - 使用 `ctx.arcTo` 绘制圆弧](https://tdahuyou.github.io/TNotes.canvas/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README#2--demos1---使用-ctxarcto-绘制圆弧)
 - [ ] [0035. 使用 ctx.drawImage 引入图像](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#1--概述)
   - [2. 🔗 References](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#2--references)

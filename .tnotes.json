@@ -1,9 +1,7 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.canvas",
-  "keywords": [
-    "TNotes.canvas"
-  ],
+  "keywords": ["TNotes.canvas"],
   "ignore_dirs": [
     ".vscode",
     "0000",
@@ -61,8 +59,8 @@
       }
     },
     {
-      "ariaLabel": "TNotes.template github 仓库链接",
-      "link": "https://github.com/Tdahuyou/TNotes.template",
+      "ariaLabel": "TNotes.canvas github 仓库链接",
+      "link": "https://github.com/Tdahuyou/TNotes.canvas",
       "icon": "github"
     }
   ],

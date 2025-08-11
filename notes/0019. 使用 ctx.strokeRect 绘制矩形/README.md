@@ -3,15 +3,15 @@
 <!-- region:toc -->
 
 - [1. 📝 概述](#1--概述)
-- [2. 💻 demo1](#2--demo1)
+- [2. 💻 demos.1 - 使用 `ctx.strokeRect()` 来绘制一个描边矩形](#2--demos1---使用-ctxstrokerect-来绘制一个描边矩形)
 
 <!-- endregion:toc -->
 
 ## 1. 📝 概述
 
-- 学会使用 `ctx.strokeRect()` 来绘制一个描边矩形。
+- 掌握 `ctx.strokeRect()` 的基本使用
 
-## 2. 💻 demo1
+## 2. 💻 demos.1 - 使用 `ctx.strokeRect()` 来绘制一个描边矩形
 
 ::: code-group
 

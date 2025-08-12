@@ -6,13 +6,13 @@
     <title>📝 使用 ctx.drawImage 引入图像</title>
   </head>
   <body>
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
-      const cavnas = document.createElement('canvas')
-      drawGrid(cavnas, 500, 500, 50)
-      document.body.appendChild(cavnas)
+      const canvas = document.createElement('canvas')
+      drawGrid(canvas, 500, 500, 50)
+      document.body.appendChild(canvas)
 
-      const ctx = cavnas.getContext('2d')
+      const ctx = canvas.getContext('2d')
 
       // ctx.drawImage(imgSource, x, y, width, height)
 
@@ -24,7 +24,7 @@
       // 如果照片儿的宽高比和指定的宽高比不一致，图片会被拉伸或压缩。
 
       const img = new Image()
-      img.src = './week.png'
+      img.src = '../common/week.png'
       img.onload = function () {
         ctx.drawImage(img, 100, 100, 300, 150)
       }

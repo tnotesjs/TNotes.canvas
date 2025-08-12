@@ -7,11 +7,8 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
-      // shadowColor: 阴影的颜色
-      // shadowBlur: 阴影的模糊程度。值越大，阴影越模糊。
-
       const canvas = document.createElement('canvas')
       drawGrid(canvas, 400, 400, 50)
       document.body.append(canvas)
@@ -20,10 +17,12 @@
       ctx.beginPath()
 
       ctx.shadowColor = 'yellow'
-      // 表示阴影的颜色为黄色
+      // shadowColor 用于设置阴影的颜色
+      // 这条语句将阴影的颜色为黄色
 
       ctx.shadowBlur = 100
-      // 表示阴影的模糊程度为 100
+      // shadowBlur 用于设置阴影的模糊程度。值越大，阴影越模糊。
+      // 这条语句将阴影的模糊程度为 100
 
       ctx.fillStyle = 'red'
       ctx.arc(200, 200, 100, 0, Math.PI * 2)

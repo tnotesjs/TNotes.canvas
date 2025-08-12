@@ -1,5 +1,6 @@
 # canvas
 
+
 ## 1. canvas 学习资源
 
 - [x] [0053. canvas 学习资源概述](https://tdahuyou.github.io/TNotes.canvas/notes/0053.%20canvas%20%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E6%A6%82%E8%BF%B0/README)
@@ -44,7 +45,7 @@
   - [2. 🤔 为什么推荐直接通过 canvas 的 height、width 属性来设置画布尺寸而非通过 css 的 height、width 来设置呢？](https://tdahuyou.github.io/TNotes.canvas/notes/0003.%20%E5%8C%BA%E5%88%86%20canvas%20%E7%9A%84%20width%E3%80%81height%20%E5%B1%9E%E6%80%A7%E5%92%8C%20style%20%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%9A%84%20width%E3%80%81height%20%E5%80%BC/README#2--为什么推荐直接通过-canvas-的-heightwidth-属性来设置画布尺寸而非通过-css-的-heightwidth-来设置呢)
   - [3. 💻 demos.1 - 对比两种设置画布尺寸的写法](https://tdahuyou.github.io/TNotes.canvas/notes/0003.%20%E5%8C%BA%E5%88%86%20canvas%20%E7%9A%84%20width%E3%80%81height%20%E5%B1%9E%E6%80%A7%E5%92%8C%20style%20%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%9A%84%20width%E3%80%81height%20%E5%80%BC/README#3--demos1---对比两种设置画布尺寸的写法)
   - [4. 💻 demos.2 - 模拟放大镜的效果](https://tdahuyou.github.io/TNotes.canvas/notes/0003.%20%E5%8C%BA%E5%88%86%20canvas%20%E7%9A%84%20width%E3%80%81height%20%E5%B1%9E%E6%80%A7%E5%92%8C%20style%20%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%9A%84%20width%E3%80%81height%20%E5%80%BC/README#4--demos2---模拟放大镜的效果)
-- [x] [0005. canvas 的默认尺寸 300 \* 150](https://tdahuyou.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300%20*%20150/README)
+- [x] [0005. canvas 的默认尺寸 300 * 150](https://tdahuyou.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300%20*%20150/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300%20*%20150/README#1--概述)
   - [2. 💻 demo](https://tdahuyou.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300%20*%20150/README#2--demo)
 - [x] [0006. 使用 JSDoc 来标注 canvas 变量类型](https://tdahuyou.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README)
@@ -52,7 +53,7 @@
   - [2. 💻 demos.2 - 创建新的 canvas](https://tdahuyou.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README#2--demos2---创建新的-canvas)
   - [3. 💻 demos.1 - 查询已有的 canvas](https://tdahuyou.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README#3--demos1---查询已有的-canvas)
 
-## 4. 基本图形的绘制
+## 4. 矩形
 
 - [x] [0018. 使用 ctx.fillRect 绘制矩形](https://tdahuyou.github.io/TNotes.canvas/notes/0018.%20%E4%BD%BF%E7%94%A8%20ctx.fillRect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0018.%20%E4%BD%BF%E7%94%A8%20ctx.fillRect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README#1--概述)
@@ -67,6 +68,9 @@
 - [x] [0021. 使用 ctx.rect 绘制矩形](https://tdahuyou.github.io/TNotes.canvas/notes/0021.%20%E4%BD%BF%E7%94%A8%20ctx.rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0021.%20%E4%BD%BF%E7%94%A8%20ctx.rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README#1--概述)
   - [2. 💻 demos.1 - 使用 `ctx.rect()` 来绘制一个填充路径](https://tdahuyou.github.io/TNotes.canvas/notes/0021.%20%E4%BD%BF%E7%94%A8%20ctx.rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README#2--demos1---使用-ctxrect-来绘制一个填充路径)
+
+## 5. 圆、弧、椭圆
+
 - [x] [0024. 使用 ctx.arc 绘制圆弧](https://tdahuyou.github.io/TNotes.canvas/notes/0024.%20%E4%BD%BF%E7%94%A8%20ctx.arc%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0024.%20%E4%BD%BF%E7%94%A8%20ctx.arc%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README#1--概述)
   - [2. 📒 角度、弧度](https://tdahuyou.github.io/TNotes.canvas/notes/0024.%20%E4%BD%BF%E7%94%A8%20ctx.arc%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README#2--角度弧度)
@@ -79,24 +83,26 @@
 - [x] [0027. 使用 ctx.arcTo 绘制圆弧](https://tdahuyou.github.io/TNotes.canvas/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README#1--概述)
   - [2. 💻 demos.1 - 使用 `ctx.arcTo` 绘制圆弧](https://tdahuyou.github.io/TNotes.canvas/notes/0027.%20%E4%BD%BF%E7%94%A8%20ctx.arcTo%20%E7%BB%98%E5%88%B6%E5%9C%86%E5%BC%A7/README#2--demos1---使用-ctxarcto-绘制圆弧)
-- [ ] [0035. 使用 ctx.drawImage 引入图像](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README)
+
+## 6. 图像 Image
+
+- [x] [0035. 使用 ctx.drawImage 引入图像](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#1--概述)
-  - [2. 🔗 References](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#2--references)
-  - [3. 📒 notes](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#3--notes)
-  - [4. 💻 demo1 - 保持图片原始尺寸](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#4--demo1---保持图片原始尺寸)
-  - [5. 💻 demo2 - 约束图片尺寸](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#5--demo2---约束图片尺寸)
-  - [6. 💻 demo3 - 裁剪图片](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#6--demo3---裁剪图片)
+  - [2. 📒 `ctx.drawImage`](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#2--ctxdrawimage)
+  - [3. 💻 demos.1 - 保持图片原始尺寸](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#3--demos1---保持图片原始尺寸)
+  - [4. 💻 demos.2 - 约束图片尺寸](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#4--demos2---约束图片尺寸)
+  - [5. 💻 demos.3 - 裁剪图片](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#5--demos3---裁剪图片)
+  - [6. 🔗 References](https://tdahuyou.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#6--references)
 
-## 5. 阴影
+## 7. 阴影
 
-- [ ] [0043. 给图像添加阴影](https://tdahuyou.github.io/TNotes.canvas/notes/0043.%20%E7%BB%99%E5%9B%BE%E5%83%8F%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1/README)
+- [x] [0043. 给图像添加阴影](https://tdahuyou.github.io/TNotes.canvas/notes/0043.%20%E7%BB%99%E5%9B%BE%E5%83%8F%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0043.%20%E7%BB%99%E5%9B%BE%E5%83%8F%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1/README#1--概述)
-  - [2. 🔗 References](https://tdahuyou.github.io/TNotes.canvas/notes/0043.%20%E7%BB%99%E5%9B%BE%E5%83%8F%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1/README#2--references)
-  - [3. 📒 notes](https://tdahuyou.github.io/TNotes.canvas/notes/0043.%20%E7%BB%99%E5%9B%BE%E5%83%8F%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1/README#3--notes)
-  - [4. 💻 demo1](https://tdahuyou.github.io/TNotes.canvas/notes/0043.%20%E7%BB%99%E5%9B%BE%E5%83%8F%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1/README#4--demo1)
-  - [5. 💻 demo2](https://tdahuyou.github.io/TNotes.canvas/notes/0043.%20%E7%BB%99%E5%9B%BE%E5%83%8F%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1/README#5--demo2)
+  - [2. 📒 shadow](https://tdahuyou.github.io/TNotes.canvas/notes/0043.%20%E7%BB%99%E5%9B%BE%E5%83%8F%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1/README#2--shadow)
+  - [3. 💻 demos.1 - 使用阴影](https://tdahuyou.github.io/TNotes.canvas/notes/0043.%20%E7%BB%99%E5%9B%BE%E5%83%8F%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1/README#3--demos1---使用阴影)
+  - [4. 💻 demos.2 - 结合渐变效果，绘制一个立体的小球](https://tdahuyou.github.io/TNotes.canvas/notes/0043.%20%E7%BB%99%E5%9B%BE%E5%83%8F%E6%B7%BB%E5%8A%A0%E9%98%B4%E5%BD%B1/README#4--demos2---结合渐变效果绘制一个立体的小球)
 
-## 6. 渐变
+## 8. 渐变
 
 - [ ] [0040. 使用 ctx.createConicGradient 实现锥形渐变效果](https://tdahuyou.github.io/TNotes.canvas/notes/0040.%20%E4%BD%BF%E7%94%A8%20ctx.createConicGradient%20%E5%AE%9E%E7%8E%B0%E9%94%A5%E5%BD%A2%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0040.%20%E4%BD%BF%E7%94%A8%20ctx.createConicGradient%20%E5%AE%9E%E7%8E%B0%E9%94%A5%E5%BD%A2%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README#1--概述)
@@ -114,7 +120,7 @@
   - [2. 🔗 References](https://tdahuyou.github.io/TNotes.canvas/notes/0042.%20%E4%BD%BF%E7%94%A8%20ctx.createRadialGradient%20%E5%AE%9E%E7%8E%B0%E5%BE%84%E5%90%91%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README#2--references)
   - [3. 💻 demo1](https://tdahuyou.github.io/TNotes.canvas/notes/0042.%20%E4%BD%BF%E7%94%A8%20ctx.createRadialGradient%20%E5%AE%9E%E7%8E%B0%E5%BE%84%E5%90%91%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README#3--demo1)
 
-## 7. 滤镜
+## 9. 滤镜
 
 - [ ] [0044. 使用 ctx.filter 实现滤镜效果](https://tdahuyou.github.io/TNotes.canvas/notes/0044.%20%E4%BD%BF%E7%94%A8%20ctx.filter%20%E5%AE%9E%E7%8E%B0%E6%BB%A4%E9%95%9C%E6%95%88%E6%9E%9C/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0044.%20%E4%BD%BF%E7%94%A8%20ctx.filter%20%E5%AE%9E%E7%8E%B0%E6%BB%A4%E9%95%9C%E6%95%88%E6%9E%9C/README#1--概述)
@@ -131,7 +137,7 @@
   - [12. 💻 demo9 - contrast](https://tdahuyou.github.io/TNotes.canvas/notes/0044.%20%E4%BD%BF%E7%94%A8%20ctx.filter%20%E5%AE%9E%E7%8E%B0%E6%BB%A4%E9%95%9C%E6%95%88%E6%9E%9C/README#12--demo9---contrast)
   - [13. 💻 demo10 - 使用 url 引用 svg 滤镜](https://tdahuyou.github.io/TNotes.canvas/notes/0044.%20%E4%BD%BF%E7%94%A8%20ctx.filter%20%E5%AE%9E%E7%8E%B0%E6%BB%A4%E9%95%9C%E6%95%88%E6%9E%9C/README#13--demo10---使用-url-引用-svg-滤镜)
 
-## 8. 路径和形状
+## 10. 路径
 
 - [ ] [0022. 使用 ctx.closePath 闭合路径](https://tdahuyou.github.io/TNotes.canvas/notes/0022.%20%E4%BD%BF%E7%94%A8%20ctx.closePath%20%E9%97%AD%E5%90%88%E8%B7%AF%E5%BE%84/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0022.%20%E4%BD%BF%E7%94%A8%20ctx.closePath%20%E9%97%AD%E5%90%88%E8%B7%AF%E5%BE%84/README#1--概述)
@@ -150,7 +156,7 @@
   - `ctx.quadraticCurveTo`、`ctx.bezierCurveTo` 这俩 API 的使用很简单，无非就是传入 2 个点还是 3 个点。重点在于理解贝塞尔曲线的绘制原理。理解原理后，自然就理解这俩 API 应该如何使用了。
   - https://blog.csdn.net/m0_37602827/article/details/118165217 - CSDN - 贝塞尔曲线原理 - 这是 CSDN 上的一篇介绍贝塞尔曲线原理的文章。
 
-## 9. 文本处理
+## 11. 文本
 
 - [ ] [0014. 使用 ctx.fillText、ctx.strokeText 绘制文本](https://tdahuyou.github.io/TNotes.canvas/notes/0014.%20%E4%BD%BF%E7%94%A8%20ctx.fillText%E3%80%81ctx.strokeText%20%E7%BB%98%E5%88%B6%E6%96%87%E6%9C%AC/README)
   - [1. 📒 notes](https://tdahuyou.github.io/TNotes.canvas/notes/0014.%20%E4%BD%BF%E7%94%A8%20ctx.fillText%E3%80%81ctx.strokeText%20%E7%BB%98%E5%88%B6%E6%96%87%E6%9C%AC/README#1--notes)
@@ -166,7 +172,7 @@
   - [3. 💻 demo1](https://tdahuyou.github.io/TNotes.canvas/notes/0016.%20%E4%BD%BF%E7%94%A8%20ctx.textBaseline%E3%80%81ctx.textAlign%20%E8%AE%BE%E7%BD%AE%E6%96%87%E6%9C%AC%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F/README#3--demo1)
   - [4. 💻 demo2](https://tdahuyou.github.io/TNotes.canvas/notes/0016.%20%E4%BD%BF%E7%94%A8%20ctx.textBaseline%E3%80%81ctx.textAlign%20%E8%AE%BE%E7%BD%AE%E6%96%87%E6%9C%AC%E5%AF%B9%E9%BD%90%E6%96%B9%E5%BC%8F/README#4--demo2)
 
-## 10. 动画效果
+## 12. 动画
 
 - [x] [0004. 使用 ctx.clearRect 清除画布](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#1--概述)
@@ -261,7 +267,7 @@
     - [3.5. 动画和速度调节](https://tdahuyou.github.io/TNotes.canvas/notes/0051.%20%E8%B4%AA%E5%90%83%E8%9B%87%E5%B0%8F%E6%B8%B8%E6%88%8F/README#35-动画和速度调节)
   - [4. 💻 demo - 贪吃蛇小游戏 - 实现源码](https://tdahuyou.github.io/TNotes.canvas/notes/0051.%20%E8%B4%AA%E5%90%83%E8%9B%87%E5%B0%8F%E6%B8%B8%E6%88%8F/README#4--demo---贪吃蛇小游戏---实现源码)
 
-## 11. 图像处理
+## 13. 图像 Image ⏰
 
 - [ ] [0031. 使用 ctx.clip 实现图像裁剪](https://tdahuyou.github.io/TNotes.canvas/notes/0031.%20%E4%BD%BF%E7%94%A8%20ctx.clip%20%E5%AE%9E%E7%8E%B0%E5%9B%BE%E5%83%8F%E8%A3%81%E5%89%AA/README)
   - [1. 🔗 References](https://tdahuyou.github.io/TNotes.canvas/notes/0031.%20%E4%BD%BF%E7%94%A8%20ctx.clip%20%E5%AE%9E%E7%8E%B0%E5%9B%BE%E5%83%8F%E8%A3%81%E5%89%AA/README#1--references)

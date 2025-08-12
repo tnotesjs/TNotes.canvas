@@ -3,117 +3,46 @@
 <!-- region:toc -->
 
 - [1. 📝 概述](#1--概述)
-- [2. 🔗 References](#2--references)
-- [3. 📒 notes](#3--notes)
-- [4. 💻 demo1](#4--demo1)
-- [5. 💻 demo2](#5--demo2)
+- [2. 📒 shadow](#2--shadow)
+- [3. 💻 demos.1 - 使用阴影](#3--demos1---使用阴影)
+- [4. 💻 demos.2 - 结合渐变效果，绘制一个立体的小球](#4--demos2---结合渐变效果绘制一个立体的小球)
 
 <!-- endregion:toc -->
 
 ## 1. 📝 概述
 
-跟 css 中的 box-shadow 类似，都可以用于给盒子添加阴影。在 canvas 中，可以给阴影添加颜色 ctx.shadowColor、模糊半径 shadowBlur、偏移 shadowOffsetX、shadowOffsetY。
+- 掌握阴影相关属性的基本使用
 
-## 2. 🔗 References
+## 2. 📒 shadow
 
-- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowOffsetY
-- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowOffsetX
-- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowBlur
-- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowColor
+- 跟 css 中的 `box-shadow` 类似，canvas 也可以给盒子添加阴影。
 
-## 3. 📒 notes
+| 属性            | 描述                                 |
+| --------------- | ------------------------------------ |
+| `shadowColor`   | 设置阴影的颜色                       |
+| `shadowBlur`    | 设置阴影的模糊程度，值越大阴影越模糊 |
+| `shadowOffsetX` | 设置阴影的水平偏移量                 |
+| `shadowOffsetY` | 设置阴影的垂直偏移量                 |
 
-shadowColor 设置阴影的颜色。
+## 3. 💻 demos.1 - 使用阴影
 
-shadowBlur 设置阴影的模糊程度。值越大，阴影越模糊。
+::: code-group
 
-shadowOffsetX 和 shadowOffsetY 属性用于设置阴影的偏移量。
+<<< ./demos/1/1.html {19-29} [1.html]
 
-## 4. 💻 demo1
+:::
 
-```html
-<!-- 1.html -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <script src="./drawGrid.js"></script>
-    <script>
-      // shadowColor: 阴影的颜色
-      // shadowBlur: 阴影的模糊程度。值越大，阴影越模糊。
+- 最终效果：
+  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-02-11.png)
 
-      const canvas = document.createElement('canvas')
-      drawGrid(canvas, 400, 400, 50)
-      document.body.append(canvas)
-      const ctx = canvas.getContext('2d')
+## 4. 💻 demos.2 - 结合渐变效果，绘制一个立体的小球
 
-      ctx.beginPath()
+::: code-group
 
-      ctx.shadowColor = 'yellow'
-      // 表示阴影的颜色为黄色
+<<< ./demos/2/1.html {19-35} [1.html]
 
-      ctx.shadowBlur = 100
-      // 表示阴影的模糊程度为 100
+:::
 
-      ctx.fillStyle = 'red'
-      ctx.arc(200, 200, 100, 0, Math.PI * 2)
-      ctx.fill()
-    </script>
-  </body>
-</html>
-```
-
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-02-11.png)
-
-## 5. 💻 demo2
-
-```html
-<!-- 2.html -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <script src="./drawGrid.js"></script>
-    <script>
-      const canvas = document.createElement('canvas')
-      drawGrid(canvas, 400, 400, 50)
-      document.body.append(canvas)
-      const ctx = canvas.getContext('2d')
-
-      ctx.beginPath()
-      ctx.shadowColor = '#888' // 阴影的颜色为灰色
-      ctx.shadowBlur = 15
-
-      // shadowOffsetX 和 shadowOffsetY 属性用于设置阴影的偏移量。
-      ctx.shadowOffsetX = 8
-      ctx.shadowOffsetY = 8
-
-      // 创建一个径向渐变
-      const gradient = ctx.createRadialGradient(170, 170, 30, 200, 200, 100)
-      // 170, 170, 30 表示渐变的起点是一个圆心为 (170, 170) 半径为 30 的圆。
-      // 200, 200, 100 表示渐变的终点是一个圆心为 (200, 200) 半径为 100 的圆。
-      gradient.addColorStop(0, 'rgb(221, 0, 0)') // 开始位置更亮红
-      gradient.addColorStop(1, 'rgb(136, 0, 0)') // 结束位置更黑红
-
-      ctx.fillStyle = gradient
-      ctx.arc(200, 200, 100, 0, Math.PI * 2)
-      ctx.fill()
-
-      // 模拟场景：
-      // 光源在左上角，阴影在右下角。
-    </script>
-  </body>
-</html>
-```
-
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-02-24.png)
+- 模拟场景：光源在左前方，阴影在右后方。
+- 最终效果：
+  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-02-24.png)

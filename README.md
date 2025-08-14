@@ -122,21 +122,20 @@
 
 ## 8. 渐变
 
-- [ ] [0040. 使用 ctx.createConicGradient 实现锥形渐变效果](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0040.%20%E4%BD%BF%E7%94%A8%20ctx.createConicGradient%20%E5%AE%9E%E7%8E%B0%E9%94%A5%E5%BD%A2%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md)
+- [x] [0040. 使用 ctx.createConicGradient 实现锥形渐变效果](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0040.%20%E4%BD%BF%E7%94%A8%20ctx.createConicGradient%20%E5%AE%9E%E7%8E%B0%E9%94%A5%E5%BD%A2%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0040.%20%E4%BD%BF%E7%94%A8%20ctx.createConicGradient%20%E5%AE%9E%E7%8E%B0%E9%94%A5%E5%BD%A2%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#1--概述)
-  - [2. 🔗 References](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0040.%20%E4%BD%BF%E7%94%A8%20ctx.createConicGradient%20%E5%AE%9E%E7%8E%B0%E9%94%A5%E5%BD%A2%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#2--references)
-  - [3. 💻 demo1](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0040.%20%E4%BD%BF%E7%94%A8%20ctx.createConicGradient%20%E5%AE%9E%E7%8E%B0%E9%94%A5%E5%BD%A2%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#3--demo1)
-  - [4. 💻 demo2](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0040.%20%E4%BD%BF%E7%94%A8%20ctx.createConicGradient%20%E5%AE%9E%E7%8E%B0%E9%94%A5%E5%BD%A2%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#4--demo2)
-  - [5. 💻 demo3](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0040.%20%E4%BD%BF%E7%94%A8%20ctx.createConicGradient%20%E5%AE%9E%E7%8E%B0%E9%94%A5%E5%BD%A2%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#5--demo3)
-- [ ] [0041. 使用 ctx.createLinearGradient 实现线性渐变效果](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0041.%20%E4%BD%BF%E7%94%A8%20ctx.createLinearGradient%20%E5%AE%9E%E7%8E%B0%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md)
+  - [2. 📒 `ctx.createConicGradient(startAngle, x, y)`](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0040.%20%E4%BD%BF%E7%94%A8%20ctx.createConicGradient%20%E5%AE%9E%E7%8E%B0%E9%94%A5%E5%BD%A2%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#2--ctxcreateconicgradientstartangle-x-y)
+  - [3. 💻 demos.1](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0040.%20%E4%BD%BF%E7%94%A8%20ctx.createConicGradient%20%E5%AE%9E%E7%8E%B0%E9%94%A5%E5%BD%A2%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#3--demos1)
+  - [4. 🔗 References](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0040.%20%E4%BD%BF%E7%94%A8%20ctx.createConicGradient%20%E5%AE%9E%E7%8E%B0%E9%94%A5%E5%BD%A2%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#4--references)
+- [x] [0041. 使用 ctx.createLinearGradient 实现线性渐变效果](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0041.%20%E4%BD%BF%E7%94%A8%20ctx.createLinearGradient%20%E5%AE%9E%E7%8E%B0%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0041.%20%E4%BD%BF%E7%94%A8%20ctx.createLinearGradient%20%E5%AE%9E%E7%8E%B0%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#1--概述)
-  - [2. 🔗 References](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0041.%20%E4%BD%BF%E7%94%A8%20ctx.createLinearGradient%20%E5%AE%9E%E7%8E%B0%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#2--references)
-  - [3. 💻 demo1](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0041.%20%E4%BD%BF%E7%94%A8%20ctx.createLinearGradient%20%E5%AE%9E%E7%8E%B0%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#3--demo1)
-  - [4. 💻 demo2](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0041.%20%E4%BD%BF%E7%94%A8%20ctx.createLinearGradient%20%E5%AE%9E%E7%8E%B0%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#4--demo2)
-- [ ] [0042. 使用 ctx.createRadialGradient 实现径向渐变效果](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0042.%20%E4%BD%BF%E7%94%A8%20ctx.createRadialGradient%20%E5%AE%9E%E7%8E%B0%E5%BE%84%E5%90%91%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md)
+  - [2. 💻 demos.1 - `createLinearGradient` 的基本使用](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0041.%20%E4%BD%BF%E7%94%A8%20ctx.createLinearGradient%20%E5%AE%9E%E7%8E%B0%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#2--demos1---createlineargradient-的基本使用)
+  - [3. 🔗 References](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0041.%20%E4%BD%BF%E7%94%A8%20ctx.createLinearGradient%20%E5%AE%9E%E7%8E%B0%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#3--references)
+- [x] [0042. 使用 ctx.createRadialGradient 实现径向渐变效果](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0042.%20%E4%BD%BF%E7%94%A8%20ctx.createRadialGradient%20%E5%AE%9E%E7%8E%B0%E5%BE%84%E5%90%91%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0042.%20%E4%BD%BF%E7%94%A8%20ctx.createRadialGradient%20%E5%AE%9E%E7%8E%B0%E5%BE%84%E5%90%91%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#1--概述)
-  - [2. 🔗 References](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0042.%20%E4%BD%BF%E7%94%A8%20ctx.createRadialGradient%20%E5%AE%9E%E7%8E%B0%E5%BE%84%E5%90%91%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#2--references)
-  - [3. 💻 demo1](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0042.%20%E4%BD%BF%E7%94%A8%20ctx.createRadialGradient%20%E5%AE%9E%E7%8E%B0%E5%BE%84%E5%90%91%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#3--demo1)
+  - [2. 📒 `ctx.createRadialGradient`](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0042.%20%E4%BD%BF%E7%94%A8%20ctx.createRadialGradient%20%E5%AE%9E%E7%8E%B0%E5%BE%84%E5%90%91%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#2--ctxcreateradialgradient)
+  - [3. 💻 demos.1 - `ctx.createRadialGradient` 的基本使用](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0042.%20%E4%BD%BF%E7%94%A8%20ctx.createRadialGradient%20%E5%AE%9E%E7%8E%B0%E5%BE%84%E5%90%91%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#3--demos1---ctxcreateradialgradient-的基本使用)
+  - [4. 🔗 References](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0042.%20%E4%BD%BF%E7%94%A8%20ctx.createRadialGradient%20%E5%AE%9E%E7%8E%B0%E5%BE%84%E5%90%91%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C/README.md#4--references)
 
 ## 9. 滤镜
 

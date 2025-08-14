@@ -13,7 +13,7 @@
     </style>
   </head>
   <body>
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
       const canvas = document.createElement('canvas')
       drawGrid(canvas, 400, 400, 50)
@@ -23,8 +23,6 @@
       ctx.beginPath()
 
       const gradient = ctx.createConicGradient(Math.PI / 2, 200, 200)
-      // Math.PI / 2 表示从 6 点钟方向开始渐变
-      // 200 200 表示渐变的中心点坐标
 
       gradient.addColorStop(0, 'red')
       gradient.addColorStop(0.25, 'orange')
@@ -35,6 +33,12 @@
       ctx.fillStyle = gradient
 
       ctx.arc(200, 200, 100, 0, Math.PI * 2)
+      ctx.fill()
+
+      // 在中间绘制一个白色的圆，实现类似色相环的效果。
+      ctx.beginPath()
+      ctx.fillStyle = '#fff'
+      ctx.arc(200, 200, 60, 0, Math.PI * 2)
       ctx.fill()
     </script>
   </body>

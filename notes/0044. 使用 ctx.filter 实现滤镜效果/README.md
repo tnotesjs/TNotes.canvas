@@ -30,16 +30,6 @@
 
 ctx.filter 用于设置滤镜效果，跟 css 中的滤镜语法、功能都非常类似。
 
-**单词**
-
-- brightness，亮度
-- hue，色调
-- drop，投影，下投
-- invert，反转
-- sepia，棕褐色，乌贼墨色
-- saturate，饱和度
-- contrast，对比度
-
 **准备辅助函数 createCanvas**
 
 ```javascript

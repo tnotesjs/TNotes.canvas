@@ -13,24 +13,22 @@
     </style>
   </head>
   <body>
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
-      // createRadialGradient(x0, y0, r0, x1, y1, r1)
-      // x0, y0, r0: 渐变的起点坐标和半径
-      // x1, y1, r1: 渐变的终点坐标和半径
-
-      // 注意：两个圆是包含关系。
-      // 即一个圆在另一个圆的内部。
-
       {
         const canvas = document.createElement('canvas')
         drawGrid(canvas, 400, 400, 50)
         document.body.append(canvas)
         const ctx = canvas.getContext('2d')
-
         ctx.beginPath()
         ctx.globalAlpha = 0.8
 
+        // createRadialGradient(x0, y0, r0, x1, y1, r1)
+        // x0, y0, r0: 渐变的起点坐标和半径
+        // x1, y1, r1: 渐变的终点坐标和半径
+
+        // 注意：两个圆是包含关系。
+        // 即一个圆在另一个圆的内部。
         const gradient = ctx.createRadialGradient(200, 200, 50, 200, 200, 100)
         // 表示从 (200, 200) 半径为 50 的圆开始渐变
         // 到 (200, 200) 半径为 100 的圆结束渐变
@@ -54,14 +52,13 @@
         drawGrid(canvas, 400, 400, 50)
         document.body.append(canvas)
         const ctx = canvas.getContext('2d')
-
         ctx.beginPath()
         ctx.globalAlpha = 0.8
 
         const gradient = ctx.createRadialGradient(200, 200, 100, 200, 200, 50)
         // 表示从 (200, 200) 半径为 100 的圆开始渐变
         // 到 (200, 200) 半径为 50 的圆结束渐变
-        
+
         gradient.addColorStop(0, 'red')
         gradient.addColorStop(0.9, 'yellow')
         gradient.addColorStop(1, 'black')

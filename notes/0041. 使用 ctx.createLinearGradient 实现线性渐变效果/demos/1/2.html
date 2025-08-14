@@ -7,16 +7,16 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
-      // 前面的示例创建的是一个铺满整个 canvas 的渐变效果。
-      // 如果渐变区域小于矩形区域的话，那么非渐变区域，将展示渐变的“终点”颜色。
       const canvas = document.createElement('canvas')
       drawGrid(canvas, 500, 200, 50)
       document.body.append(canvas)
       const ctx = canvas.getContext('2d')
-
       ctx.globalAlpha = 0.8
+
+      // 前面的示例创建的是一个铺满整个 canvas 的渐变效果。
+      // 如果渐变区域小于矩形区域的话，那么非渐变区域，将展示渐变的“终点”颜色。
 
       // 渐变区域是从 100-400
       const gradient = ctx.createLinearGradient(100, 0, 400, 0)

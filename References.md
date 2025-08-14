@@ -1,2 +1,3 @@
 - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
   - MDN Canvas
+  - 有不清楚的 canvas 相关的 API，可以上这搜索。

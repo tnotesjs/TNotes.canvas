@@ -19,11 +19,11 @@
       "src": "https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/assets/icon--canvas.svg"
     },
     "title": "canvas",
-    "completed_notes_count": 21,
+    "completed_notes_count": 24,
     "details": "Canvas 笔记",
     "link": "https://tdahuyou.github.io/TNotes.canvas/",
     "created_at": 1741007058000,
-    "updated_at": 1754959172594,
+    "updated_at": 1755132615367,
     "days_since_birth": 9380
   },
   "port": 9380,
@@ -37,12 +37,20 @@
       "link": "/Settings"
     },
     {
+      "text": "🎯 Words",
+      "link": "/Words"
+    },
+    {
       "text": "📒 TNotes",
       "link": "https://tdahuyou.github.io/notes"
     },
     {
       "text": "📂 TNotes.yuque",
       "link": "https://www.yuque.com/tdahuyou/tnotes.yuque"
+    },
+    {
+      "text": "🔗 References",
+      "link": "/References"
     }
   ],
   "socialLinks": [

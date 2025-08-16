@@ -3,104 +3,47 @@
 <!-- region:toc -->
 
 - [1. 📝 概述](#1--概述)
-- [2. 💻 demo1 - 自动闭合 vs. 手动闭合](#2--demo1---自动闭合-vs-手动闭合)
-- [3. 💻 demo2 - 注意 `lineWidth`](#3--demo2---注意-linewidth)
+- [2. 💻 demos.1 - 自动闭合 vs. 手动闭合](#2--demos1---自动闭合-vs-手动闭合)
+- [3. 💻 demos.2 - 注意 `lineWidth`](#3--demos2---注意-linewidth)
+- [4. 🤔 为什么 `demos.2` 路径并没有闭合，最终却会填充出一个三角形呢？](#4--为什么-demos2-路径并没有闭合最终却会填充出一个三角形呢)
+- [5. 🔗 References](#5--references)
 
 <!-- endregion:toc -->
 
 ## 1. 📝 概述
 
-了解手动闭合和自动闭合之间的区别。通过示例，了解路径如果没有设置自动闭合的话，可能会导致什么问题。
+- demos.1 - 了解手动闭合和自动闭合 `ctx.closePath()` 之间的区别
+- demos.2 - 了解路径如果没有设置自动闭合的话会导致什么问题
 
-## 2. 💻 demo1 - 自动闭合 vs. 手动闭合
+## 2. 💻 demos.1 - 自动闭合 vs. 手动闭合
 
-```html
-<!-- 1.html -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <script src="./drawGrid.js"></script>
-    <script>
-      const cavnas = document.createElement('canvas')
-      drawGrid(cavnas, 500, 500, 50)
-      document.body.appendChild(cavnas)
-      const ctx = cavnas.getContext('2d')
+::: code-group
 
-      // 设置线条和填充样式
-      ctx.lineWidth = 20
-      ctx.strokeStyle = 'red'
-      ctx.fillStyle = 'yellow'
+<<< ./demos/1/1.html {16-37}
 
-      // 多个连续线条构成的区域，是可以使用 fill() 进行填充的。
-      // 如果需要首尾节点自动闭合，可以使用 ctx.closePath() 方法。
-      ctx.beginPath()
-      ctx.moveTo(50, 50)
-      ctx.lineTo(50, 150)
-      ctx.lineTo(150, 150)
-      ctx.lineTo(50, 50) // 手动闭合
-      ctx.stroke()
-      ctx.fill()
-
-      ctx.beginPath()
-      ctx.moveTo(200, 200)
-      ctx.lineTo(200, 300)
-      ctx.lineTo(300, 300)
-      ctx.closePath() // 自动闭合
-      ctx.stroke()
-      ctx.fill()
-    </script>
-  </body>
-</html>
-```
+:::
 
 ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-49-40.png)
 
-## 3. 💻 demo2 - 注意 `lineWidth`
+## 3. 💻 demos.2 - 注意 `lineWidth`
 
-```html
-<!-- 2.html -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>demo</title>
-  </head>
-  <body>
-    <script src="./drawGrid.js"></script>
-    <script>
-      const cavnas = document.createElement('canvas')
-      drawGrid(cavnas, 500, 500, 50)
-      document.body.appendChild(cavnas)
-      const ctx = cavnas.getContext('2d')
+::: code-group
 
-      // 设置线条和填充样式
-      ctx.lineWidth = 10
-      ctx.strokeStyle = 'red'
-      ctx.fillStyle = 'yellow'
+<<< ./demos/2/1.html {16-43}
 
-      // 多个连续线条构成的区域，是可以使用 fill() 进行填充的。
-      // 注意：这里所说的区域，并非一定得闭合。
+:::
 
-      // 画一个直角，但是路径并没有闭合。
-      // 此时这个直角也是可以正常被填充 fill 的。
-      // 因为构成直角的两条线段构成了一个三角形区域。
-      ctx.beginPath()
-      ctx.moveTo(50, 50)
-      ctx.lineTo(50, 150)
-      ctx.lineTo(150, 150)
+![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-15-20-34-45.png)
 
-      ctx.stroke() // 描边儿
+## 4. 🤔 为什么 `demos.2` 路径并没有闭合，最终却会填充出一个三角形呢？
 
-      ctx.fill() // 将构成的区域填充为黄色
-    </script>
-  </body>
-</html>
-```
+- 这跟填充规则 `fill-rule` 有关，填充规则有以下两种：
+  - Nonzero rule 非零环绕规则，默认值；
+  - Even–odd rule 奇偶填充规则；
+- canvas、svg 都会遇到这个填充的问题，对于填充规则的相关说明，在 `TNotes.svg.0024` 中有介绍。
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-49-54.png)
+## 5. 🔗 References
+
+- [TNotes.svg.0024. 使用属性 fill-rule 设置填充规则](https://tdahuyou.github.io/TNotes.svg/notes/0024.%20%E4%BD%BF%E7%94%A8%E5%B1%9E%E6%80%A7%20fill-rule%20%E8%AE%BE%E7%BD%AE%E5%A1%AB%E5%85%85%E8%A7%84%E5%88%99/README)
+- https://www.zhangxinxu.com/wordpress/2018/10/nonzero-evenodd-fill-mode-rule/
+  - 搞懂 SVG/Canvas 中 nonzero 和 evenodd 填充规则 « 张鑫旭-鑫空间-鑫生活。

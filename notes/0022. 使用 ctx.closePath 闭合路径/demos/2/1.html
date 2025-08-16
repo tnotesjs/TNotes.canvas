@@ -6,12 +6,12 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
-      const cavnas = document.createElement('canvas')
-      drawGrid(cavnas, 500, 500, 50)
-      document.body.appendChild(cavnas)
-      const ctx = cavnas.getContext('2d')
+      const canvas = document.createElement('canvas')
+      drawGrid(canvas, 500, 500, 50)
+      document.body.appendChild(canvas)
+      const ctx = canvas.getContext('2d')
 
       // 设置线条和填充样式
       ctx.lineWidth = 10
@@ -24,13 +24,22 @@
       // 画一个直角，但是路径并没有闭合。
       // 此时这个直角也是可以正常被填充 fill 的。
       // 因为构成直角的两条线段构成了一个三角形区域。
+
+      // 无 closePath
       ctx.beginPath()
       ctx.moveTo(50, 50)
       ctx.lineTo(50, 150)
       ctx.lineTo(150, 150)
-
       ctx.stroke() // 描边儿
+      ctx.fill() // 将构成的区域填充为黄色
 
+      // 有 closePath
+      ctx.beginPath()
+      ctx.moveTo(200, 200)
+      ctx.lineTo(200, 300)
+      ctx.lineTo(300, 300)
+      ctx.closePath() // 自动闭合
+      ctx.stroke() // 描边儿
       ctx.fill() // 将构成的区域填充为黄色
     </script>
   </body>

@@ -11,7 +11,7 @@ function createCanvas(filterStr) {
   }
 
   const img = new Image()
-  img.src = './安妮娅.png'
+  img.src = '../imgs/安妮娅.png'
   img.onload = function () {
     ctx.drawImage(img, 50, 50)
   }

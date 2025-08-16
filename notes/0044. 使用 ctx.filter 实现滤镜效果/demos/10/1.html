@@ -9,13 +9,13 @@
       <!-- 定义一个 svg 滤镜 -->
       <defs>
         <filter id="blur-filter">
+          <!-- 应用高斯模糊效果，stdDeviation 控制模糊程度 -->
           <feGaussianBlur in="SourceGraphic" stdDeviation="5"></feGaussianBlur>
         </filter>
       </defs>
     </svg>
 
-
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
       const canvas = document.createElement('canvas')
       drawGrid(canvas, 200, 200, 50)

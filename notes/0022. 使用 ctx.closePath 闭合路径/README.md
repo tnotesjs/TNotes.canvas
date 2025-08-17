@@ -40,10 +40,10 @@
 - 这跟填充规则 `fill-rule` 有关，填充规则有以下两种：
   - Nonzero rule 非零环绕规则，默认值；
   - Even–odd rule 奇偶填充规则；
-- canvas、svg 都会遇到这个填充的问题，对于填充规则的相关说明，在 `TNotes.svg.0024` 中有介绍。
+- canvas、svg 都会遇到这个填充的问题，对于填充规则的相关说明，在 `TNotes.svg/notes/0024` 中有介绍。
 
 ## 5. 🔗 References
 
-- [TNotes.svg.0024. 使用属性 fill-rule 设置填充规则](https://tdahuyou.github.io/TNotes.svg/notes/0024)
+- [TNotes.svg/notes/0024. 使用属性 fill-rule 设置填充规则](/TNotes.svg/notes/0024)
 - https://www.zhangxinxu.com/wordpress/2018/10/nonzero-evenodd-fill-mode-rule/
   - 搞懂 SVG/Canvas 中 nonzero 和 evenodd 填充规则 « 张鑫旭-鑫空间-鑫生活。

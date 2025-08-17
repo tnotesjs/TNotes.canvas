@@ -6,12 +6,12 @@
     <title>绘制填充文本</title>
   </head>
   <body>
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
-      const cavnas = document.createElement('canvas')
-      drawGrid(cavnas, 500, 500, 50)
-      document.body.appendChild(cavnas)
-      const ctx = cavnas.getContext('2d')
+      const canvas = document.createElement('canvas')
+      drawGrid(canvas, 500, 500, 50)
+      document.body.appendChild(canvas)
+      const ctx = canvas.getContext('2d')
 
       ctx.font = 'bold italic 4rem sans-serif'
 

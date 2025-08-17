@@ -6,15 +6,12 @@
     <title>ctx.textBaseline</title>
   </head>
   <body>
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
-      const cavnas = document.createElement('canvas')
-      drawGrid(cavnas, 500, 500, 50)
-      document.body.appendChild(cavnas)
-      const ctx = cavnas.getContext('2d')
-
-      // MDN DOC textBaseline
-      // https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/textBaseline
+      const canvas = document.createElement('canvas')
+      drawGrid(canvas, 500, 500, 50)
+      document.body.appendChild(canvas)
+      const ctx = canvas.getContext('2d')
 
       // ctx.textBaseline 属性用于设置文本基于锚点的垂直位置。
 
@@ -24,7 +21,7 @@
       // bottom 文本的底部与指定的 y 坐标对齐。
 
       ctx.textBaseline = 'middle' // 垂直居中对齐
-     ctx.textAlign = 'center' // 水平居中对齐
+      ctx.textAlign = 'center' // 水平居中对齐
 
       ctx.font = '4rem sans-serif'
       ctx.fillText('Tdahuyou', 200, 200)

@@ -7,7 +7,7 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
       const canvas = document.createElement('canvas')
       drawGrid(canvas, 200, 450, 50)
@@ -15,7 +15,7 @@
       const ctx = canvas.getContext('2d')
 
       ctx.beginPath()
-      ctx.globalAlpha = .8
+      ctx.globalAlpha = 0.8
 
       ctx.fillRect(50, 50, 100, 50)
 
@@ -40,11 +40,11 @@
 
       ctx.restore()
       // 再次恢复到最近一次保存的状态，也就是状态 1，此时的填充颜色为红色
-      ctx.fillRect(50,  300, 100, 50)
+      ctx.fillRect(50, 300, 100, 50)
 
       ctx.restore()
       // 再次恢复到最近一次保存的状态，也就是初始状态，此时的填充颜色为黑色
-      ctx.fillRect(50,  350, 100, 50)
+      ctx.fillRect(50, 350, 100, 50)
     </script>
   </body>
 </html>

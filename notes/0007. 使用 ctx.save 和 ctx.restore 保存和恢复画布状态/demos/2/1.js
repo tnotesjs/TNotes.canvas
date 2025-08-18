@@ -7,7 +7,14 @@
  * @param {Number} opacity 网格线透明度
  * @param {Number} fontSize 网格坐标刻度的文字大小
  */
-function drawGrid(canvas, width = 500, height = 500, cellSize = 50, opacity = 0.2, fontSize = 14) {
+function drawGrid(
+  canvas,
+  width = 500,
+  height = 500,
+  cellSize = 50,
+  opacity = 0.2,
+  fontSize = 14
+) {
   const ctx = canvas.getContext('2d')
 
   canvas.width = width // 设置画布大小（注意：这会重置画布状态）

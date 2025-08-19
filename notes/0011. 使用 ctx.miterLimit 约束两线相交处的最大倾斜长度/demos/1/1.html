@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>demo</title>
+  </head>
+  <body>
+    <script src="../common/drawGrid.js"></script>
+    <script>
+      const canvas = document.createElement('canvas')
+      canvas.width = 500
+      canvas.height = 500
+      document.body.appendChild(canvas)
+
+      drawGrid(canvas, 500, 500, 50)
+      const ctx = canvas.getContext('2d')
+      ctx.beginPath()
+
+      // 1️⃣ miterLength / lineWidth 这玩意儿用于表示角的尖锐程度。【角实际的尖锐程度】
+      // 2️⃣ miterLimit 这玩意儿用于设置一个阈值。【允许的最大尖锐程度】
+
+      // 如果 2️⃣ < 1️⃣，那么就会把尖角切掉，变成 bevel 类型。
+      // 表示角太尖了，得切掉，变为平角。
+
+      // 如果 2️⃣ > 1️⃣，那么就会保持 miter 类型。
+      // 表示角还不够尖，不需要切。
+
+      ctx.lineWidth = 20
+      ctx.lineJoin = 'miter'
+      ctx.strokeStyle = 'blue'
+
+      ctx.moveTo(100, 100)
+      ctx.lineTo(150, 400)
+      ctx.lineTo(200, 100)
+      ctx.stroke()
+
+      ctx.beginPath()
+      ctx.moveTo(300, 100)
+      ctx.lineTo(350, 400)
+      ctx.lineTo(400, 100)
+
+      ctx.miterLimit = 6 // 2️⃣
+      // 此时 lineWidth 是 20
+      // 视觉估算：此时 miterLength 大概在 120 到 140 之间
+      // 即 1️⃣ 的值大概在 6～7 之间
+
+      // lineWidth = 20
+      // miterLength ≈ 120 ~ 140
+      // 1️⃣ ≈ miterLength / lineWidth = 6 ~ 7
+
+      // 2️⃣ < 1️⃣ 如果 miterLimit 在 1 到 6 之间，那么这个尖角 miter 就「会」被切为平角 bevel。
+      // 2️⃣ > 1️⃣ 如果 miterLimit 大于等于 7，那么这个尖角 miter 就「不会」被切为平角 bevel。
+
+      // 验证：
+      // 改变 miterLimit 从 1 到 6 时，由于还未达到这个示例中的 miter 临界点，因此它们都显示为斜接 bevel 样式。
+      // 设置为 7 时，这个值超过了斜接长度与线宽比例的限制，导致连接样式从 bevel 转为 miter。
+      ctx.stroke()
+    </script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script>
+      /**
+       * @type {HTMLCanvasElement}
+       */
+      const canvas = document.getElementById('canvas')
+      const ctx = canvas.getContext('2d')
+
+      let x = 0 // 小球的 x 坐标
+
+      function animate() {
+        // 1. 清除上一帧
+        ctx.clearRect(0, 0, canvas.width, canvas.height)
+
+        // 2. 更新状态
+        x += 2
+        if (x > canvas.width) {
+          x = 0
+        }
+
+        // 3. 绘制新帧（画一个小球）
+        ctx.beginPath()
+        ctx.arc(x, 100, 20, 0, Math.PI * 2)
+        ctx.fillStyle = 'red'
+        ctx.fill()
+        ctx.closePath()
+
+        // 重复调用 animate 实现动画
+        requestAnimationFrame(animate)
+      }
+
+      animate()
+    </script>
+  </body>
+</html>

@@ -4,13 +4,17 @@
 
 - [1. 📝 概述](#1--概述)
 - [2. 📒 `ctx.setLineDash`](#2--ctxsetlinedash)
-- [3. 💻 demo](#3--demo)
+- [3. 💻 demos.1 - `ctx.setLineDash` 的基本使用](#3--demos1---ctxsetlinedash-的基本使用)
 
 <!-- endregion:toc -->
 
 ## 1. 📝 概述
 
-- 掌握 `ctx.setLineDash` 的基本使用
+- 知识点：
+  - 掌握 `ctx.setLineDash` 的基本使用
+- 评价：
+  - `ctx.setLineDash` 使用的核心难点在于理解参数的多种形式，它可以接收任意长度的数字数组，非常灵活，这使得它能绘制出各种类型的虚线。
+  - 虽然参数可以是任意长度的数字数字，但是绘制虚线的规律其实非常简单，只需要弄清楚每一段线段和空白的长度是如何计算的即可。
 
 ## 2. 📒 `ctx.setLineDash`
 
@@ -29,7 +33,7 @@
   - 2️⃣ 线段、空白、线段、空白、线段、空白
   - ![svg](./assets/1.svg)
 
-## 3. 💻 demo
+## 3. 💻 demos.1 - `ctx.setLineDash` 的基本使用
 
 ::: code-group
 

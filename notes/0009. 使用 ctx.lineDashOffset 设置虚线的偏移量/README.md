@@ -10,7 +10,11 @@
 
 ## 1. 📝 概述
 
-- 掌握 `ctx.lineDashOffset` 的基本使用
+- 知识点：
+  - 掌握 `ctx.lineDashOffset` 的基本使用
+- 评价：
+  - `ctx.lineDashOffset` 是用来设置线段的偏移方向的，值可以是正数或者负数，正负号决定了偏移的方向。
+  - 类似这样改变位置的属性，往往都可以用来做动画效果。
 
 ## 2. 📒 `ctx.lineDashOffset`
 

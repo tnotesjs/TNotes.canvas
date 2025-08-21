@@ -140,4 +140,4 @@ canvas 本身也是图像，可以被下载，可以被引用。通过一个示�
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-56-45.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-56-45.png)

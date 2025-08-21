@@ -2,130 +2,52 @@
 
 <!-- region:toc -->
 
-- [1. 📒 notes](#1--notes)
-- [2. 💻 demo1](#2--demo1)
-- [3. 💻 demo2](#3--demo2)
+- [1. 📝 概述](#1--概述)
+- [2. 💻 封装 drawGrid](#2--封装-drawgrid)
+- [3. 💻 demos.1 - 使用 `drawGrid` 来绘制坐标网格](#3--demos1---使用-drawgrid-来绘制坐标网格)
+- [4. 💻 demos.2 - 画一个矩形](#4--demos2---画一个矩形)
 
 <!-- endregion:toc -->
 
-## 1. 📒 notes
+## 1. 📝 概述
 
-做一个可视化的网格，作为参考坐标系，以便更直观地查看坐标，主要是辅助学习用。
+- 知识点：
+  - 结合注释，能大致看懂 `drawGrid.js` 绘制网格的实现原理即可。
+- 评价：
+  - 做一个可视化的网格，作为参考坐标系，以便更直观地查看坐标，主要是辅助学习用。
+  - 后续笔记中绘制的图形，会先调用 `drawGrid.js` 来绘制网格，再基于网格上的坐标参考线来绘制图形，图形的尺寸和位置等信息会尽量沿着网格线来绘制，以便更直观地了解到点位信息。
+    - 比如，demos.2 绘制了一个矩形，在 `drawGrid.js` 绘制的坐标系的加持下，瞅一眼绘制矩形的代码 `ctx.fillRect(x, y, width, height)`，就能一目了然了。
+  - 其中 `drawGrid.js` 用到的一些知识点（比如 `ctx.beginPath()`、`ctx.save()`、`ctx.restore()` …… 等 API 的介绍），在后续文档中会介绍。
 
-> 其中 `drawGrid.js` 用到的一些知识点，在其它文档中会介绍。
+## 2. 💻 封装 drawGrid
 
----
+::: code-group
 
-**封装 drawGrid**
+<<< ./demos/common/drawGrid.js {} [common/drawGrid.js]
 
-```js
-// drawGrid.js
-/**
- * 绘制网格
- * @param {HTMLCanvasElement} canvas 画布元素
- * @param {Number} width 画布宽度
- * @param {Number} height 画布高度
- * @param {Number} cellSize 网格单元格尺寸
- * @param {Number} opacity 网格线透明度
- * @param {Number} fontSize 网格坐标刻度的文字大小
- */
-function drawGrid(
-  canvas,
-  width = 500,
-  height = 500,
-  cellSize = 50,
-  opacity = 0.2,
-  fontSize = 14
-) {
-  const ctx = canvas.getContext('2d')
+:::
 
-  canvas.width = width // 设置画布大小（注意：这会重置画布状态）
-  canvas.height = height
+- `drawGrid.js` 用到的一些知识点，在后续文档中会介绍。
+- 这里提前将其丢到这里来介绍，是为了给后续内容做一个铺垫，将不可见的坐标可视化地绘制出来，参考着可视化的坐标来学习，效果也许会更好。毕竟类似 canvas 和 svg 这类的可视化技术，无时无刻不在跟不可见的坐标系打交道。
 
-  ctx.save() // 保存当前的绘图状态（注意：ctx.save 的调用，要放在设置 width、height 之后。）
+## 3. 💻 demos.1 - 使用 `drawGrid` 来绘制坐标网格
 
-  ctx.strokeStyle = `rgba(0, 0, 0, ${opacity})`
-  ctx.font = `${fontSize}px Arial`
+::: code-group
 
-  // 开始绘制网格线
-  ctx.beginPath()
-  for (let x = 0; x <= width; x += cellSize) {
-    ctx.moveTo(x, 0)
-    ctx.lineTo(x, height)
-    ctx.fillText(x.toString(), x + 2, 15) // 绘制文字
-  }
-  for (let y = 0; y <= height; y += cellSize) {
-    ctx.moveTo(0, y)
-    ctx.lineTo(width, y)
-    ctx.fillText(y.toString(), 2, y + 14) // 绘制文字
-  }
-  ctx.stroke() // 应用之前的设置绘制线条
+<<< ./demos/1/1.html {}
 
-  ctx.restore() // 恢复保存的绘图状态
-}
-```
+:::
 
-`drawGrid.js` 用到的一些知识点，在后续文档中会介绍。
+- 最终效果：
+  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-22-09.png)
 
-这里提前将其丢到这里来介绍，是为了给后续内容做一个铺垫，将不可见的坐标可视化地绘制出来，参考着可视化的坐标来学习，效果也许会更好。毕竟类似 canvas 和 svg 这类的可视化技术，无时无刻不在跟不可见的坐标系打交道。
+## 4. 💻 demos.2 - 画一个矩形
 
-## 2. 💻 demo1
+::: code-group
 
-```html
-<!-- 1.html -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <script src="./drawGrid.js"></script>
-    <script>
-      const cavnas = document.createElement('canvas')
+<<< ./demos/2/1.html {20-21}
 
-      // 创建好 canvas 之后，直接调用 drawGrid 函数绘制参考网格。
-      drawGrid(cavnas, 500, 500, 50)
-      // 表示绘制一个 500 * 500 的网格，每个网格的尺寸是 50。
+:::
 
-      document.body.appendChild(cavnas)
-      const ctx = cavnas.getContext('2d')
-      ctx.beginPath() // 路径分组，以防后续的绘制操作影响到之前绘制的网格。
-    </script>
-  </body>
-</html>
-```
-
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-22-09.png)
-
-## 3. 💻 demo2
-
-```html
-<!-- 2.html -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <script src="./drawGrid.js"></script>
-    <script>
-      const cavnas = document.createElement('canvas')
-      drawGrid(cavnas, 500, 500, 50)
-      document.body.appendChild(cavnas)
-      const ctx = cavnas.getContext('2d')
-      ctx.beginPath()
-
-      // 前面的 canvas 画布初始化逻辑基本不会变化，在接下来的学习中直接搬运即可。
-      // 后续如果要学习绘制新的图形，直接接着写往后写就行。
-      // 前面绘制的网格，主要作为参考坐标系，以便更直观地查看坐标。
-      ctx.fillRect(100, 100, 200, 100)
-    </script>
-  </body>
-</html>
-```
-
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-22-19.png)
+- 最终效果：
+  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-22-19.png)

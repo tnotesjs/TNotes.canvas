@@ -6,15 +6,15 @@
     <title>demo</title>
   </head>
   <body>
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
-      const cavnas = document.createElement('canvas')
-      cavnas.width = 500
-      cavnas.height = 500
-      document.body.appendChild(cavnas)
+      const canvas = document.createElement('canvas')
+      canvas.width = 500
+      canvas.height = 500
+      document.body.appendChild(canvas)
 
-      drawGrid(cavnas, 500, 500, 50)
-      const ctx = cavnas.getContext('2d')
+      drawGrid(canvas, 500, 500, 50)
+      const ctx = canvas.getContext('2d')
       ctx.beginPath()
 
       ctx.lineWidth = 30

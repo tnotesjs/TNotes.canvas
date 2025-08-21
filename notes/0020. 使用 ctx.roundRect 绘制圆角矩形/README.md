@@ -27,10 +27,10 @@
 
 ::: swiper
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-47-41.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-47-41.png)
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-47-52.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-47-52.png)
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-48-02.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-48-02.png)
 
 :::

@@ -175,4 +175,4 @@ ctx.createPattern 重点在于理解填充的机制，这可能和你常规印�
 
 下面是所有示例汇总的最终效果。
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-37-37.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-37-37.png)

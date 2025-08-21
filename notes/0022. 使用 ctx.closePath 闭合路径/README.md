@@ -23,7 +23,7 @@
 
 :::
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-49-40.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-49-40.png)
 
 ## 3. 💻 demos.2 - 注意 `lineWidth`
 

@@ -120,7 +120,7 @@ $$
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-11-05.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-11-05.png)
 
 ## 5. 💻 demo2
 
@@ -161,7 +161,7 @@ $$
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-11-15.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-11-15.png)
 
 ## 6. 💻 demo3
 
@@ -199,7 +199,7 @@ $$
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-11-25.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-11-25.png)
 
 ## 7. 💻 demo4
 
@@ -268,4 +268,4 @@ $$
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-11-36.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-11-36.png)

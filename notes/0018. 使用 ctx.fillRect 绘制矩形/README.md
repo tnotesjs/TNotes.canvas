@@ -30,6 +30,6 @@
 :::
 
 - `1.html` 绘制一个默认的黑色填充矩形
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-45-56.png)
+  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-45-56.png)
 - `2.html` 指定绘制矩形的颜色
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-46-11.png)
+  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-46-11.png)

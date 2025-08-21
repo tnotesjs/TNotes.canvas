@@ -20,4 +20,4 @@
 :::
 
 - 最终效果
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-48-50.png)
+  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-48-50.png)

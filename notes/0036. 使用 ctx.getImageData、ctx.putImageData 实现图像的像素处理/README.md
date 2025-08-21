@@ -30,7 +30,7 @@ ctx.getImageData、ctx.putImageData 这俩 API 的功能很强大，能玩出很
 
 素材原图像：
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-50-13.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-50-13.png)
 
 ## 4. 💻 demo1 - 置灰
 
@@ -102,7 +102,7 @@ ctx.getImageData、ctx.putImageData 这俩 API 的功能很强大，能玩出很
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-50-46.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-50-46.png)
 
 ## 5. 💻 demo2 - 图像反色处理
 
@@ -154,7 +154,7 @@ ctx.getImageData、ctx.putImageData 这俩 API 的功能很强大，能玩出很
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-51-02.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-51-02.png)
 
 ## 6. 💻 demo3 - 置蓝
 
@@ -214,4 +214,4 @@ ctx.getImageData、ctx.putImageData 这俩 API 的功能很强大，能玩出很
 </html>
 ```
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-51-17.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-51-17.png)

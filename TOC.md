@@ -52,6 +52,11 @@
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README#1--概述)
   - [2. 💻 demos.2 - 创建新的 canvas](https://tdahuyou.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README#2--demos2---创建新的-canvas)
   - [3. 💻 demos.1 - 查询已有的 canvas](https://tdahuyou.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README#3--demos1---查询已有的-canvas)
+- [x] [0017. 绘制网格](https://tdahuyou.github.io/TNotes.canvas/notes/0017.%20%E7%BB%98%E5%88%B6%E7%BD%91%E6%A0%BC/README)
+  - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0017.%20%E7%BB%98%E5%88%B6%E7%BD%91%E6%A0%BC/README#1--概述)
+  - [2. 💻 封装 drawGrid](https://tdahuyou.github.io/TNotes.canvas/notes/0017.%20%E7%BB%98%E5%88%B6%E7%BD%91%E6%A0%BC/README#2--封装-drawgrid)
+  - [3. 💻 demos.1 - 使用 `drawGrid` 来绘制坐标网格](https://tdahuyou.github.io/TNotes.canvas/notes/0017.%20%E7%BB%98%E5%88%B6%E7%BD%91%E6%A0%BC/README#3--demos1---使用-drawgrid-来绘制坐标网格)
+  - [4. 💻 demos.2 - 画一个矩形](https://tdahuyou.github.io/TNotes.canvas/notes/0017.%20%E7%BB%98%E5%88%B6%E7%BD%91%E6%A0%BC/README#4--demos2---画一个矩形)
 
 ## 4. rect
 
@@ -68,6 +73,11 @@
 - [x] [0021. 使用 ctx.rect 绘制矩形](https://tdahuyou.github.io/TNotes.canvas/notes/0021.%20%E4%BD%BF%E7%94%A8%20ctx.rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0021.%20%E4%BD%BF%E7%94%A8%20ctx.rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README#1--概述)
   - [2. 💻 demos.1 - 使用 `ctx.rect()` 来绘制一个填充路径](https://tdahuyou.github.io/TNotes.canvas/notes/0021.%20%E4%BD%BF%E7%94%A8%20ctx.rect%20%E7%BB%98%E5%88%B6%E7%9F%A9%E5%BD%A2/README#2--demos1---使用-ctxrect-来绘制一个填充路径)
+- [x] [0004. 使用 ctx.clearRect 清除画布](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README)
+  - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#1--概述)
+  - [2. 📒 `ctx.clearRect`](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#2--ctxclearrect)
+  - [3. 💻 demos.1 - 掌握 `ctx.clearRect` 的基本使用](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#3--demos1---掌握-ctxclearrect-的基本使用)
+  - [4. 💻 demos.2 - 运动的小球](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#4--demos2---运动的小球)
 
 ## 5. arc
 
@@ -185,7 +195,7 @@
 - [x] [0010. 使用 ctx.setLineDash 设置虚线](https://tdahuyou.github.io/TNotes.canvas/notes/0010.%20%E4%BD%BF%E7%94%A8%20ctx.setLineDash%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0010.%20%E4%BD%BF%E7%94%A8%20ctx.setLineDash%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README#1--概述)
   - [2. 📒 `ctx.setLineDash`](https://tdahuyou.github.io/TNotes.canvas/notes/0010.%20%E4%BD%BF%E7%94%A8%20ctx.setLineDash%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README#2--ctxsetlinedash)
-  - [3. 💻 demo](https://tdahuyou.github.io/TNotes.canvas/notes/0010.%20%E4%BD%BF%E7%94%A8%20ctx.setLineDash%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README#3--demo)
+  - [3. 💻 demos.1 - `ctx.setLineDash` 的基本使用](https://tdahuyou.github.io/TNotes.canvas/notes/0010.%20%E4%BD%BF%E7%94%A8%20ctx.setLineDash%20%E8%AE%BE%E7%BD%AE%E8%99%9A%E7%BA%BF/README#3--demos1---ctxsetlinedash-的基本使用)
 - [x] [0011. 使用 ctx.miterLimit 约束两线相交处的最大倾斜长度](https://tdahuyou.github.io/TNotes.canvas/notes/0011.%20%E4%BD%BF%E7%94%A8%20ctx.miterLimit%20%E7%BA%A6%E6%9D%9F%E4%B8%A4%E7%BA%BF%E7%9B%B8%E4%BA%A4%E5%A4%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BE%E6%96%9C%E9%95%BF%E5%BA%A6/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0011.%20%E4%BD%BF%E7%94%A8%20ctx.miterLimit%20%E7%BA%A6%E6%9D%9F%E4%B8%A4%E7%BA%BF%E7%9B%B8%E4%BA%A4%E5%A4%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BE%E6%96%9C%E9%95%BF%E5%BA%A6/README#1--概述)
   - [2. 📒 `miterLimit`](https://tdahuyou.github.io/TNotes.canvas/notes/0011.%20%E4%BD%BF%E7%94%A8%20ctx.miterLimit%20%E7%BA%A6%E6%9D%9F%E4%B8%A4%E7%BA%BF%E7%9B%B8%E4%BA%A4%E5%A4%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BE%E6%96%9C%E9%95%BF%E5%BA%A6/README#2--miterlimit)
@@ -194,29 +204,24 @@
 - [x] [0012. 使用 ctx.lineTo 来绘制线条](https://tdahuyou.github.io/TNotes.canvas/notes/0012.%20%E4%BD%BF%E7%94%A8%20ctx.lineTo%20%E6%9D%A5%E7%BB%98%E5%88%B6%E7%BA%BF%E6%9D%A1/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0012.%20%E4%BD%BF%E7%94%A8%20ctx.lineTo%20%E6%9D%A5%E7%BB%98%E5%88%B6%E7%BA%BF%E6%9D%A1/README#1--概述)
   - [2. 💻 demos.1 - 绘制线条](https://tdahuyou.github.io/TNotes.canvas/notes/0012.%20%E4%BD%BF%E7%94%A8%20ctx.lineTo%20%E6%9D%A5%E7%BB%98%E5%88%B6%E7%BA%BF%E6%9D%A1/README#2--demos1---绘制线条)
-- [ ] [0013. 使用 ctx.lineJoin 设置线条连接处的样式](https://tdahuyou.github.io/TNotes.canvas/notes/0013.%20%E4%BD%BF%E7%94%A8%20ctx.lineJoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E7%9A%84%E6%A0%B7%E5%BC%8F/README)
-  - [1. 📒 notes](https://tdahuyou.github.io/TNotes.canvas/notes/0013.%20%E4%BD%BF%E7%94%A8%20ctx.lineJoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E7%9A%84%E6%A0%B7%E5%BC%8F/README#1--notes)
+- [x] [0013. 使用 ctx.lineJoin 设置线条连接处的样式](https://tdahuyou.github.io/TNotes.canvas/notes/0013.%20%E4%BD%BF%E7%94%A8%20ctx.lineJoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E7%9A%84%E6%A0%B7%E5%BC%8F/README)
+  - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0013.%20%E4%BD%BF%E7%94%A8%20ctx.lineJoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E7%9A%84%E6%A0%B7%E5%BC%8F/README#1--概述)
   - [2. 💻 demo](https://tdahuyou.github.io/TNotes.canvas/notes/0013.%20%E4%BD%BF%E7%94%A8%20ctx.lineJoin%20%E8%AE%BE%E7%BD%AE%E7%BA%BF%E6%9D%A1%E8%BF%9E%E6%8E%A5%E5%A4%84%E7%9A%84%E6%A0%B7%E5%BC%8F/README#2--demo)
-- [ ] [0017. 绘制网格](https://tdahuyou.github.io/TNotes.canvas/notes/0017.%20%E7%BB%98%E5%88%B6%E7%BD%91%E6%A0%BC/README)
-  - [1. 📒 notes](https://tdahuyou.github.io/TNotes.canvas/notes/0017.%20%E7%BB%98%E5%88%B6%E7%BD%91%E6%A0%BC/README#1--notes)
-  - [2. 💻 demo1](https://tdahuyou.github.io/TNotes.canvas/notes/0017.%20%E7%BB%98%E5%88%B6%E7%BD%91%E6%A0%BC/README#2--demo1)
-  - [3. 💻 demo2](https://tdahuyou.github.io/TNotes.canvas/notes/0017.%20%E7%BB%98%E5%88%B6%E7%BD%91%E6%A0%BC/README#3--demo2)
 
-## 13. 动画
+## 13. save&restore
 
-- [x] [0004. 使用 ctx.clearRect 清除画布](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README)
-  - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#1--概述)
-  - [2. 📒 `ctx.clearRect`](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#2--ctxclearrect)
-  - [3. 💻 demos.1 - 掌握 `ctx.clearRect` 的基本使用](https://tdahuyou.github.io/TNotes.canvas/notes/0004.%20%E4%BD%BF%E7%94%A8%20ctx.clearRect%20%E6%B8%85%E9%99%A4%E7%94%BB%E5%B8%83/README#3--demos1---掌握-ctxclearrect-的基本使用)
 - [x] [0007. 使用 ctx.save 和 ctx.restore 保存和恢复画布状态](https://tdahuyou.github.io/TNotes.canvas/notes/0007.%20%E4%BD%BF%E7%94%A8%20ctx.save%20%E5%92%8C%20ctx.restore%20%E4%BF%9D%E5%AD%98%E5%92%8C%E6%81%A2%E5%A4%8D%E7%94%BB%E5%B8%83%E7%8A%B6%E6%80%81/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0007.%20%E4%BD%BF%E7%94%A8%20ctx.save%20%E5%92%8C%20ctx.restore%20%E4%BF%9D%E5%AD%98%E5%92%8C%E6%81%A2%E5%A4%8D%E7%94%BB%E5%B8%83%E7%8A%B6%E6%80%81/README#1--概述)
   - [2. 📒 `ctx.save` 和 `ctx.restore`](https://tdahuyou.github.io/TNotes.canvas/notes/0007.%20%E4%BD%BF%E7%94%A8%20ctx.save%20%E5%92%8C%20ctx.restore%20%E4%BF%9D%E5%AD%98%E5%92%8C%E6%81%A2%E5%A4%8D%E7%94%BB%E5%B8%83%E7%8A%B6%E6%80%81/README#2--ctxsave-和-ctxrestore)
   - [3. 💻 demos.2 - 辅助方法 `drawGrid`](https://tdahuyou.github.io/TNotes.canvas/notes/0007.%20%E4%BD%BF%E7%94%A8%20ctx.save%20%E5%92%8C%20ctx.restore%20%E4%BF%9D%E5%AD%98%E5%92%8C%E6%81%A2%E5%A4%8D%E7%94%BB%E5%B8%83%E7%8A%B6%E6%80%81/README#3--demos2---辅助方法-drawgrid)
   - [4. 💻 demos.1 - 画布状态的保存和恢复](https://tdahuyou.github.io/TNotes.canvas/notes/0007.%20%E4%BD%BF%E7%94%A8%20ctx.save%20%E5%92%8C%20ctx.restore%20%E4%BF%9D%E5%AD%98%E5%92%8C%E6%81%A2%E5%A4%8D%E7%94%BB%E5%B8%83%E7%8A%B6%E6%80%81/README#4--demos1---画布状态的保存和恢复)
   - [5. 🔗 References](https://tdahuyou.github.io/TNotes.canvas/notes/0007.%20%E4%BD%BF%E7%94%A8%20ctx.save%20%E5%92%8C%20ctx.restore%20%E4%BF%9D%E5%AD%98%E5%92%8C%E6%81%A2%E5%A4%8D%E7%94%BB%E5%B8%83%E7%8A%B6%E6%80%81/README#5--references)
-- [ ] [0028. 矩形边框旋转动画](https://tdahuyou.github.io/TNotes.canvas/notes/0028.%20%E7%9F%A9%E5%BD%A2%E8%BE%B9%E6%A1%86%E6%97%8B%E8%BD%AC%E5%8A%A8%E7%94%BB/README)
-  - [1. 📒 notes](https://tdahuyou.github.io/TNotes.canvas/notes/0028.%20%E7%9F%A9%E5%BD%A2%E8%BE%B9%E6%A1%86%E6%97%8B%E8%BD%AC%E5%8A%A8%E7%94%BB/README#1--notes)
-  - [2. 💻 demo1](https://tdahuyou.github.io/TNotes.canvas/notes/0028.%20%E7%9F%A9%E5%BD%A2%E8%BE%B9%E6%A1%86%E6%97%8B%E8%BD%AC%E5%8A%A8%E7%94%BB/README#2--demo1)
+
+## 14. Animation
+
+- [x] [0028. 矩形边框旋转动画](https://tdahuyou.github.io/TNotes.canvas/notes/0028.%20%E7%9F%A9%E5%BD%A2%E8%BE%B9%E6%A1%86%E6%97%8B%E8%BD%AC%E5%8A%A8%E7%94%BB/README)
+  - [1. 📝 概述](https://tdahuyou.github.io/TNotes.canvas/notes/0028.%20%E7%9F%A9%E5%BD%A2%E8%BE%B9%E6%A1%86%E6%97%8B%E8%BD%AC%E5%8A%A8%E7%94%BB/README#1--概述)
+  - [2. 💻 demos.1 - 矩形轮廓旋转动画](https://tdahuyou.github.io/TNotes.canvas/notes/0028.%20%E7%9F%A9%E5%BD%A2%E8%BE%B9%E6%A1%86%E6%97%8B%E8%BD%AC%E5%8A%A8%E7%94%BB/README#2--demos1---矩形轮廓旋转动画)
 - [ ] [0029. 线条穿梭动画](https://tdahuyou.github.io/TNotes.canvas/notes/0029.%20%E7%BA%BF%E6%9D%A1%E7%A9%BF%E6%A2%AD%E5%8A%A8%E7%94%BB/README)
   - [1. 📒 notes](https://tdahuyou.github.io/TNotes.canvas/notes/0029.%20%E7%BA%BF%E6%9D%A1%E7%A9%BF%E6%A2%AD%E5%8A%A8%E7%94%BB/README#1--notes)
   - [2. 💻 demo1](https://tdahuyou.github.io/TNotes.canvas/notes/0029.%20%E7%BA%BF%E6%9D%A1%E7%A9%BF%E6%A2%AD%E5%8A%A8%E7%94%BB/README#2--demo1)
@@ -271,7 +276,7 @@
     - [3.5. 动画和速度调节](https://tdahuyou.github.io/TNotes.canvas/notes/0051.%20%E8%B4%AA%E5%90%83%E8%9B%87%E5%B0%8F%E6%B8%B8%E6%88%8F/README#35-动画和速度调节)
   - [4. 💻 demo - 贪吃蛇小游戏 - 实现源码](https://tdahuyou.github.io/TNotes.canvas/notes/0051.%20%E8%B4%AA%E5%90%83%E8%9B%87%E5%B0%8F%E6%B8%B8%E6%88%8F/README#4--demo---贪吃蛇小游戏---实现源码)
 
-## 14. 图像 Image ⏰
+## 15. 图像 Image ⏰
 
 - [ ] [0031. 使用 ctx.clip 实现图像裁剪](https://tdahuyou.github.io/TNotes.canvas/notes/0031.%20%E4%BD%BF%E7%94%A8%20ctx.clip%20%E5%AE%9E%E7%8E%B0%E5%9B%BE%E5%83%8F%E8%A3%81%E5%89%AA/README)
   - [1. 🔗 References](https://tdahuyou.github.io/TNotes.canvas/notes/0031.%20%E4%BD%BF%E7%94%A8%20ctx.clip%20%E5%AE%9E%E7%8E%B0%E5%9B%BE%E5%83%8F%E8%A3%81%E5%89%AA/README#1--references)

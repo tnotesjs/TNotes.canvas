@@ -33,7 +33,7 @@
 :::
 
 - 最终效果：
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-02-11.png)
+  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-02-11.png)
 
 ## 4. 💻 demos.2 - 结合渐变效果，绘制一个立体的小球
 
@@ -45,4 +45,4 @@
 
 - 模拟场景：光源在左前方，阴影在右后方。
 - 最终效果：
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-02-24.png)
+  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-02-24.png)

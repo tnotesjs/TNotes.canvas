@@ -49,7 +49,7 @@
 :::
 
 - 最终效果
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-47-57.png)
+  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-47-57.png)
 
 ## 4. 💻 demos.2 - 约束图片尺寸
 
@@ -60,7 +60,7 @@
 :::
 
 - 最终效果
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-48-03.png)
+  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-48-03.png)
 
 ## 5. 💻 demos.3 - 裁剪图片
 
@@ -72,7 +72,7 @@
 
 - `ctx.globalAlpha = 0.5` 设置为半透明的效果，以便查看坐标。
 - 最终效果
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-48-10.png)
+  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-48-10.png)
 
 ## 6. 🔗 References
 

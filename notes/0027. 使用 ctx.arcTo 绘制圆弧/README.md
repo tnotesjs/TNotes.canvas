@@ -22,7 +22,7 @@
 :::
 
 - 最终效果：
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-10-58-45.png)
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-10-58-53.png)
+  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-10-58-45.png)
+  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-10-58-53.png)
 - **注意：**
   - 传入的参数并不决定绘制的线条的起点 or 终点，而仅仅是起到决定圆弧弧度的作用，这一点可以从 `2.html` 看出。

@@ -34,10 +34,10 @@
 
     <script src="./drawGrid.js"></script>
     <script>
-      const cavnas = document.createElement('canvas')
-      drawGrid(cavnas, 500, 500, 50)
-      document.body.appendChild(cavnas)
-      const ctx = cavnas.getContext('2d')
+      const canvas = document.createElement('canvas')
+      drawGrid(canvas, 500, 500, 50)
+      document.body.appendChild(canvas)
+      const ctx = canvas.getContext('2d')
 
       ctx.lineWidth = 10
       ctx.strokeStyle = 'red'
@@ -73,7 +73,7 @@
 
 点击【开始运动】按钮后，进度条会从起点加载到终点。
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-03-20.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-03-20.png)
 
 最终效果如下图所示。
 

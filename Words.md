@@ -9,4 +9,7 @@
     'sepia',
     'saturate',
     'contrast',
+    'miter',
+    'round',
+    'bevel'
 ]" />

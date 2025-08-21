@@ -2,77 +2,29 @@
 
 <!-- region:toc -->
 
-- [1. 📒 notes](#1--notes)
+- [1. 📝 概述](#1--概述)
 - [2. 💻 demo](#2--demo)
 
 <!-- endregion:toc -->
 
-## 1. 📒 notes
+## 1. 📝 概述
 
-学会使用 `ctx.lineJoin` 设置线条连接处的样式。
-
-- miter `>` 尖角
-- round `)` 圆角
-- bevel `]` 平角
-
-**单词**
-
-- miter，尖角
-- bevel，平角、斜角
+- 知识点：
+  - 学会使用 `ctx.lineJoin` 设置线条连接处的样式。
+- 评价：
+  - `lineJoin` 设置的是线条连接点处的角样式，可选值：
+    - miter `>` 尖角
+    - round `)` 圆角
+    - bevel `]` 平角、斜角
+  - 看一张图就明白了：
+    - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-18-20-14-47.png)
 
 ## 2. 💻 demo
 
-```html
-<!-- 1.html -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>demo</title>
-  </head>
-  <body>
-    <script src="./drawGrid.js"></script>
-    <script>
-      const cavnas = document.createElement('canvas')
-      cavnas.width = 500
-      cavnas.height = 500
-      document.body.appendChild(cavnas)
+::: code-group
 
-      drawGrid(cavnas, 500, 500, 50)
-      const ctx = cavnas.getContext('2d')
-      ctx.beginPath()
+<<< ./demos/1/1.html {20-46}
 
-      ctx.lineWidth = 30
-      ctx.strokeStyle = 'blue'
+:::
 
-      // miter   >
-      // round   )
-      // bevel   ]
-
-      ctx.lineJoin = 'miter' // 尖的（默认）
-      ctx.beginPath()
-      ctx.moveTo(100, 100)
-      ctx.lineTo(200, 200)
-      ctx.lineTo(300, 100)
-      ctx.stroke()
-
-      ctx.lineJoin = 'round' // 圆的
-      ctx.beginPath()
-      ctx.moveTo(100, 200)
-      ctx.lineTo(200, 300)
-      ctx.lineTo(300, 200)
-      ctx.stroke()
-
-      ctx.lineJoin = 'bevel' // 平的（斜角）
-      ctx.beginPath()
-      ctx.moveTo(100, 300)
-      ctx.lineTo(200, 400)
-      ctx.lineTo(300, 300)
-      ctx.stroke()
-    </script>
-  </body>
-</html>
-```
-
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-15-35.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-15-35.png)

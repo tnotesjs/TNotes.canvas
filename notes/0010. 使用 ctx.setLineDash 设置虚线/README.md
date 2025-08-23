@@ -2,13 +2,13 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 🫧 评价](#1--评价)
 - [2. 📒 `ctx.setLineDash`](#2--ctxsetlinedash)
 - [3. 💻 demos.1 - `ctx.setLineDash` 的基本使用](#3--demos1---ctxsetlinedash-的基本使用)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🫧 评价
 
 - 🎯 目标
   - 掌握 `ctx.setLineDash` 的基本使用

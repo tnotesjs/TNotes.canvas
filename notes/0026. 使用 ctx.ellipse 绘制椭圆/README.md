@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 🫧 评价](#1--评价)
 - [2. 💻 demos.1 - 使用 `ctx.ellipse` 绘制椭圆](#2--demos1---使用-ctxellipse-绘制椭圆)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🫧 评价
 
 - 掌握 `ctx.ellipse` 的基本使用。
 

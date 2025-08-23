@@ -7,13 +7,8 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
-      // ctx.translate 用于移动画布和其原点到一个新的位置。
-
-      // 注意：
-      // 1. 这玩意儿移动的是整个坐标系，而非指定的某个图像。
-      // 2. 这种变换是对后续的所有画布绘制操作起作用的，而不会影响已经绘制到画布上的内容。
       const canvas = document.createElement('canvas')
       drawGrid(canvas, 300, 300, 50)
       document.body.append(canvas)

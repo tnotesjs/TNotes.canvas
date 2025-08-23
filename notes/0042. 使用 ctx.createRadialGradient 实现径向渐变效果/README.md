@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 🫧 评价](#1--评价)
 - [2. 📒 `ctx.createRadialGradient`](#2--ctxcreateradialgradient)
 - [3. 💻 demos.1 - `ctx.createRadialGradient` 的基本使用](#3--demos1---ctxcreateradialgradient-的基本使用)
 - [4. 🔗 References](#4--references)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🫧 评价
 
 - 掌握 `ctx.createRadialGradient` 的基本使用
 

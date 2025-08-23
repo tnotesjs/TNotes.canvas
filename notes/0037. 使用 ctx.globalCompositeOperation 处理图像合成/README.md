@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 🫧 评价](#1--评价)
 - [2. 🔗 References](#2--references)
 - [3. 📒 notes](#3--notes)
 - [4. 💻 demo1](#4--demo1)
@@ -10,7 +10,7 @@
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🫧 评价
 
 理解单词 source（源）和目标 destination（目标）的含义，有助于对 `ctx.globalCompositeOperation` 的相关属性值（`source-over`、`destination-in`……）的理解。至于合成颜色，比如更亮 lighter、更暗 darken、颜色盘 hue 等等和颜色相关的，可以先跳过，因为还看不懂它的颜色具体是如何计算出来的，只要对最终呈现的效果有个大致的概念即可（比如你想要让合成区域亮一些，知道用 `lighter` 这个值来尝试下就行，至于如何微调就先不用去想了）。
 

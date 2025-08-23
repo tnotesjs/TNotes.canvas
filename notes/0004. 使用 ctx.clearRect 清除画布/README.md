@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 🫧 评价](#1--评价)
 - [2. 📒 `ctx.clearRect`](#2--ctxclearrect)
 - [3. 💻 demos.1 - 掌握 `ctx.clearRect` 的基本使用](#3--demos1---掌握-ctxclearrect-的基本使用)
 - [4. 💻 demos.2 - 运动的小球](#4--demos2---运动的小球)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🫧 评价
 
 - 🎯 目标
   - 掌握 `ctx.clearRect` 的基本使用

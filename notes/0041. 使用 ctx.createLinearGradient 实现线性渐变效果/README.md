@@ -2,13 +2,13 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 🫧 评价](#1--评价)
 - [2. 💻 demos.1 - `createLinearGradient` 的基本使用](#2--demos1---createlineargradient-的基本使用)
 - [3. 🔗 References](#3--references)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🫧 评价
 
 - 掌握 `createLinearGradient` 的基本使用
 

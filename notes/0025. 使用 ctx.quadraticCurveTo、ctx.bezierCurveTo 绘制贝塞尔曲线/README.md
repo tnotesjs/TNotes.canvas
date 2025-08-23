@@ -4,7 +4,7 @@
 
 - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
   - [TNotes.yuque.canvas.0025](https://www.yuque.com/tdahuyou/tnotes.yuque/canvas.0025)
-- [1. 📝 概述](#1--概述)
+- [1. 🫧 评价](#1--评价)
 - [2. 📒 二次、三次贝塞尔曲线绘制原理](#2--二次三次贝塞尔曲线绘制原理)
 - [3. 💻 demos.1 - 二次贝塞尔曲线](#3--demos1---二次贝塞尔曲线)
 - [4. 💻 demos.2 - 三次贝塞尔曲线](#4--demos2---三次贝塞尔曲线)
@@ -12,7 +12,7 @@
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🫧 评价
 
 - 学会如何使用 ctx.quadraticCurveTo、ctx.bezierCurveTo 绘制贝塞尔曲线
   - `ctx.quadraticCurveTo`、`ctx.bezierCurveTo` 这俩 API 的使用很简单，无非就是传入 2 个点还是 3 个点。

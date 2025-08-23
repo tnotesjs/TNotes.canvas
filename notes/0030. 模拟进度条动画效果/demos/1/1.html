@@ -20,21 +20,27 @@
       ctx.lineWidth = 10
       ctx.strokeStyle = 'red'
 
+      // 位于上方的参考线
       ctx.beginPath()
       ctx.moveTo(50, 100)
       ctx.lineTo(450, 100)
       ctx.stroke()
 
+      // 用于模拟进度条的线
       ctx.beginPath()
+      // 为了方便控制，将下面这 3 个核心属性的值设为相同值，保持长度统一。
+      // 设置虚线间隔为 400px
       ctx.setLineDash([400])
+      // 设置偏移量也为 400px
       ctx.lineDashOffset = 400
+      // 绘制的线段长度也为 400px
       ctx.moveTo(50, 200)
       ctx.lineTo(450, 200)
       ctx.stroke()
 
       function move() {
         ctx.lineDashOffset--
-        console.log(ctx.lineDashOffset)
+        // console.log('ctx.lineDashOffset', ctx.lineDashOffset) // 从 400 变到 0
         // 通过不断改变 lineDashOffset 的值，实现动画效果。
         ctx.stroke()
 

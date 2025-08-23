@@ -2,21 +2,27 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 💻 demos.2 - 创建新的 canvas](#2--demos2---创建新的-canvas)
-- [3. 💻 demos.1 - 查询已有的 canvas](#3--demos1---查询已有的-canvas)
+- [1. 🎯 目录](#1--目录)
+- [2. 🫧 评价](#2--评价)
+- [3. 💻 demos.2 - 创建新的 canvas](#3--demos2---创建新的-canvas)
+- [4. 💻 demos.1 - 查询已有的 canvas](#4--demos1---查询已有的-canvas)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🎯 目录
 
 - 学会使用 JSDoc 注释来标注 canvas 变量类型，以获取更好的 vscode 智能提示。
 
-## 2. 💻 demos.2 - 创建新的 canvas
+## 2. 🫧 评价
+
+- 如果是通过 JS 创建的 canvas 元素对象，那么默认是带有 vscode 的智能提示的。
+- 如果是通过 DOM 查询获取到的 canvas 元素对象，那么 vscode 的智能提示会丢失，这时候若想要获取更加友好的智能提示，就需要通过 JSDoc 来手动标注类型信息了。
+
+## 3. 💻 demos.2 - 创建新的 canvas
 
 ::: code-group
 
-<<< ./demos/2/1.html [1.html]
+<<< ./demos/2/1.html {10-13} [1.html]
 
 :::
 
@@ -27,7 +33,7 @@
   - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-01-33.png)
 - 但是，有些情况下，我们的 canvas 并非通过 `document.createElement('canvas')` 这种方式来创建的，而是显示地写在 html 中的标签 `<canvas></canvas>`，这时如果还想获取智能提示，可以通过 JSDoc 注释来解决。
 
-## 3. 💻 demos.1 - 查询已有的 canvas
+## 4. 💻 demos.1 - 查询已有的 canvas
 
 ::: code-group
 

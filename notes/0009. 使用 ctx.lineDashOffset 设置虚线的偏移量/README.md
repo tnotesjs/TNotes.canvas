@@ -2,13 +2,13 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 🫧 评价](#1--评价)
 - [2. 📒 `ctx.lineDashOffset`](#2--ctxlinedashoffset)
 - [3. 💻 demos.1 - 使用 `ctx.lineDashOffset` 设置虚线的偏移量](#3--demos1---使用-ctxlinedashoffset-设置虚线的偏移量)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🫧 评价
 
 - 🎯 目标
   - 掌握 `ctx.lineDashOffset` 的基本使用

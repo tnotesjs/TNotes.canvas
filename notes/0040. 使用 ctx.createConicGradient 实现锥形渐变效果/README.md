@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 🫧 评价](#1--评价)
 - [2. 📒 `ctx.createConicGradient(startAngle, x, y)`](#2--ctxcreateconicgradientstartangle-x-y)
 - [3. 💻 demos.1](#3--demos1)
 - [4. 🔗 References](#4--references)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🫧 评价
 
 - 掌握 `ctx.createConicGradient` 的基本使用
 

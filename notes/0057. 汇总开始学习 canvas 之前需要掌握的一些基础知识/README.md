@@ -1,20 +1,15 @@
-# [0057. 开始使用 canvas 概述](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0057.%20%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%20canvas%20%E6%A6%82%E8%BF%B0)
+# [0057. 汇总开始学习 canvas 之前需要掌握的一些基础知识](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0057.%20%E6%B1%87%E6%80%BB%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%20canvas%20%E4%B9%8B%E5%89%8D%E9%9C%80%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86)
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 📒 开始学习 `canvas` 绘图之前需要了解的一些基础知识点](#2--开始学习-canvas-绘图之前需要了解的一些基础知识点)
+- [1. 🫧 评价](#1--评价)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🫧 评价
 
-- 🎯 目标
-  - 对本小节接下来要介绍的内容有个初步印象。
-- 🫧 评价
-  - 对本小节的基础知识做了一个汇总，这些内容是学习 canvas 绘图之前需要掌握的一些基础知识。目的是为了后续更好地学习 canvas 绘图。
-
-## 2. 📒 开始学习 `canvas` 绘图之前需要了解的一些基础知识点
+- 对本小节的基础知识做了一个汇总，这些内容是学习 canvas 绘图之前需要掌握的一些基础知识。目的是为了后续更好地学习 canvas 绘图。
+- 开始学习 `canvas` 绘图之前需要了解的一些基础知识点
 
 | 基础知识 | 描述 |
 | --- | --- |

@@ -2,16 +2,22 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 💻 demos.1 - 使用 `ctx.roundRect()` 来绘制一个圆角矩形路径](#2--demos1---使用-ctxroundrect-来绘制一个圆角矩形路径)
+- [1. 🎯 目标](#1--目标)
+- [2. 🫧 评价](#2--评价)
+- [3. 💻 demos.1 - 使用 `ctx.roundRect()` 来绘制一个圆角矩形路径](#3--demos1---使用-ctxroundrect-来绘制一个圆角矩形路径)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🎯 目标
 
 - 掌握 `ctx.roundRect()` 的基本使用
 
-## 2. 💻 demos.1 - 使用 `ctx.roundRect()` 来绘制一个圆角矩形路径
+## 2. 🫧 评价
+
+- 很简单的一个 API，扫一眼 demo 即可。
+- 矩形 4 个角的圆角效果都可以独立设置。
+
+## 3. 💻 demos.1 - 使用 `ctx.roundRect()` 来绘制一个圆角矩形路径
 
 ::: code-group
 
@@ -27,10 +33,10 @@
 
 ::: swiper
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-47-41.png)
+![1.html](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-47-41.png)
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-47-52.png)
+![2.html](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-47-52.png)
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-48-02.png)
+![3.html](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-48-02.png)
 
 :::

@@ -2,24 +2,29 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 📒 `ctx.fillRect`](#2--ctxfillrect)
-- [3. 💻 demos.1 - 使用 `ctx.fillRect` 来绘制填充矩形](#3--demos1---使用-ctxfillrect-来绘制填充矩形)
+- [1. 🎯 目标](#1--目标)
+- [2. 🫧 评价](#2--评价)
+- [3. 📒 `ctx.fillRect`](#3--ctxfillrect)
+- [4. 💻 demos.1 - 使用 `ctx.fillRect` 来绘制填充矩形](#4--demos1---使用-ctxfillrect-来绘制填充矩形)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🎯 目标
 
 - 学会使用 `ctx.fillRect()` 来绘制一个填充矩形。
 
-## 2. 📒 `ctx.fillRect`
+## 2. 🫧 评价
+
+- 很简单的一个 API，扫一眼 demo 即可。
+
+## 3. 📒 `ctx.fillRect`
 
 - `ctx.fillRect(x, y, width, height)`
   - `(x, y)` 表示从哪个点开始绘制；
   - `width, height` 表示绘制的矩形的尺寸；
 - `fillRect` 顾名思义，这玩意儿绘制的是一个填充矩形。当你没有指定填充样式 `ctx.fillStyle` 的时候，默认将会绘制一个黑色的填充矩形。
 
-## 3. 💻 demos.1 - 使用 `ctx.fillRect` 来绘制填充矩形
+## 4. 💻 demos.1 - 使用 `ctx.fillRect` 来绘制填充矩形
 
 ::: code-group
 

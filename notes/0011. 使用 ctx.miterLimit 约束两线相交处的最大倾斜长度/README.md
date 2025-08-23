@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 🫧 评价](#1--评价)
 - [2. 📒 `miterLimit`](#2--miterlimit)
 - [3. 💻 demos.1 - `miterLimit` 的基本使用](#3--demos1---miterlimit-的基本使用)
 - [4. 🔗 References](#4--references)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🫧 评价
 
 - 🎯 目标
   - `miterLimit` 的基本使用

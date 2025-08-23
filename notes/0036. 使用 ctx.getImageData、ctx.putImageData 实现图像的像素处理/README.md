@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 🫧 评价](#1--评价)
 - [2. 🔗 References](#2--references)
 - [3. 📒 notes](#3--notes)
 - [4. 💻 demo1 - 置灰](#4--demo1---置灰)
@@ -11,7 +11,7 @@
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🫧 评价
 
 先对 `ctx.getImageData`、`ctx.putImageData` 的使用有个基本的了解即可。想要玩 6️⃣ 它们，还需要去学习图像颜色处理的更多知识。文档中提到的示例，处理逻辑都是：
 

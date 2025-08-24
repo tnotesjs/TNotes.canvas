@@ -2,21 +2,23 @@
 
 <!-- region:toc -->
 
-- [1. 🫧 评价](#1--评价)
-- [2. 📒 `ctx.setLineDash`](#2--ctxsetlinedash)
-- [3. 💻 demos.1 - `ctx.setLineDash` 的基本使用](#3--demos1---ctxsetlinedash-的基本使用)
+- [1. 🎯 目标](#1--目标)
+- [2. 🫧 评价](#2--评价)
+- [3. 📒 `ctx.setLineDash`](#3--ctxsetlinedash)
+- [4. 💻 demos.1 - `ctx.setLineDash` 的基本使用](#4--demos1---ctxsetlinedash-的基本使用)
 
 <!-- endregion:toc -->
 
-## 1. 🫧 评价
+## 1. 🎯 目标
 
-- 🎯 目标
-  - 掌握 `ctx.setLineDash` 的基本使用
-- 🫧 评价
-  - `ctx.setLineDash` 使用的核心难点在于理解参数的多种形式，它可以接收任意长度的数字数组，非常灵活，这使得它能绘制出各种类型的虚线。
-  - 虽然参数可以是任意长度的数字数字，但是绘制虚线的规律其实非常简单，只需要弄清楚每一段线段和空白的长度是如何计算的即可。
+- 掌握 `ctx.setLineDash` 的基本使用
 
-## 2. 📒 `ctx.setLineDash`
+## 2. 🫧 评价
+
+- `ctx.setLineDash` 使用的核心难点在于理解参数的多种形式，它可以接收任意长度的数字数组，非常灵活，这使得它能绘制出各种类型的虚线。
+- 虽然参数可以是任意长度的数字数字，但是绘制虚线的规律其实非常简单，只需要弄清楚每一段线段和空白的长度是如何计算的即可。
+
+## 3. 📒 `ctx.setLineDash`
 
 - `ctx.setLineDash` 可以用来设置虚线，它会根据我们传入的参数数量不同，选择使用不同的行为来设置虚线之间的间隙。
 - 不同的模式：
@@ -33,7 +35,7 @@
   - 2️⃣ 线段、空白、线段、空白、线段、空白
   - ![svg](./assets/1.svg)
 
-## 3. 💻 demos.1 - `ctx.setLineDash` 的基本使用
+## 4. 💻 demos.1 - `ctx.setLineDash` 的基本使用
 
 ::: code-group
 

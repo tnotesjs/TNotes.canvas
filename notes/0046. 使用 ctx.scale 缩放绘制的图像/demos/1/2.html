@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="../common/drawGrid.js"></script>
+    <script>
+      const canvas = document.createElement('canvas')
+      drawGrid(canvas, 500, 500, 50)
+      document.body.append(canvas)
+      const ctx = canvas.getContext('2d')
+
+      ctx.beginPath()
+      ctx.globalAlpha = 0.5
+
+      // 将画布原点移至中心
+      ctx.translate(canvas.width / 2, canvas.height / 2)
+
+      // 辅助点 标注出原点
+      ctx.fillStyle = 'blue'
+      ctx.arc(0, 0, 10, 0, Math.PI * 2)
+      ctx.fill()
+
+      // 辅助函数，使用相同的写法来绘制矩形。
+      const drawRect = () => ctx.fillRect(50, 50, 100, 100)
+
+      // 绘制一个原始大小的红色矩形
+      ctx.fillStyle = 'red'
+      drawRect()
+
+      // #region 水平翻转效果
+
+      ctx.save() // 保存当前的状态
+
+      // ctx.scale 如果传入的参数是负数，那么将会导致坐标系反转。
+      ctx.scale(-1, 1)
+      // 由于坐标系被翻转，所以这里的 x 坐标的正方向（向右）指向了原来的负方向（向左）。
+
+      // 绘制一个蓝色矩形，坐标和尺寸都跟前面的矩形一样。
+      ctx.fillStyle = 'blue'
+      drawRect() // 注意此时绘制的矩形的 x 坐标是负的
+
+      ctx.restore() // 恢复到之前保存的状态
+
+      // #endregion
+
+      // #region 垂直翻转效果
+
+      ctx.save()
+      ctx.scale(1, -1)
+      ctx.fillStyle = 'green'
+      drawRect() // 注意此时绘制的矩形的 y 坐标是负的
+      ctx.restore()
+
+      // #endregion
+    </script>
+  </body>
+</html>

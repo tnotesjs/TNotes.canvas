@@ -2,134 +2,82 @@
 
 <!-- region:toc -->
 
-- [1. 🫧 评价](#1--评价)
-- [2. 🔗 References](#2--references)
-- [3. 📒 notes](#3--notes)
-- [4. 💻 demo1](#4--demo1)
-- [5. 💻 demo2](#5--demo2)
+- [1. 🎯 目标](#1--目标)
+- [2. 🫧 评价](#2--评价)
+- [3. 📒 `ctx.scale`](#3--ctxscale)
+- [4. 💻 demos.1 - `ctx.scale` 的基本使用](#4--demos1---ctxscale-的基本使用)
+- [5. 🔗 References](#5--references)
 
 <!-- endregion:toc -->
 
-## 1. 🫧 评价
+## 1. 🎯 目标
 
-ctx.scale 用于在画布上缩放绘制的图像。通过传入负数，还能实现坐标的翻转。
+- 掌握 `ctx.scale` 的基本使用
 
-## 2. 🔗 References
+## 2. 🫧 评价
 
-- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/scale - MDN - CanvasRenderingContext2D：scale() 方法
+- 坐标系变换原理：`scale()` 并不会改变图形本身，而是 **变换整个绘图坐标系**：
+  - 原点 `(0,0)` 不变
+  - 单位长度被缩放
+  - 所有后续绘制都基于这个“被拉伸”的坐标系
+- 可以理解为：画布被“拉伸”了，你画的东西自然也跟着变大或变小。
+- `ctx.scale` 在实际开发中还蛮实用的，比如做缩放预览、高清适配或者手势放大时，一行代码就能让后续在画布上绘制的内容按比例缩放、实现镜像效果（水平翻转、垂直翻转）等。
+- 不过得小心它会“污染”后续绘制，记得用 `save()` 和 `restore()` 把作用范围锁住，在绘制完需要缩放的图形后，记得恢复到 `scale` 之前的状态，尽量不要污染后续的绘制操作。
 
-## 3. 📒 notes
+## 3. 📒 `ctx.scale`
 
-ctx.scale 用于在画布上缩放绘制的图像。
+- [`ctx.scale`][1] 用于在画布上缩放绘制的图像。
 
-通过这个方法，你可以更改画布上图形的大小，而不改变图形本身的定义。
-
-**注意：**
-
-1. 这玩意儿不会对之前绘制的图像起作用。
-2. 这玩意儿如果传入的参数是负数，那么将会导致坐标系反转。
-3. 这种变换对后续的所有绘图操作都是有效的，直到画布的缩放状态被重置或修改。
-
-## 4. 💻 demo1
-
-```html
-<!-- 1.html -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <script src="./drawGrid.js"></script>
-    <script>
-      // ctx.scale 用于在画布上缩放绘制的图像。
-
-      // 通过这个方法，你可以更改画布上图形的大小，而不改变图形本身的定义。
-
-      // 注意：
-      // 1. 这玩意儿不会对之前绘制的图像起作用。
-      // 2. 这种变换对后续的所有绘图操作都是有效的，直到画布的缩放状态被重置或修改。
-
-      const canvas = document.createElement('canvas')
-      drawGrid(canvas, 300, 300, 50)
-      document.body.append(canvas)
-      const ctx = canvas.getContext('2d')
-
-      ctx.beginPath()
-      ctx.globalAlpha = 0.5
-
-      // 绘制一个原始大小的红色矩形
-      ctx.fillStyle = 'red'
-      ctx.fillRect(10, 10, 50, 50)
-
-      // 缩放画布
-      ctx.scale(2, 2)
-      // 横向缩放 2 倍，纵向缩放 2 倍
-
-      // 在缩放后的画布上绘制一个蓝色矩形
-      ctx.fillStyle = 'blue'
-      ctx.fillRect(10, 10, 50, 50)
-
-      // 两次在同一个位置绘制同样尺寸的矩形。
-      // 在坐标被缩放后，这两个矩形绘制的位置和尺寸都是不一样的。
-      // 主要原因在于坐标的刻度改变了，原坐标系的两个刻度相当于新坐标系的一个刻度。
-    </script>
-  </body>
-</html>
+```js
+ctx.scale(sx, sy)
 ```
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-05-25.png)
+- 参数说明：
+  - `sx`：x 轴方向的缩放因子（scale factor）
+  - `sy`：y 轴方向的缩放因子（scale factor）
+  - 注意：`sy` 是可选的。如果未提供，则默认与 `sx` 相同（即等比缩放）。
+- 通过这个方法，你可以更改画布上图形的大小，而不改变图形本身的定义。
+- 常用于：放大细节、创建镜像、适配不同分辨率、实现缩放动画等。
+- 不会对之前绘制的图像起作用，但会影响所有后续绘制操作。
+- 如果传入的参数是负数，那么将会导致坐标系反转，从而实现水平翻转、垂直翻转的效果。
+- 这种变换对后续的所有绘图操作都是有效的，直到画布的缩放状态被重置或修改，因此建议配合 `save()` / `restore()` 使用，比如，可以在缩放坐标系之前保存一下状态，完成绘制之后再恢复状态。
+- 常见用法：
 
-## 5. 💻 demo2
+| 用法                  | 说明                                  |
+| --------------------- | ------------------------------------- |
+| `ctx.scale(1, -1)`    | 垂直翻转（常用于将 y 轴改为向上为正） |
+| `ctx.scale(-1, 1)`    | 水平翻转                              |
+| `ctx.scale(0.5, 0.5)` | 整体缩小为原来的一半（适合做缩略图）  |
 
-```html
-<!-- 2.html -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <script src="./drawGrid.js"></script>
-    <script>
-      // ctx.scale 这玩意儿如果传入的参数是负数，那么将会导致坐标系反转。
+## 4. 💻 demos.1 - `ctx.scale` 的基本使用
 
-      const canvas = document.createElement('canvas')
-      drawGrid(canvas, 500, 500, 50)
-      document.body.append(canvas)
-      const ctx = canvas.getContext('2d')
+::: code-group
 
-      ctx.beginPath()
-      ctx.globalAlpha = 0.5
+<<< ./demos/1/1.html {20-35}
 
-      // 将画布原点移至中心
-      ctx.translate(canvas.width / 2, canvas.height / 2)
+<<< ./demos/1/2.html {20-59}
 
-      // 辅助点 标注出原点
-      ctx.fillStyle = 'blue'
-      ctx.arc(0, 0, 10, 0, Math.PI * 2)
-      ctx.fill()
+<<< ./demos/1/3.html {20-47}
 
-      // 绘制一个原始大小的红色矩形
-      ctx.fillStyle = 'red'
-      ctx.fillRect(50, 50, 100, 100)
+:::
 
-      // 水平翻转
-      ctx.scale(-1, 1)
-      // 由于坐标系被翻转，所以这里的 x 坐标的正方向（向右）指向了原来的负方向（向左）。
+::: swiper
 
-      // 绘制一个蓝色矩形，坐标和尺寸都跟前面的矩形一样。
-      ctx.fillStyle = 'blue'
-      ctx.fillRect(50, 50, 100, 100) // 注意这里的 x 坐标是负的
-    </script>
-  </body>
-</html>
-```
+![1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-05-25.png)
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-05-36.png)
+![2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-24-22-18-23.png)
+
+![3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-24-22-18-30.png)
+
+:::
+
+- `1.html` 缩放效果
+- `2.html` 镜像效果
+- `3.html` 对比 `2.html`，理解 `ctx.save()`、`ctx.restore()` 在这种坐标变换效果中起到的作用 —— 避免“污染”后续绘图环境。
+
+## 5. 🔗 References
+
+- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/scale
+- MDN - CanvasRenderingContext2D：scale() 方法
+
+[1]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/scale

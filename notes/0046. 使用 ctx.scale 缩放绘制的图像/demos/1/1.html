@@ -7,16 +7,8 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
-      // ctx.scale 用于在画布上缩放绘制的图像。
-
-      // 通过这个方法，你可以更改画布上图形的大小，而不改变图形本身的定义。
-
-      // 注意：
-      // 1. 这玩意儿不会对之前绘制的图像起作用。
-      // 2. 这种变换对后续的所有绘图操作都是有效的，直到画布的缩放状态被重置或修改。
-
       const canvas = document.createElement('canvas')
       drawGrid(canvas, 300, 300, 50)
       document.body.append(canvas)
@@ -40,6 +32,7 @@
       // 两次在同一个位置绘制同样尺寸的矩形。
       // 在坐标被缩放后，这两个矩形绘制的位置和尺寸都是不一样的。
       // 主要原因在于坐标的刻度改变了，原坐标系的两个刻度相当于新坐标系的一个刻度。
+      // 在坐标缩放后绘制的蓝色矩形，其宽度和高度都是红色矩形的两倍。
     </script>
   </body>
 </html>

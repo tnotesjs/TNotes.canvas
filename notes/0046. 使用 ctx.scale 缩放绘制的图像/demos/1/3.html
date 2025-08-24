@@ -7,10 +7,8 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="./drawGrid.js"></script>
+    <script src="../common/drawGrid.js"></script>
     <script>
-      // ctx.scale 这玩意儿如果传入的参数是负数，那么将会导致坐标系反转。
-
       const canvas = document.createElement('canvas')
       drawGrid(canvas, 500, 500, 50)
       document.body.append(canvas)
@@ -27,17 +25,26 @@
       ctx.arc(0, 0, 10, 0, Math.PI * 2)
       ctx.fill()
 
+      // 辅助函数，使用相同的写法来绘制矩形。
+      const drawRect = () => ctx.fillRect(50, 50, 100, 100)
+
       // 绘制一个原始大小的红色矩形
       ctx.fillStyle = 'red'
-      ctx.fillRect(50, 50, 100, 100)
+      drawRect()
 
-      // 水平翻转
+      // 水平翻转效果
       ctx.scale(-1, 1)
-      // 由于坐标系被翻转，所以这里的 x 坐标的正方向（向右）指向了原来的负方向（向左）。
-
-      // 绘制一个蓝色矩形，坐标和尺寸都跟前面的矩形一样。
       ctx.fillStyle = 'blue'
-      ctx.fillRect(50, 50, 100, 100) // 注意这里的 x 坐标是负的
+      drawRect()
+
+      // 垂直翻转效果
+      ctx.scale(1, -1)
+      ctx.fillStyle = 'green'
+      drawRect()
+
+      // 和 2.html 类似
+      // 区别在于实现水平翻转、垂直翻转的时候，没有使用 save() 和 restore() 来保存和恢复状态。
+      // 这会导致后续操作会被污染，坐标翻转被叠加，如果这不是你想要的效果，请使用 save() 和 restore() 来保存和恢复状态。
     </script>
   </body>
 </html>

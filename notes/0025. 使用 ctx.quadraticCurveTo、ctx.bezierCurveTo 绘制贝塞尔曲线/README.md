@@ -4,22 +4,27 @@
 
 - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
   - [TNotes.yuque.canvas.0025](https://www.yuque.com/tdahuyou/tnotes.yuque/canvas.0025)
-- [1. 🫧 评价](#1--评价)
-- [2. 📒 二次、三次贝塞尔曲线绘制原理](#2--二次三次贝塞尔曲线绘制原理)
-- [3. 💻 demos.1 - 二次贝塞尔曲线](#3--demos1---二次贝塞尔曲线)
-- [4. 💻 demos.2 - 三次贝塞尔曲线](#4--demos2---三次贝塞尔曲线)
-- [5. 🔗 References](#5--references)
+- [1. 🎯 目标](#1--目标)
+- [2. 🫧 评价](#2--评价)
+- [3. 📒 二次、三次贝塞尔曲线绘制原理](#3--二次三次贝塞尔曲线绘制原理)
+- [4. 💻 demos.1 - 二次贝塞尔曲线](#4--demos1---二次贝塞尔曲线)
+- [5. 💻 demos.2 - 三次贝塞尔曲线](#5--demos2---三次贝塞尔曲线)
+- [6. 🔗 References](#6--references)
 
 <!-- endregion:toc -->
 
-## 1. 🫧 评价
+## 1. 🎯 目标
 
-- 学会如何使用 ctx.quadraticCurveTo、ctx.bezierCurveTo 绘制贝塞尔曲线
-  - `ctx.quadraticCurveTo`、`ctx.bezierCurveTo` 这俩 API 的使用很简单，无非就是传入 2 个点还是 3 个点。
-  - 重点在于理解贝塞尔曲线的绘制原理。理解原理后，自然就理解这俩 API 应该如何使用了。
-- 目标：通过笔记中对“二次、三次贝塞尔曲线绘制原理”的简介，能够理解 demos 中绘制出的曲线形状为啥长这样即可。
+- 学会如何使用 `ctx.quadraticCurveTo`、`ctx.bezierCurveTo` 绘制贝塞尔曲线
 
-## 2. 📒 二次、三次贝塞尔曲线绘制原理
+## 2. 🫧 评价
+
+- `ctx.quadraticCurveTo`、`ctx.bezierCurveTo` 这俩 API 的使用很简单，无非就是传入 2 个点还是 3 个点。
+- 重点在于理解贝塞尔曲线的绘制原理，理解原理后，自然就理解这俩 API 应该如何使用了。
+- 通过笔记中对“二次、三次贝塞尔曲线绘制原理”的简介，能够理解 demos 中绘制出的曲线形状为啥长这样即可。
+- 笔记中提到的绘制公式，简单过一眼就行，感兴趣的话，也可以在纸上试着画一下，知道比例关系分别是哪些边比哪些边。
+
+## 3. 📒 二次、三次贝塞尔曲线绘制原理
 
 - 贝塞尔曲线的相关内容，是个通用的知识点，在学习 canvas、svg、css 等跟 UI 绘图相关的技术时都会接触到。
   - 在 canvas、svg 中，我们通过指定起点、终点和控制点的坐标，来绘制二次、三次贝塞尔曲线。
@@ -71,7 +76,7 @@
     - 当 t 介于 0-1 之间时，可以通过上述规则找到 P03 点的位置；
     - 这意味着，当 t 从 0 变到 1 时，会获得无数个 P03 点，这就形成了一个光滑的曲线 —— 由无数个 P03 点连成的曲线；
 
-## 3. 💻 demos.1 - 二次贝塞尔曲线
+## 4. 💻 demos.1 - 二次贝塞尔曲线
 
 ::: code-group
 
@@ -81,7 +86,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-10-53-14.png)
 
-## 4. 💻 demos.2 - 三次贝塞尔曲线
+## 5. 💻 demos.2 - 三次贝塞尔曲线
 
 ::: code-group
 
@@ -91,7 +96,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-10-53-26.png)
 
-## 5. 🔗 References
+## 6. 🔗 References
 
 - https://blog.csdn.net/m0_37602827/article/details/118165217
   - 这是 CSDN 上的一篇介绍贝塞尔曲线原理的文章。

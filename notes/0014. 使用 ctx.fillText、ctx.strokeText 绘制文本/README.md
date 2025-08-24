@@ -2,13 +2,13 @@
 
 <!-- region:toc -->
 
-- [1. 🫧 评价](#1--评价)
+- [1. 🎯 目标](#1--目标)
 - [2. 📒 `ctx.fillText`、`ctx.strokeText`](#2--ctxfilltextctxstroketext)
 - [3. 💻 demos.1 - `ctx.fillText` 和 `ctx.strokeText` 的基本使用](#3--demos1---ctxfilltext-和-ctxstroketext-的基本使用)
 
 <!-- endregion:toc -->
 
-## 1. 🫧 评价
+## 1. 🎯 目标
 
 - 掌握 `ctx.fillText` 和 `ctx.strokeText` 的基本使用
 

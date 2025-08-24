@@ -2,29 +2,35 @@
 
 <!-- region:toc -->
 
-- [1. 🫧 评价](#1--评价)
-- [2. 📒 `ctx.filter`](#2--ctxfilter)
-- [3. 💻 公共的辅助模块](#3--公共的辅助模块)
-- [4. 💻 demos.1 - blur](#4--demos1---blur)
-- [5. 💻 demos.2 - brightness](#5--demos2---brightness)
-- [6. 💻 demos.3 - hue-rotate](#6--demos3---hue-rotate)
-- [7. 💻 demos.4 - drop-shadow](#7--demos4---drop-shadow)
-- [8. 💻 demos.5 - invert](#8--demos5---invert)
-- [9. 💻 demos.6 - sepia](#9--demos6---sepia)
-- [10. 💻 demos.7 - grayscale](#10--demos7---grayscale)
-- [11. 💻 demos.8 - saturate](#11--demos8---saturate)
-- [12. 💻 demos.9 - contrast](#12--demos9---contrast)
-- [13. 💻 demos.10 - 使用 url 引用 svg 滤镜](#13--demos10---使用-url-引用-svg-滤镜)
-- [14. 💻 demos.11 - opacity](#14--demos11---opacity)
-- [15. 🔗 References](#15--references)
+- [1. 🎯 目标](#1--目标)
+- [2. 🫧 评价](#2--评价)
+- [3. 📒 `ctx.filter`](#3--ctxfilter)
+- [4. 💻 公共的辅助模块](#4--公共的辅助模块)
+- [5. 💻 demos.1 - blur](#5--demos1---blur)
+- [6. 💻 demos.2 - brightness](#6--demos2---brightness)
+- [7. 💻 demos.3 - hue-rotate](#7--demos3---hue-rotate)
+- [8. 💻 demos.4 - drop-shadow](#8--demos4---drop-shadow)
+- [9. 💻 demos.5 - invert](#9--demos5---invert)
+- [10. 💻 demos.6 - sepia](#10--demos6---sepia)
+- [11. 💻 demos.7 - grayscale](#11--demos7---grayscale)
+- [12. 💻 demos.8 - saturate](#12--demos8---saturate)
+- [13. 💻 demos.9 - contrast](#13--demos9---contrast)
+- [14. 💻 demos.10 - 使用 url 引用 svg 滤镜](#14--demos10---使用-url-引用-svg-滤镜)
+- [15. 💻 demos.11 - opacity](#15--demos11---opacity)
+- [16. 🔗 References](#16--references)
 
 <!-- endregion:toc -->
 
-## 1. 🫧 评价
+## 1. 🎯 目标
 
 - 掌握 `ctx.filter` 的基本使用
 
-## 2. 📒 `ctx.filter`
+## 2. 🫧 评价
+
+- `ctx.filter` 是用来设置画布上图像的滤镜效果的，可选值比较多，快速过一遍 demos 了解大致都有哪些效果即可。
+- 也可以结合笔记中提供的表格来快速了解渐变效果都有哪些。
+
+## 3. 📒 `ctx.filter`
 
 - `ctx.filter` 用于设置滤镜效果，跟 css 中的滤镜语法、功能都非常类似。
 
@@ -42,7 +48,7 @@
 | `url()`       | 引用 SVG 滤镜资源，通过 URL 引用定义在 SVG 中的滤镜 |
 | `opacity`     | 调整图像的不透明度，参数为百分比                    |
 
-## 3. 💻 公共的辅助模块
+## 4. 💻 公共的辅助模块
 
 - 事先准备一些公共的辅助模块：
 
@@ -56,7 +62,7 @@
 
 :::
 
-## 4. 💻 demos.1 - blur
+## 5. 💻 demos.1 - blur
 
 ::: code-group
 
@@ -66,7 +72,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-05-21.png)
 
-## 5. 💻 demos.2 - brightness
+## 6. 💻 demos.2 - brightness
 
 ::: code-group
 
@@ -76,7 +82,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-05-31.png)
 
-## 6. 💻 demos.3 - hue-rotate
+## 7. 💻 demos.3 - hue-rotate
 
 ::: code-group
 
@@ -86,7 +92,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-05-41.png)
 
-## 7. 💻 demos.4 - drop-shadow
+## 8. 💻 demos.4 - drop-shadow
 
 ::: code-group
 
@@ -96,7 +102,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-05-51.png)
 
-## 8. 💻 demos.5 - invert
+## 9. 💻 demos.5 - invert
 
 ::: code-group
 
@@ -106,7 +112,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-02.png)
 
-## 9. 💻 demos.6 - sepia
+## 10. 💻 demos.6 - sepia
 
 ::: code-group
 
@@ -116,7 +122,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-13.png)
 
-## 10. 💻 demos.7 - grayscale
+## 11. 💻 demos.7 - grayscale
 
 ::: code-group
 
@@ -126,7 +132,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-26.png)
 
-## 11. 💻 demos.8 - saturate
+## 12. 💻 demos.8 - saturate
 
 ::: code-group
 
@@ -136,7 +142,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-37.png)
 
-## 12. 💻 demos.9 - contrast
+## 13. 💻 demos.9 - contrast
 
 ::: code-group
 
@@ -146,7 +152,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-50.png)
 
-## 13. 💻 demos.10 - 使用 url 引用 svg 滤镜
+## 14. 💻 demos.10 - 使用 url 引用 svg 滤镜
 
 ::: code-group
 
@@ -156,7 +162,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-07-07.png)
 
-## 14. 💻 demos.11 - opacity
+## 15. 💻 demos.11 - opacity
 
 ::: code-group
 
@@ -166,7 +172,7 @@
 
 ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-15-06-12-31.png)
 
-## 15. 🔗 References
+## 16. 🔗 References
 
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/filter
   - MDN - `ctx.filter`

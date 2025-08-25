@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      canvas {
+        border: 1px solid #888;
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="../common/drawGrid.js"></script>
+    <script>
+      // nonzero 示例
+      {
+        const canvas = document.createElement('canvas')
+        drawGrid(canvas, 400, 400, 50)
+        document.body.append(canvas)
+        const ctx = canvas.getContext('2d')
+
+        ctx.lineWidth = 5
+        ctx.fillStyle = '#2d66bd'
+        ctx.strokeStyle = '#e83727'
+
+        ctx.beginPath()
+        ctx.moveTo(100, 100)
+        ctx.lineTo(350, 150)
+        ctx.lineTo(225, 400)
+        ctx.lineTo(100, 100)
+        ctx.lineTo(220, 50)
+        ctx.lineTo(360, 360)
+        ctx.lineTo(100, 100)
+        ctx.clip('nonzero')
+        // nonzero 是默认值，因此 ctx.clip() 不传递参数效果也是一样的效果。
+
+        ctx.fillRect(0, 0, canvas.width, canvas.height)
+        ctx.stroke()
+      }
+
+      // evenodd 示例
+      {
+        const canvas = document.createElement('canvas')
+        drawGrid(canvas, 400, 400, 50)
+        document.body.append(canvas)
+        const ctx = canvas.getContext('2d')
+
+        ctx.lineWidth = 5
+        ctx.fillStyle = '#2d66bd'
+        ctx.strokeStyle = '#e83727'
+
+        ctx.beginPath()
+        ctx.moveTo(100, 100)
+        ctx.lineTo(350, 150)
+        ctx.lineTo(225, 400)
+        ctx.lineTo(100, 100)
+        ctx.lineTo(220, 50)
+        ctx.lineTo(360, 360)
+        ctx.lineTo(100, 100)
+        ctx.clip('evenodd')
+
+        ctx.fillRect(0, 0, canvas.width, canvas.height)
+        ctx.stroke()
+      }
+    </script>
+  </body>
+</html>

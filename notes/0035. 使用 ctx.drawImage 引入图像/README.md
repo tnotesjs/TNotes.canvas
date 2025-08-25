@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 
-- [1. 🫧 评价](#1--评价)
-- [2. 📒 `ctx.drawImage`](#2--ctxdrawimage)
+- [1. 🎯 目标](#1--目标)
+- [2. 🫧 评价](#2--评价)
 - [3. 💻 demos.1 - 保持图片原始尺寸](#3--demos1---保持图片原始尺寸)
 - [4. 💻 demos.2 - 约束图片尺寸](#4--demos2---约束图片尺寸)
 - [5. 💻 demos.3 - 裁剪图片](#5--demos3---裁剪图片)
@@ -11,11 +11,11 @@
 
 <!-- endregion:toc -->
 
-## 1. 🫧 评价
+## 1. 🎯 目标
 
 - 掌握 `ctx.drawImage` 的基本使用
 
-## 2. 📒 `ctx.drawImage`
+## 2. 🫧 评价
 
 - `ctx.drawImage` draw 表示画，Image 表示图片，顾名思义，这 API 是用来画图片的。
 - `ctx.drawImage` 常见有 3 种写法，其中“截图”功能比较 🐂 🍺，可以玩出很多花样。

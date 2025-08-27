@@ -26,4 +26,4 @@
 - 原理：
   - 通过不断设置虚线的位移 `lineDashOffset` 来实现的动画效果。
 - 最终效果：
-  - ![gif](assets/矩形边框旋转动画.gif)
+  - ![gif](./assets/矩形边框旋转动画.gif)

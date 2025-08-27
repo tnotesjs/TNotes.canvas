@@ -2,95 +2,64 @@
 
 <!-- region:toc -->
 
-- [1. 🫧 评价](#1--评价)
-- [2. 📒 notes](#2--notes)
-- [3. 💻 demo1](#3--demo1)
+- [1. 🎯 目标](#1--目标)
+- [2. 🫧 评价](#2--评价)
+- [3. 💻 demos.1 - 处理视频图像](#3--demos1---处理视频图像)
+- [4. 💻 demos.2 - 实现人物奔跑动画效果](#4--demos2---实现人物奔跑动画效果)
 
 <!-- endregion:toc -->
 
-## 1. 🫧 评价
+## 1. 🎯 目标
 
-## 2. 📒 notes
+- 掌握 `ctx.drawImage` 的基本使用
+- 通过 `demos.1` 了解 `ctx.drawImage` 的一些特殊用法 - 比如视频图像处理
+- 通过 `demos.2` 能够理解人物的运动原理 - 本质上使用的是 `ctx.drawImage` 的“截图”功能
 
-可以使用 ctx.drawImage 来处理视频图像，这个功能点有些 🐂 🍺，水应该蛮深的。
+## 2. 🫧 评价
 
-可以将视频数据作为 ctx.drawImage 的第一个参数传入，将会绘制视频当前播放帧的图像，并且可以使用 canvas 技术来对图像做一些额外的处理，实现一些特殊效果。
+- 视频处理
+  - 可以使用 `ctx.drawImage` 来处理视频图像，这个功能点有些 🐂 🍺，水应该蛮深的（至少目前对于视频处理这一块，还是技术盲区）。
+  - 可以将视频数据作为 `ctx.drawImage` 的第一个参数传入，将会绘制视频当前播放帧的图像，并且可以使用 canvas 技术来对图像做一些额外的处理，实现一些特殊效果。
+  - 获取到视频图像数据后，结合 canvas 技术会有不少玩法。比如：
+    - 可以对视频图像加一个滤镜、裁剪效果。
+    - 由于 canvas 本身就是一张图片，你可以设置一个下载图片的钩子，想要获取某一帧图像时，执行钩子即可。
+- 使用 `ctx.drawImage` 实现人物奔跑动画效果
+  - 人物的运动原理本质上使用的是 `ctx.drawImage` 的“截图”功能，然后再加一个定时器，实现定时截图，就好比一个幻灯片在不断切换一样。
 
-获取到视频图像数据后，结合 canvas 技术会有不少玩法。比如：
+## 3. 💻 demos.1 - 处理视频图像
 
-- 可以对视频图像加一个滤镜、裁剪效果。
-- 由于 canvas 本身就是一张图片，你可以设置一个下载图片的钩子，想要获取某一帧图像时，执行钩子即可。
-- ……
+::: code-group
 
-## 3. 💻 demo1
+<<< ./demos/1/1.html {}
 
-```html
-<!-- 1.html -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div>
-      <video
-        src="./01.mp4"
-        autoplay
-        controls
-        width="400"
-        height="400"
-        muted
-      ></video>
-      <!--
-        autoplay 属性表示视频加载完成后自动播放
-        controls 属性表示显示播放控件
-        muted 属性表示静音播放
+<<< ./demos/1/1.js {}
 
-        注意：如果要设置自动播放的话，需要设置 muted 属性，否则浏览器会阻止自动播放。
-       -->
-    </div>
+:::
 
-    <script>
-      const canvas = document.createElement('canvas')
-      canvas.width = 400
-      canvas.height = 400
-      document.body.append(canvas)
+- 视频素材随便上网找即可，丢到 github 之前已将所有 `*.mp4` 资源给忽略了。
+- 最终效果：
+  - ![gif](./assets/使用%20ctx.drawImage%20绘制视频图像.gif)
+  - 上面是原始视频。
+  - 下面是获取到的视频图像，并对获取到的视频图像进行了一些处理。
 
-      const ctx = canvas.getContext('2d')
+## 4. 💻 demos.2 - 实现人物奔跑动画效果
 
-      const video = document.querySelector('video')
-      video.addEventListener('play', draw) // 当视频播放后，调用 draw 函数
+::: code-group
 
-      ctx.arc(200, 200, 150, 0, Math.PI * 2)
-      ctx.clip()
-      // 表示裁剪出一个圆形区域
+<<< ./demos/2/1.js {}
 
-      // 可以加一些滤镜效果（有关滤镜的相关知识点，在后续内容中会介绍。）
-      ctx.filter = 'blur(5px)' // 表示 5px 的模糊效果
-      ctx.filter = 'invert(0.8)' // 表示反色效果
+<<< ./demos/2/2.js {}
 
-      function draw() {
-        ctx.clearRect(0, 0, 400, 400)
-        ctx.drawImage(video, 0, 0, 400, 400)
-        requestAnimationFrame(draw)
-      }
+<<< ./demos/2/3.js {}
 
-      // requestAnimationFrame 是一个用于创建平滑动画效果的浏览器 API
-      // 与浏览器的帧刷新率（通常是60次/秒，即每16.67毫秒一帧）同步
+:::
 
-      // requestAnimationFrame(draw)
-      // 请求浏览器在下次重新绘制之前调用 draw 函数，从而创建一个动画循环。
-      // 通常用于实现高效率的、平滑的动画效果。
-    </script>
-  </body>
-</html>
-```
+::: swiper
 
-![](assets/使用%20ctx.drawImage%20绘制视频图像.gif)
+![1 素材](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-40-47.png)
 
-上面是原始视频。
+![2 原地跑](./assets/使用%20ctx.drawImage%20实现人物奔跑动画效果-原地跑.gif)
 
-下面是获取到的视频图像，并对获取到的视频图像进行了一些处理。
+![3 向前跑](./assets/使用%20ctx.drawImage%20实现人物奔跑动画效果-向前跑.gif)
+
+:::

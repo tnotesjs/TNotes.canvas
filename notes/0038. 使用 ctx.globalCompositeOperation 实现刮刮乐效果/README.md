@@ -9,7 +9,7 @@
 
 ## 1. 🫧 评价
 
-看懂实现原理即可。这个效果挺好玩的，不过想要监听结果如何出现，不太容易。 **最终效果展示：** ![](assets/使用%20ctx.globalCompositeOperation%20实现刮刮乐效果.gif)
+看懂实现原理即可。这个效果挺好玩的，不过想要监听结果如何出现，不太容易。 **最终效果展示：** ![](./assets/使用%20ctx.globalCompositeOperation%20实现刮刮乐效果.gif)
 
 ## 2. 💻 demo1
 
@@ -93,4 +93,4 @@ canvas {
 </html>
 ```
 
-![](assets/使用%20ctx.globalCompositeOperation%20实现刮刮乐效果.gif)
+![](./assets/使用%20ctx.globalCompositeOperation%20实现刮刮乐效果.gif)

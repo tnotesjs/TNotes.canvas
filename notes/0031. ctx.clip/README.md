@@ -28,8 +28,7 @@
 - 对于填充规则的介绍，笔记中的大量内容引用了[“张鑫旭”老师的博客文章 —— 搞懂 SVG/Canvas 中 nonzero 和 evenodd 填充规则][1]。
 - nonzero 和 evenodd 填充规则在 TNotes.svg 知识库中也有提及，直接搜关键字应该就能找到对应的笔记。
 - 在阅读“`fillRule` 填充规则 - `nonzero` 和 `evenodd`”的时候，可以结合着 `demos.3` 一起看。
-- ⏰ TODO：
-  - demos.4 没看懂最终的渲染结果……
+- ⏰ `demos.4` 没看懂最终的渲染结果……
 
 ## 3. 📒 `ctx.clip` 简介
 

@@ -269,7 +269,7 @@
   - [2. 🫧 评价](https://tdahuyou.github.io/TNotes.canvas/notes/0033.%20ctx.drawImage/README#2--评价)
   - [3. 💻 demos.1 - 处理视频图像](https://tdahuyou.github.io/TNotes.canvas/notes/0033.%20ctx.drawImage/README#3--demos1---处理视频图像)
   - [4. 💻 demos.2 - 实现人物奔跑动画效果](https://tdahuyou.github.io/TNotes.canvas/notes/0033.%20ctx.drawImage/README#4--demos2---实现人物奔跑动画效果)
-- [ ] [0036. ctx.getImageData、ctx.putImageData](https://tdahuyou.github.io/TNotes.canvas/notes/0036.%20ctx.getImageData%E3%80%81ctx.putImageData/README)
+- [x] [0036. ctx.getImageData、ctx.putImageData](https://tdahuyou.github.io/TNotes.canvas/notes/0036.%20ctx.getImageData%E3%80%81ctx.putImageData/README)
   - [1. 🎯 目标](https://tdahuyou.github.io/TNotes.canvas/notes/0036.%20ctx.getImageData%E3%80%81ctx.putImageData/README#1--目标)
   - [2. 🫧 评价](https://tdahuyou.github.io/TNotes.canvas/notes/0036.%20ctx.getImageData%E3%80%81ctx.putImageData/README#2--评价)
   - [3. 📒 `ctx.getImageData`、`ctx.putImageData`](https://tdahuyou.github.io/TNotes.canvas/notes/0036.%20ctx.getImageData%E3%80%81ctx.putImageData/README#3--ctxgetimagedatactxputimagedata)

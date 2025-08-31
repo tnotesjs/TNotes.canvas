@@ -292,9 +292,10 @@
   - [2. 🫧 评价](https://tdahuyou.github.io/TNotes.canvas/notes/0038.%20%E4%BD%BF%E7%94%A8%20ctx.globalCompositeOperation%20%E5%AE%9E%E7%8E%B0%E5%88%AE%E5%88%AE%E4%B9%90%E6%95%88%E6%9E%9C/README#2--评价)
   - [3. 💻 demos.1 - 刮刮乐](https://tdahuyou.github.io/TNotes.canvas/notes/0038.%20%E4%BD%BF%E7%94%A8%20ctx.globalCompositeOperation%20%E5%AE%9E%E7%8E%B0%E5%88%AE%E5%88%AE%E4%B9%90%E6%95%88%E6%9E%9C/README#3--demos1---刮刮乐)
   - [4. 💻 demos.2 - 多张刮刮乐](https://tdahuyou.github.io/TNotes.canvas/notes/0038.%20%E4%BD%BF%E7%94%A8%20ctx.globalCompositeOperation%20%E5%AE%9E%E7%8E%B0%E5%88%AE%E5%88%AE%E4%B9%90%E6%95%88%E6%9E%9C/README#4--demos2---多张刮刮乐)
-- [ ] [0039. 下载、使用 canvas 图像](https://tdahuyou.github.io/TNotes.canvas/notes/0039.%20%E4%B8%8B%E8%BD%BD%E3%80%81%E4%BD%BF%E7%94%A8%20canvas%20%E5%9B%BE%E5%83%8F/README)
-  - [1. 🫧 评价](https://tdahuyou.github.io/TNotes.canvas/notes/0039.%20%E4%B8%8B%E8%BD%BD%E3%80%81%E4%BD%BF%E7%94%A8%20canvas%20%E5%9B%BE%E5%83%8F/README#1--评价)
-  - [2. 💻 demo1](https://tdahuyou.github.io/TNotes.canvas/notes/0039.%20%E4%B8%8B%E8%BD%BD%E3%80%81%E4%BD%BF%E7%94%A8%20canvas%20%E5%9B%BE%E5%83%8F/README#2--demo1)
+- [x] [0039. 引用和下载 canvas 图像](https://tdahuyou.github.io/TNotes.canvas/notes/0039.%20%E5%BC%95%E7%94%A8%E5%92%8C%E4%B8%8B%E8%BD%BD%20canvas%20%E5%9B%BE%E5%83%8F/README)
+  - [1. 🎯 目标](https://tdahuyou.github.io/TNotes.canvas/notes/0039.%20%E5%BC%95%E7%94%A8%E5%92%8C%E4%B8%8B%E8%BD%BD%20canvas%20%E5%9B%BE%E5%83%8F/README#1--目标)
+  - [2. 🫧 评价](https://tdahuyou.github.io/TNotes.canvas/notes/0039.%20%E5%BC%95%E7%94%A8%E5%92%8C%E4%B8%8B%E8%BD%BD%20canvas%20%E5%9B%BE%E5%83%8F/README#2--评价)
+  - [3. 💻 demos.1 - 实现 canvas 图像的一键下载](https://tdahuyou.github.io/TNotes.canvas/notes/0039.%20%E5%BC%95%E7%94%A8%E5%92%8C%E4%B8%8B%E8%BD%BD%20canvas%20%E5%9B%BE%E5%83%8F/README#3--demos1---实现-canvas-图像的一键下载)
 
 ## 14. 坐标系 - coordinate system
 

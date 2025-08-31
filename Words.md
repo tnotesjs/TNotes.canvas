@@ -1,15 +1,19 @@
 <E
   needSort
   :words="[
-    'counterclockwise',
+    'bevel',
     'brightness',
-    'hue',
-    'drop',
-    'invert',
-    'sepia',
-    'saturate',
+    'composite',
     'contrast',
+    'counterclockwise',
+    'destination',
+    'drop',
+    'hue',
+    'invert',
     'miter',
+    'operation',
     'round',
-    'bevel'
+    'saturate',
+    'sepia',
+    'source',
 ]" />

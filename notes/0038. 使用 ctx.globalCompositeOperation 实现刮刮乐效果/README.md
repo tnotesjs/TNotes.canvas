@@ -2,95 +2,55 @@
 
 <!-- region:toc -->
 
-- [1. 🫧 评价](#1--评价)
-- [2. 💻 demo1](#2--demo1)
+- [1. 🎯 目标](#1--目标)
+- [2. 🫧 评价](#2--评价)
+- [3. 💻 demos.1 - 刮刮乐](#3--demos1---刮刮乐)
+- [4. 💻 demos.2 - 多张刮刮乐](#4--demos2---多张刮刮乐)
 
 <!-- endregion:toc -->
 
-## 1. 🫧 评价
+## 1. 🎯 目标
 
-看懂实现原理即可。这个效果挺好玩的，不过想要监听结果如何出现，不太容易。 **最终效果展示：** ![](./assets/使用%20ctx.globalCompositeOperation%20实现刮刮乐效果.gif)
+- 看懂实现原理即可
 
-## 2. 💻 demo1
+## 2. 🫧 评价
 
-```css
-/* 1.css */
-/*
-使用绝对定位的方式
-让结果和 canvas 绘制在同一块区域
- */
-canvas {
-  border: 1px solid #ccc;
-  margin-right: 5px;
-  position: absolute;
-}
+- “刮刮乐”效果核心逻辑是通过 `ctx.globalCompositeOperation = 'destination-out'` 来实现的。
+- 核心步骤：
+  - 1️⃣ 先画一个铺满的灰色矩形
+  - 2️⃣ 再通过监听鼠标移动绘制线条
+  - 3️⃣ 第二步的线条和第一步的灰色矩形的所有重叠区域都会变为透明
+- demos.2 在 demos1 的基础上做了一些扩展：
+  - 随机生成指定数量个结果，而不是直接在 html 中写死结果；
+  - 对抽奖结果做了监听和统计；
+  - 判断是否抽过的核心逻辑：只要刮过就判定为这张抽奖卡片的结果已公布；
 
-#result {
-  width: 300px;
-  height: 200px;
-  text-align: center;
-  line-height: 200px;
-  font-size: 3rem;
-  position: absolute;
+## 3. 💻 demos.1 - 刮刮乐
 
-  /* 防止文本内容被选中 */
-  user-select: none;
-}
-```
+::: code-group
 
-```html
-<!-- 1.html -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./1.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div id="result">谢谢惠顾</div>
-    <script>
-      const canvas = document.createElement('canvas')
-      canvas.width = 300
-      canvas.height = 200
-      document.body.append(canvas)
+<<< ./demos/1/1.html {}
 
-      const ctx = canvas.getContext('2d')
+<<< ./demos/1/1.js {13}
 
-      // 绘制填充矩形，将结果盖住。
-      ctx.beginPath()
-      ctx.fillStyle = '#ccc'
-      ctx.fillRect(0, 0, 300, 200)
+<<< ./demos/1/1.css {}
 
-      ctx.globalCompositeOperation = 'destination-out'
-      // destination-out 旧图形只在与新图形不重叠的部分显示。
-      // 这意味着如果在旧图形上绘制新图形，重叠的部分会被删除。
+:::
 
-      ctx.beginPath()
-      // ctx.strokeStyle = '#fff' // 这里是否设置颜色都可以
-      ctx.lineWidth = 20
-      ctx.lineCap = 'round'
-      ctx.lineJoin = 'round'
+- 最终效果：
+  - ![gif](./assets/1.gif)
 
-      canvas.onmousedown = function (e) {
-        ctx.moveTo(e.offsetX, e.offsetY)
+## 4. 💻 demos.2 - 多张刮刮乐
 
-        // 按下鼠标之后就不断地画线
-        canvas.onmousemove = function (e) {
-          ctx.lineTo(e.offsetX, e.offsetY)
-          ctx.stroke()
-        }
+::: code-group
 
-        canvas.onmouseup = canvas.onmouseout = function () {
-          canvas.onmousemove = null
-          canvas.onmouseout = null
-        }
-      }
-    </script>
-  </body>
-</html>
-```
+<<< ./demos/2/1.html {}
 
-![](./assets/使用%20ctx.globalCompositeOperation%20实现刮刮乐效果.gif)
+<<< ./demos/2/1.js {33}
+
+<<< ./demos/2/1.css {}
+
+:::
+
+- 最终效果：
+  - ![gif](./assets/2.gif)

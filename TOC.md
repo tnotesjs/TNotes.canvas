@@ -356,8 +356,8 @@
 
 ## 16. 小游戏
 
-- [ ] [0051. 贪吃蛇小游戏](https://tdahuyou.github.io/TNotes.canvas/notes/0051.%20%E8%B4%AA%E5%90%83%E8%9B%87%E5%B0%8F%E6%B8%B8%E6%88%8F/README)
+- [x] [0051. 贪吃蛇小游戏](https://tdahuyou.github.io/TNotes.canvas/notes/0051.%20%E8%B4%AA%E5%90%83%E8%9B%87%E5%B0%8F%E6%B8%B8%E6%88%8F/README)
   - [1. 🎯 目标](https://tdahuyou.github.io/TNotes.canvas/notes/0051.%20%E8%B4%AA%E5%90%83%E8%9B%87%E5%B0%8F%E6%B8%B8%E6%88%8F/README#1--目标)
   - [2. 🫧 评价](https://tdahuyou.github.io/TNotes.canvas/notes/0051.%20%E8%B4%AA%E5%90%83%E8%9B%87%E5%B0%8F%E6%B8%B8%E6%88%8F/README#2--评价)
   - [3. 📒 贪吃蛇小游戏 - 实现原理分析](https://tdahuyou.github.io/TNotes.canvas/notes/0051.%20%E8%B4%AA%E5%90%83%E8%9B%87%E5%B0%8F%E6%B8%B8%E6%88%8F/README#3--贪吃蛇小游戏---实现原理分析)
-  - [4. 💻 demo - 贪吃蛇小游戏 - 实现源码](https://tdahuyou.github.io/TNotes.canvas/notes/0051.%20%E8%B4%AA%E5%90%83%E8%9B%87%E5%B0%8F%E6%B8%B8%E6%88%8F/README#4--demo---贪吃蛇小游戏---实现源码)
+  - [4. 💻 demos.1 - 贪吃蛇小游戏](https://tdahuyou.github.io/TNotes.canvas/notes/0051.%20%E8%B4%AA%E5%90%83%E8%9B%87%E5%B0%8F%E6%B8%B8%E6%88%8F/README#4--demos1---贪吃蛇小游戏)

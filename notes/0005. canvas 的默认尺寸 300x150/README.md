@@ -1,4 +1,4 @@
-# [0005. canvas 的默认尺寸 300 * 150](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300%20*%20150)
+# [0005. canvas 的默认尺寸 300x150](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300x150)
 
 <!-- region:toc -->
 

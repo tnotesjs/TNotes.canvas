@@ -33,7 +33,7 @@
     - 从源图像（image）中截取一个矩形区域 (sx, sy, sWidth, sHeight)，并将该区域缩放后绘制到 canvas 上的矩形区域 (dx, dy, dWidth, dHeight)。
     - 这种写法可以理解为“截图”效果，可以选择性地展示这张图中我们希望展示的部分。
     - 可用于做动画。
-    - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-12-01-13-42.png)
+    - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-12-01-13-42.png)
   - 动画效果
     - 每间隔一段指定的时间
     - 在指定的区域
@@ -49,7 +49,7 @@
 :::
 
 - 最终效果
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-47-57.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-47-57.png)
 
 ## 4. 💻 demos.2 - 约束图片尺寸
 
@@ -60,7 +60,7 @@
 :::
 
 - 最终效果
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-48-03.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-48-03.png)
 
 ## 5. 💻 demos.3 - 裁剪图片
 
@@ -72,7 +72,7 @@
 
 - `ctx.globalAlpha = 0.5` 设置为半透明的效果，以便查看坐标。
 - 最终效果
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-48-10.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-48-10.png)
 
 ## 6. 🔗 References
 

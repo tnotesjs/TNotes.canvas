@@ -19,7 +19,7 @@
   - round `)` 圆角
   - bevel `]` 平角、斜角
 - 看一张图就明白了：
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-18-20-14-47.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-18-20-14-47.png)
 
 ## 3. 💻 demos.1 - 使用 `ctx.lineJoin` 设置线条连接处的样式
 
@@ -29,4 +29,4 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-15-35.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-15-35.png)

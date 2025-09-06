@@ -44,7 +44,7 @@
 :::
 
 - 首先绘制了一个菱形的 icon，这个 icon 用于后续的填充素材。然后一共绘制了若干示例，下面是所有示例汇总的最终效果。
-- ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-37-37.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-37-37.png)
 
 ## 4. 🔗 References
 

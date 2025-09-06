@@ -36,4 +36,4 @@ flowchart LR
 - 端点会在原线条的基础上往外延伸一段距离，这段距离取决于线条的宽度 `ctx.lineWidth` 的值。
   - 在线条的左侧和右侧分别会多出一个宽度为 `ctx.lineWidth / 2` 的 `lineCap` 线帽
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-06-25.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-06-25.png)

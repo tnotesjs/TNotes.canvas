@@ -16,7 +16,7 @@
 ## 2. 🔍 在“菜鸟教程”上搜索 canvas
 
 - https://www.runoob.com/?s=canvas
-- ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-07-12-05-53.png)
+- ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-07-12-05-53.png)
 
 ## 3. 🔗 References
 

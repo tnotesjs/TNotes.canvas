@@ -108,7 +108,7 @@ ctx.transform(cos, sin, -sin, cos, 0, 0)
 :::
 
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-11-05.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-15-11-05.png)
 
 ## 5. 💻 demos.2 - 坐标系缩放
 
@@ -121,7 +121,7 @@ ctx.transform(cos, sin, -sin, cos, 0, 0)
 :::
 
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-11-15.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-15-11-15.png)
 
 ## 6. 💻 demos.3 - 坐标系倾斜
 
@@ -134,7 +134,7 @@ ctx.transform(cos, sin, -sin, cos, 0, 0)
 :::
 
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-11-25.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-15-11-25.png)
 
 ## 7. 💻 demos.4 - 坐标系旋转
 
@@ -147,7 +147,7 @@ ctx.transform(cos, sin, -sin, cos, 0, 0)
 :::
 
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-11-36.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-15-11-36.png)
 
 ## 8. 🤔 扩展：“仿射变换（Affine Transformation）” 是什么？
 
@@ -163,7 +163,7 @@ ctx.transform(cos, sin, -sin, cos, 0, 0)
   - “仿射”这个词的本质是描述一种保持点之间 **线性关系** 和 **平行性** 的变换。
   - “仿射”比单纯的线性变换更通用，因为它允许平移操作。
 - [**仿射变换（Affine Transformation）**][2]
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-31-23-19-18.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-31-23-19-18.png)
   - 仿射变换是一种几何变换，它保持点之间的线性关系和平行性，但不一定会保持角度、长度或面积不变。换句话说，经过仿射变换后：
     - 直线仍然是直线。
     - 平行线仍然是平行线。

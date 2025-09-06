@@ -30,7 +30,7 @@
 
 :::
 
-- ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-17-30.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-17-30.png)
 
 ::: code-group
 
@@ -38,7 +38,7 @@
 
 :::
 
-- ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-17-40.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-17-40.png)
 
 ::: code-group
 
@@ -46,4 +46,4 @@
 
 :::
 
-- ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-17-53.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-17-53.png)

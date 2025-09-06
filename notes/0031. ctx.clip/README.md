@@ -54,7 +54,7 @@ clip(path, fillRule)
 
 | nonzero（默认） | evenodd |
 | :-: | :-: |
-| ![nonzero（默认）](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-30-48.png) | ![evenodd](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-30-48.png) |
+| ![nonzero（默认）](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-30-48.png) | ![evenodd](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-30-48.png) |
 
 - 示例 2
   - 如果是两个三角形，并且发生重叠，差异就出现了。
@@ -63,7 +63,7 @@ clip(path, fillRule)
 
 | nonzero（默认） | evenodd |
 | :-: | :-: |
-| ![nonzero（默认）](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-31-44.png) | ![evenodd](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-31-51.png) |
+| ![nonzero（默认）](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-31-44.png) | ![evenodd](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-31-51.png) |
 
 - 接下来需要思考以下问题：
   - **🤔 为什么在默认的 nonzero 非零填充规则下，重叠部分被填充了？在 evenodd 奇偶填充规则下，重叠部分没有填充呢？**
@@ -86,23 +86,23 @@ clip(path, fillRule)
 
 - 起始值为 0，射线会和路径相交，如果路径方向和射线方向形成的是顺时针方向则+1，如果是逆时针方向则-1，最后如果数值为 0，则是路径的外部；如果不是 0，则是路径的内部，因此被称为“非 0 填充规则”。
 - 示例 1
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-32-09.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-32-09.png)
   - 例如上图点 A，我们随便发出一条射线，结果经过了路径 5 和路径 2，我们顺着路径前进方向和射线前进方向，可以看到，合并后的运动方向都是逆时针，逆时针方向-1，因此，最后计算值是-2，不是 0，因此，是内部，fill 时候可以被填充。
 - 示例 2
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-32-17.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-32-17.png)
   - 点 B 再发出一条射线，经过两条路径片段，为路径 2 和路径 3，我们顺着路径前进方向和射线前进方向，可以看到，合并后的运动方向一个是逆时针，-1，一个是顺时针，+1，因此，最后的计算值是 0，是外部，因此，不被填充。
 
 ### 4.2. evenodd 奇偶填充规则
 
 - 起始值为 0，射线会和路径相交，每交叉一条路径，我们计数就+1，最后看我们的总计算数值，如果是奇数，则认为是路径内部，如果是偶数，则认为是路径外部。
 - 示例 1
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-32-26.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-32-26.png)
   - 例如上图点 A，我们随便发出一条射线，结果经过了路径 5 和路径 2，交叉的路径个数为 2，是偶数，因此，属于路径外，不填充。
 - 示例 2
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-32-36.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-32-36.png)
   - 点 B 再发出一条射线，经过路径片段路径 2 和路径 3，交叉的路径个数为 2，是偶数，因此，也属于路径外，不填充。
 - 示例 3
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-32-44.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-32-44.png)
   - 最后这个点 C，发出的射线总共和 3 个路径交叉，是奇数。因此，属于路径内，填充。
 
 ### 4.3. 小结
@@ -133,7 +133,7 @@ clip(path, fillRule)
 
 :::
 
-- ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-34-46.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-34-46.png)
 
 ## 6. 💻 demos.1 - 裁剪菱形
 
@@ -143,7 +143,7 @@ clip(path, fillRule)
 
 :::
 
-- ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-34-27.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-34-27.png)
 
 ## 7. 💻 demos.2 - 裁剪圆形
 
@@ -153,7 +153,7 @@ clip(path, fillRule)
 
 :::
 
-- ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-34-35.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-34-35.png)
 
 ## 8. 💻 demos.4 - 问题记录
 
@@ -164,7 +164,7 @@ clip(path, fillRule)
 :::
 
 - 不理解 3、4 的最终渲染结果。
-- ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-25-22-23-48.png)
+- ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-25-22-23-48.png)
 - ![svg](./assets/1.svg)
 
 ## 9. 🔗 References

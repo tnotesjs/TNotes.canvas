@@ -70,7 +70,7 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-05-21.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-12-05-21.png)
 
 ## 6. 💻 demos.2 - brightness
 
@@ -80,7 +80,7 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-05-31.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-12-05-31.png)
 
 ## 7. 💻 demos.3 - hue-rotate
 
@@ -90,7 +90,7 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-05-41.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-12-05-41.png)
 
 ## 8. 💻 demos.4 - drop-shadow
 
@@ -100,7 +100,7 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-05-51.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-12-05-51.png)
 
 ## 9. 💻 demos.5 - invert
 
@@ -110,7 +110,7 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-02.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-12-06-02.png)
 
 ## 10. 💻 demos.6 - sepia
 
@@ -120,7 +120,7 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-13.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-12-06-13.png)
 
 ## 11. 💻 demos.7 - grayscale
 
@@ -130,7 +130,7 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-26.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-12-06-26.png)
 
 ## 12. 💻 demos.8 - saturate
 
@@ -140,7 +140,7 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-37.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-12-06-37.png)
 
 ## 13. 💻 demos.9 - contrast
 
@@ -150,7 +150,7 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-06-50.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-12-06-50.png)
 
 ## 14. 💻 demos.10 - 使用 url 引用 svg 滤镜
 
@@ -160,7 +160,7 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-07-07.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-12-07-07.png)
 
 ## 15. 💻 demos.11 - opacity
 
@@ -170,7 +170,7 @@
 
 :::
 
-![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-15-06-12-31.png)
+![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-15-06-12-31.png)
 
 ## 16. 🔗 References
 

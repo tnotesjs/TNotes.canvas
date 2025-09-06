@@ -26,7 +26,7 @@
 :::
 
 - 最终效果
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-18-51.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-18-51.png)
 
 ## 4. 🔗 References
 

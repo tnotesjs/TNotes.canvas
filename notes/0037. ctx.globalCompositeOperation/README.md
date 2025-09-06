@@ -102,7 +102,7 @@
 
 :::
 
-- ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-30-15-39-44.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-30-15-39-44.png)
 
 ## 6. 💻 demos.2 - 颜色合成
 
@@ -114,7 +114,7 @@
 
 :::
 
-- ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-30-15-39-13.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-30-15-39-13.png)
 
 ## 7. 💻 demos.3 - MDN 官方示例
 
@@ -140,19 +140,19 @@
 
 ::: swiper
 
-![1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-31-10-21-20.png)
+![1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-31-10-21-20.png)
 
-![2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-31-10-21-40.png)
+![2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-31-10-21-40.png)
 
-![3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-31-10-22-19.png)
+![3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-31-10-22-19.png)
 
-![4](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-31-10-22-35.png)
+![4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-31-10-22-35.png)
 
-![5](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-31-10-22-42.png)
+![5](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-31-10-22-42.png)
 
-![6](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-31-10-22-52.png)
+![6](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-31-10-22-52.png)
 
-![7](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-31-10-23-01.png)
+![7](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-31-10-23-01.png)
 
 :::
 

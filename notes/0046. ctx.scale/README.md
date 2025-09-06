@@ -63,11 +63,11 @@ ctx.scale(sx, sy)
 
 ::: swiper
 
-![1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-15-05-25.png)
+![1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-15-05-25.png)
 
-![2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-24-22-18-23.png)
+![2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-24-22-18-23.png)
 
-![3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-24-22-18-30.png)
+![3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-24-22-18-30.png)
 
 :::
 

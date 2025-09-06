@@ -38,7 +38,7 @@
 :::
 
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-07-43.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-07-43.png)
   - 一共 3 根线：
     - 第 1 根线作为参考
     - 第 2 根线向右偏移 50 个单位

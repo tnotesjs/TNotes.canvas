@@ -36,7 +36,7 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-12-01-09.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-12-01-09.png)
 
 ## 5. 🔗 References
 

@@ -87,7 +87,7 @@ imageData.data[i + 2] = b * 2 // 增强蓝色分量，超过 255 时需要限制
 ## 4. 🔍 查看素材原图
 
 - 翻了翻相册，随便儿找了张图作为以下 demos 的素材。
-- ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-50-13.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-50-13.png)
 - Footprints
   - 这是在上海租的第四个房子的照片儿…… 呆了一年左右
 
@@ -100,13 +100,13 @@ imageData.data[i + 2] = b * 2 // 增强蓝色分量，超过 255 时需要限制
 :::
 
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-50-46.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-50-46.png)
 - 注意 `cross-origin` 报错 - **跨域限制问题**
   - 当直接用浏览器打开本地文件（`file://` 协议）时，浏览器的安全策略会阻止 JavaScript 访问图像像素数据：
     - `ctx.getImageData()` 方法需要从图像中读取像素信息
     - 浏览器将此操作视为潜在的安全风险，会抛出跨域错误
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-28-22-05-46.png)
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-28-22-07-44.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-28-22-05-46.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-28-22-07-44.png)
 
 ## 6. 💻 demos.2 - 图像反色处理
 
@@ -117,7 +117,7 @@ imageData.data[i + 2] = b * 2 // 增强蓝色分量，超过 255 时需要限制
 :::
 
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-51-02.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-51-02.png)
 
 ## 7. 💻 demos.3 - 置蓝
 
@@ -128,7 +128,7 @@ imageData.data[i + 2] = b * 2 // 增强蓝色分量，超过 255 时需要限制
 :::
 
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-51-17.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-51-17.png)
 
 ## 8. 🔗 References
 

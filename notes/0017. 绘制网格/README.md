@@ -41,7 +41,7 @@
 :::
 
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-22-09.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-22-09.png)
 
 ## 5. 💻 demos.2 - 画一个矩形
 
@@ -52,4 +52,4 @@
 :::
 
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-22-19.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-22-19.png)

@@ -33,10 +33,10 @@
 
 ::: swiper
 
-![1.html](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-47-41.png)
+![1.html](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-00-47-41.png)
 
-![2.html](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-47-52.png)
+![2.html](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-00-47-52.png)
 
-![3.html](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-48-02.png)
+![3.html](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-00-48-02.png)
 
 :::

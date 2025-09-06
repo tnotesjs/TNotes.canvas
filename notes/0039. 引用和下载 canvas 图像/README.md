@@ -45,7 +45,7 @@
 :::
 
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-56-45.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-56-45.png)
 - 注意：
   - 如果要下载 canvas3，需要以 live server 的形式来启动，否则会报跨域错误。
   - 图片访问跨域的问题在 [0036. ctx.getImageData、ctx.putImageData][1] 笔记中也有提及，都是一个道理 —— 读取图像数据是敏感操作，当我们以直接使用浏览器打开本地文件（`file://`）方式打开页面时，访问图片数据就会抛出 `cross-origin` 跨域错误。

@@ -28,9 +28,9 @@
 
 ::: swiper
 
-![1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-13-29.png)
+![1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-13-29.png)
 
-![2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-13-41.png)
+![2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-13-41.png)
 
 :::
 

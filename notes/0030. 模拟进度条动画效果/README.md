@@ -23,6 +23,6 @@
 :::
 
 - 点击【开始运动】按钮后，进度条会从起点加载到终点。
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-03-20.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-03-20.png)
 - 最终效果如下图所示。
   - ![gif](./assets/模拟进度条动画效果.gif)

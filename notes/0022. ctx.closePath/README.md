@@ -36,7 +36,7 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-49-40.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-00-49-40.png)
 
 ## 4. 💻 demos.2 - 注意 `lineWidth`
 
@@ -46,7 +46,7 @@
 
 :::
 
-![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-15-20-34-45.png)
+![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-15-20-34-45.png)
 
 ## 5. 🤔 如果路径未闭合，可以被填充吗？
 

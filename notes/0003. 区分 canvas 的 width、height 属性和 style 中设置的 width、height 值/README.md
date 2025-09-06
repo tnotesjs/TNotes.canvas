@@ -56,10 +56,10 @@
 
 - 1
   - 同时设置了 css 和 canvas 的 width、height
-  - ![1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-19-09-40-34.png)
+  - ![1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-19-09-40-34.png)
 - 2
   - 只设置 css 的 width、height，忽略 canvas 的 width、height
-  - ![2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-09-11-16-57.png)
+  - ![2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-09-11-16-57.png)
 
 ## 5. 💻 demos.2 - 模拟放大镜的效果
 

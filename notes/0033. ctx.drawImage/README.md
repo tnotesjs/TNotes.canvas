@@ -60,7 +60,7 @@
 
 ::: swiper
 
-![1 素材](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-11-40-47.png)
+![1 素材](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-40-47.png)
 
 ![2 原地跑](./assets/使用%20ctx.drawImage%20实现人物奔跑动画效果-原地跑.gif)
 

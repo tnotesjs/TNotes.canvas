@@ -31,9 +31,9 @@ $$
 $$
 
 - 通过下面这张图，认识 `lineWidth`、`miterLength` 表示的分别是哪部分的尺寸。
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-11-03.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-11-03.png)
 - 通过下面这张图，认识什么是 `round`、`miter`、`bevel`
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-18-20-14-47.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-18-20-14-47.png)
 - `ctx.miterLimit`
   - `ctx.miterLimit` 是 HTML5 Canvas 2D API 中的一个属性，用于设置或返回当两条线相交时接合处的最大斜接长度（miter length）。
   - 斜接长度是指在两条线相交形成尖角时，内角顶点到外角顶点的距离。
@@ -62,9 +62,9 @@ $$
 :::
 
 - `1.html`
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-11-26.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-11-26.png)
 - `2.html`
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-11-54.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-11-54.png)
 
 ## 5. 🔗 References
 

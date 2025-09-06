@@ -31,7 +31,7 @@
   - 在 css 中，我们也可以通过 chrome devtools 来手动调节动画效果或过渡效果的变化贝塞尔曲线。
 - 二次贝塞尔曲线的绘制原理
   - ![img](./assets/二阶贝塞尔曲线.gif)
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-10-50-27.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-10-50-27.png)
   - 假设：
     - `x1 = P0，P01 之间的距离`
     - `x2 = P0，P1 之间的距离`
@@ -51,7 +51,7 @@
   - 上述就是二次贝塞尔曲线的绘制原理。
 - 三次贝塞尔曲线绘制原理
   - ![img](./assets/三阶贝塞尔曲线.gif)
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-10-52-06.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-10-52-06.png)
   - 二次贝塞尔曲线有一个控制点，三次贝塞尔曲线有两个控制点。在理解了二次贝塞尔曲线的绘制原理后，找葫芦画瓢，三次也是一样的。
   - 假设：
     - `x1 = P0，P01 之间的距离`
@@ -84,7 +84,7 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-10-53-14.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-10-53-14.png)
 
 ## 5. 💻 demos.2 - 三次贝塞尔曲线
 
@@ -94,7 +94,7 @@
 
 :::
 
-![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-10-53-26.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-10-53-26.png)
 
 ## 6. 🔗 References
 

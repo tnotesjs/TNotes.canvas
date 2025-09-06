@@ -39,7 +39,7 @@
 :::
 
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-52-36.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-00-52-36.png)
 - stroke() 或 fill() 默认会对 **之前所有绘制的路径** 进行一个处理，这种写法在绘制完第一个描边矩形之后，当你绘制第二个填充矩形时，填充将会对之前的路径也起作用。
   - 当 `ctx.stroke()` 执行时
     - `(50, 50)` 位置的矩形：加上了蓝色的描边
@@ -56,7 +56,7 @@
 :::
 
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-53-46.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-00-53-46.png)
 - 因为在执行 `ctx.fill()` 之前，调用了 `ctx.beginPath()`，相当于对路径做了一个分组，这意味着路径重新开始绘制，别再管之前的路径了。
   - 当 `ctx.stroke()` 执行时
     - `(50, 50)` 位置的矩形：加上了蓝色的描边
@@ -73,4 +73,4 @@
 :::
 
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-04-00-54-27.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-00-54-27.png)

@@ -94,12 +94,12 @@ function draw2() {
   - 2️⃣ 改 `ctx.xxx = xxx`
   - 3️⃣ 复原 `ctx.restore()`
 - 如果将 `1.html` 中的 `drawGrid(canvas, 200, 100, 50)` 注释掉，最终渲染的结果如下：
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-18-12-19-02.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-18-12-19-02.png)
 - 如果将 `1.html` 中的 `drawGrid(canvas, 200, 100, 50)` 恢复，最终渲染的结果如下：
-  - ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-18-12-19-16.png)
+  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-18-12-19-16.png)
   - 会发现中间调用 `drawGrid` 完成网格绘制，对最终绘制的文案 `hello world` 的样式并无影响。
 - 如果将 `drawGrid` 方法中的 `ctx.restore()` 给注释掉，最终渲染的结果如下：
-  - ![图 2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-18-12-19-23.png)
+  - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-18-12-19-23.png)
   - 会发现发现中间调用 `drawGrid` 完成网格绘制，由于其对 `ctx.font` 做了修改，导致了对最终绘制的文案 `hello world` 的样式造成了影响。
 - `ctx.save()` 和 `ctx.restore()` 的作用是保存和恢复画布的状态，实现一个 “局部画布状态” 的效果，函数内、外的画布状态隔离。
 
@@ -113,7 +113,7 @@ function draw2() {
 
 - 状态的存储结构是堆栈的结构，遵循 LIFO（Last In First Out） 的原则。
 - 最终效果：
-  - ![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-03-23-05-01.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-05-01.png)
 
 ## 6. 🔗 References
 

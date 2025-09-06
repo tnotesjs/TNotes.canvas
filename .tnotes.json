@@ -1,7 +1,9 @@
 {
   "author": "tnotesjs",
   "repoName": "TNotes.canvas",
-  "keywords": ["TNotes.canvas"],
+  "keywords": [
+    "TNotes.canvas"
+  ],
   "ignore_dirs": [
     ".vscode",
     "0000",
@@ -21,7 +23,7 @@
     "details": "Canvas 笔记",
     "link": "https://tnotesjs.github.io/TNotes.canvas/",
     "created_at": 1741007058000,
-    "updated_at": 1757163544998,
+    "updated_at": 1757172128879,
     "days_since_birth": 9380
   },
   "port": 9380,

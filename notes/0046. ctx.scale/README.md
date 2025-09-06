@@ -1,4 +1,4 @@
-# [0046. ctx.scale](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0046.%20ctx.scale)
+# [0046. ctx.scale](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0046.%20ctx.scale)
 
 <!-- region:toc -->
 

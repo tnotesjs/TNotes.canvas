@@ -1,4 +1,4 @@
-# [0050. 实现动态时钟效果](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0050.%20%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E6%97%B6%E9%92%9F%E6%95%88%E6%9E%9C)
+# [0050. 实现动态时钟效果](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0050.%20%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E6%97%B6%E9%92%9F%E6%95%88%E6%9E%9C)
 
 <!-- region:toc -->
 

@@ -1,4 +1,4 @@
-# [0040. ctx.createConicGradient](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0040.%20ctx.createConicGradient)
+# [0040. ctx.createConicGradient](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0040.%20ctx.createConicGradient)
 
 <!-- region:toc -->
 

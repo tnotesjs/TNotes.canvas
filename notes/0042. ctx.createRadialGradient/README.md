@@ -1,4 +1,4 @@
-# [0042. ctx.createRadialGradient](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0042.%20ctx.createRadialGradient)
+# [0042. ctx.createRadialGradient](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0042.%20ctx.createRadialGradient)
 
 <!-- region:toc -->
 

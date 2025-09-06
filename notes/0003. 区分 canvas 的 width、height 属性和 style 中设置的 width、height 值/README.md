@@ -1,4 +1,4 @@
-# [0003. 区分 canvas 的 width、height 属性和 style 中设置的 width、height 值](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0003.%20%E5%8C%BA%E5%88%86%20canvas%20%E7%9A%84%20width%E3%80%81height%20%E5%B1%9E%E6%80%A7%E5%92%8C%20style%20%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%9A%84%20width%E3%80%81height%20%E5%80%BC)
+# [0003. 区分 canvas 的 width、height 属性和 style 中设置的 width、height 值](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0003.%20%E5%8C%BA%E5%88%86%20canvas%20%E7%9A%84%20width%E3%80%81height%20%E5%B1%9E%E6%80%A7%E5%92%8C%20style%20%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%9A%84%20width%E3%80%81height%20%E5%80%BC)
 
 <!-- region:toc -->
 

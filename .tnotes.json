@@ -1,5 +1,5 @@
 {
-  "author": "Tdahuyou",
+  "author": "tnotesjs",
   "repoName": "TNotes.canvas",
   "keywords": [
     "TNotes.canvas"
@@ -21,9 +21,9 @@
     "title": "canvas",
     "completed_notes_count": 57,
     "details": "Canvas 笔记",
-    "link": "https://tdahuyou.github.io/TNotes.canvas/",
+    "link": "https://tnotesjs.github.io/TNotes.canvas/",
     "created_at": 1741007058000,
-    "updated_at": 1756820956333,
+    "updated_at": 1757151993168,
     "days_since_birth": 9380
   },
   "port": 9380,
@@ -42,7 +42,7 @@
     },
     {
       "text": "📒 TNotes",
-      "link": "https://tdahuyou.github.io/notes"
+      "link": "https://tnotesjs.github.io/notes"
     },
     {
       "text": "📂 TNotes.yuque",
@@ -70,7 +70,7 @@
     },
     {
       "ariaLabel": "TNotes.canvas github 仓库链接",
-      "link": "https://github.com/Tdahuyou/TNotes.canvas",
+      "link": "https://github.com/tnotesjs/TNotes.canvas",
       "icon": "github"
     }
   ],

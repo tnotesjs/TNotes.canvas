@@ -1,4 +1,4 @@
-# [0057. 汇总开始学习 canvas 之前需要掌握的一些基础知识](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0057.%20%E6%B1%87%E6%80%BB%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%20canvas%20%E4%B9%8B%E5%89%8D%E9%9C%80%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86)
+# [0057. 汇总开始学习 canvas 之前需要掌握的一些基础知识](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0057.%20%E6%B1%87%E6%80%BB%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%20canvas%20%E4%B9%8B%E5%89%8D%E9%9C%80%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86)
 
 <!-- region:toc -->
 

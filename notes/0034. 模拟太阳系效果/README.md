@@ -1,4 +1,4 @@
-# [0034. 模拟太阳系效果](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0034.%20%E6%A8%A1%E6%8B%9F%E5%A4%AA%E9%98%B3%E7%B3%BB%E6%95%88%E6%9E%9C)
+# [0034. 模拟太阳系效果](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0034.%20%E6%A8%A1%E6%8B%9F%E5%A4%AA%E9%98%B3%E7%B3%BB%E6%95%88%E6%9E%9C)
 
 <!-- region:toc -->
 

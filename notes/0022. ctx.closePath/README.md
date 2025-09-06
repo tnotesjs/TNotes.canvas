@@ -1,4 +1,4 @@
-# [0022. ctx.closePath](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0022.%20ctx.closePath)
+# [0022. ctx.closePath](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0022.%20ctx.closePath)
 
 <!-- region:toc -->
 

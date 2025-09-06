@@ -1,4 +1,4 @@
-# [0023. ctx.beginPath](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0023.%20ctx.beginPath)
+# [0023. ctx.beginPath](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0023.%20ctx.beginPath)
 
 <!-- region:toc -->
 

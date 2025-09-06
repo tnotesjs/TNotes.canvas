@@ -1,4 +1,4 @@
-# [0004. ctx.clearRect](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0004.%20ctx.clearRect)
+# [0004. ctx.clearRect](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0004.%20ctx.clearRect)
 
 <!-- region:toc -->
 

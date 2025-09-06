@@ -1,4 +1,4 @@
-# [0010. ctx.setLineDash](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0010.%20ctx.setLineDash)
+# [0010. ctx.setLineDash](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0010.%20ctx.setLineDash)
 
 <!-- region:toc -->
 

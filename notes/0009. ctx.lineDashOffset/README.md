@@ -1,4 +1,4 @@
-# [0009. ctx.lineDashOffset](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0009.%20ctx.lineDashOffset)
+# [0009. ctx.lineDashOffset](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0009.%20ctx.lineDashOffset)
 
 <!-- region:toc -->
 

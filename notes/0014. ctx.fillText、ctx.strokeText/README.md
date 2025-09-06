@@ -1,4 +1,4 @@
-# [0014. ctx.fillText、ctx.strokeText](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0014.%20ctx.fillText%E3%80%81ctx.strokeText)
+# [0014. ctx.fillText、ctx.strokeText](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0014.%20ctx.fillText%E3%80%81ctx.strokeText)
 
 <!-- region:toc -->
 

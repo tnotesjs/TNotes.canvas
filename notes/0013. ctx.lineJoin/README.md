@@ -1,4 +1,4 @@
-# [0013. ctx.lineJoin](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0013.%20ctx.lineJoin)
+# [0013. ctx.lineJoin](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0013.%20ctx.lineJoin)
 
 <!-- region:toc -->
 

@@ -1,4 +1,4 @@
-# [0025. ctx.quadraticCurveTo、ctx.bezierCurveTo](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0025.%20ctx.quadraticCurveTo%E3%80%81ctx.bezierCurveTo)
+# [0025. ctx.quadraticCurveTo、ctx.bezierCurveTo](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0025.%20ctx.quadraticCurveTo%E3%80%81ctx.bezierCurveTo)
 
 <!-- region:toc -->
 

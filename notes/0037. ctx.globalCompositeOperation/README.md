@@ -1,4 +1,4 @@
-# [0037. ctx.globalCompositeOperation](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0037.%20ctx.globalCompositeOperation)
+# [0037. ctx.globalCompositeOperation](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0037.%20ctx.globalCompositeOperation)
 
 <!-- region:toc -->
 

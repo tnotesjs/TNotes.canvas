@@ -1,4 +1,4 @@
-# [0033. ctx.drawImage](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0033.%20ctx.drawImage)
+# [0033. ctx.drawImage](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0033.%20ctx.drawImage)
 
 <!-- region:toc -->
 

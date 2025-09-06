@@ -1,4 +1,4 @@
-# [0041. ctx.createLinearGradient](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0041.%20ctx.createLinearGradient)
+# [0041. ctx.createLinearGradient](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0041.%20ctx.createLinearGradient)
 
 <!-- region:toc -->
 

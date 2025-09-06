@@ -1,4 +1,4 @@
-# [0026. ctx.ellipse](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0026.%20ctx.ellipse)
+# [0026. ctx.ellipse](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0026.%20ctx.ellipse)
 
 <!-- region:toc -->
 

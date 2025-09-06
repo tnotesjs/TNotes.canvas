@@ -1,4 +1,4 @@
-# [0008. ctx.lineCap](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0008.%20ctx.lineCap)
+# [0008. ctx.lineCap](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0008.%20ctx.lineCap)
 
 <!-- region:toc -->
 
@@ -11,6 +11,11 @@
 ## 1. 🎯 目标
 
 - 学会使用 `ctx.lineCap` 来设置线条端点样式
+
+```mermaid
+flowchart LR
+  Start --> Stop
+```
 
 ## 2. 🫧 评价
 

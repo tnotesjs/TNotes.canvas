@@ -1,4 +1,4 @@
-# [0012. ctx.lineTo](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0012.%20ctx.lineTo)
+# [0012. ctx.lineTo](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0012.%20ctx.lineTo)
 
 <!-- region:toc -->
 

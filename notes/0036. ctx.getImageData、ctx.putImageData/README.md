@@ -1,4 +1,4 @@
-# [0036. ctx.getImageData、ctx.putImageData](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0036.%20ctx.getImageData%E3%80%81ctx.putImageData)
+# [0036. ctx.getImageData、ctx.putImageData](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0036.%20ctx.getImageData%E3%80%81ctx.putImageData)
 
 <!-- region:toc -->
 

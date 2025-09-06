@@ -1,4 +1,4 @@
-# [0024. ctx.arc](https://github.com/Tdahuyou/TNotes.canvas/tree/main/notes/0024.%20ctx.arc)
+# [0024. ctx.arc](https://github.com/tnotesjs/TNotes.canvas/tree/main/notes/0024.%20ctx.arc)
 
 <!-- region:toc -->
 

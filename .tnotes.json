@@ -13,7 +13,7 @@
     "demos",
     "assets"
   ],
-  "rootSidebarDir": "../_/sidebars",
+  "rootSidebarDir": "../TNotes/sidebars",
   "root_item": {
     "icon": {
       "src": "https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/assets/icon--canvas.svg"
@@ -23,7 +23,7 @@
     "details": "Canvas 笔记",
     "link": "https://tnotesjs.github.io/TNotes.canvas/",
     "created_at": 1741007058000,
-    "updated_at": 1757151993168,
+    "updated_at": 1757163544998,
     "days_since_birth": 9380
   },
   "port": 9380,

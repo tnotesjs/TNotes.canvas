@@ -6,7 +6,7 @@
 - [2. 🫧 评价](#2--评价)
 - [3. 📒 `ctx.rotate`](#3--ctxrotate)
 - [4. 💻 demos.1 - 理解 `ctx.rotate` 旋转的一些特性](#4--demos1---理解-ctxrotate-旋转的一些特性)
-- [5. 🔗 References](#5--references)
+- [5. 🔗 引用](#5--引用)
 
 <!-- endregion:toc -->
 
@@ -39,7 +39,8 @@
 - 最终效果：
   - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-23-07-36-06.png)
 
-## 5. 🔗 References
+## 5. 🔗 引用
 
-- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/rotate
-  - MDN - CanvasRenderingContext2D：rotate() 方法。
+- [CanvasRenderingContext2D.rotate 方法][1]
+
+[1]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/rotate

@@ -13,7 +13,7 @@
 - [6. 💻 demos.1 - 裁剪菱形](#6--demos1---裁剪菱形)
 - [7. 💻 demos.2 - 裁剪圆形](#7--demos2---裁剪圆形)
 - [8. 💻 demos.4 - 问题记录](#8--demos4---问题记录)
-- [9. 🔗 References](#9--references)
+- [9. 🔗 引用](#9--引用)
 
 <!-- endregion:toc -->
 
@@ -167,15 +167,14 @@ clip(path, fillRule)
 - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-25-22-23-48.png)
 - ![svg](./assets/1.svg)
 
-## 9. 🔗 References
+## 9. 🔗 引用
 
-- https://www.zhangxinxu.com/wordpress/2018/10/nonzero-evenodd-fill-mode-rule/
-  - 搞懂 SVG/Canvas 中 nonzero 和 evenodd 填充规则 « 张鑫旭-鑫空间-鑫生活。
-- https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/clip
-  - MDN - CanvasRenderingContext2D：clip() 方法
-- https://en.wikipedia.org/wiki/Even%E2%80%93odd_rule
-  - Wiki - Even–odd rule
-- https://en.wikipedia.org/wiki/Nonzero-rule
-  - Wiki - Nonzero-rule
+- [搞懂 SVG/Canvas 中 nonzero 和 evenodd 填充规则 « 张鑫旭-鑫空间-鑫生活][1]
+- [CanvasRenderingContext2D.clip 方法][2]
+- [维基百科：Even–odd rule][3]
+- [维基百科：Nonzero-rule][4]
 
 [1]: https://www.zhangxinxu.com/wordpress/2018/10/nonzero-evenodd-fill-mode-rule/
+[2]: https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/clip
+[3]: https://en.wikipedia.org/wiki/Even%E2%80%93odd_rule
+[4]: https://en.wikipedia.org/wiki/Nonzero-rule

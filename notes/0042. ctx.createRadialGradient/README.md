@@ -6,7 +6,7 @@
 - [2. 🫧 评价](#2--评价)
 - [3. 📒 `ctx.createRadialGradient`](#3--ctxcreateradialgradient)
 - [4. 💻 demos.1 - `ctx.createRadialGradient` 的基本使用](#4--demos1---ctxcreateradialgradient-的基本使用)
-- [5. 🔗 References](#5--references)
+- [5. 🔗 引用](#5--引用)
 
 <!-- endregion:toc -->
 
@@ -38,7 +38,8 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-12-01-09.png)
 
-## 5. 🔗 References
+## 5. 🔗 引用
 
-- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient
-  - MDN - `ctx.createRadialGradient`
+- [CanvasRenderingContext2D.createRadialGradient 方法][1]
+
+[1]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient

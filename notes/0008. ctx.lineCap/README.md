@@ -12,11 +12,6 @@
 
 - 学会使用 `ctx.lineCap` 来设置线条端点样式
 
-```mermaid
-flowchart LR
-  Start --> Stop
-```
-
 ## 2. 🫧 评价
 
 - 非常简单的一个属性，line 表示线条、cap 表示端点（帽子），lineCap 就是用来设置线条端点（线帽）的样式的。

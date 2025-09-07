@@ -7,7 +7,7 @@
 - [3. 💻 demos.1 - 自动闭合 vs. 手动闭合](#3--demos1---自动闭合-vs-手动闭合)
 - [4. 💻 demos.2 - 注意 `lineWidth`](#4--demos2---注意-linewidth)
 - [5. 🤔 如果路径未闭合，可以被填充吗？](#5--如果路径未闭合可以被填充吗)
-- [6. 🔗 References](#6--references)
+- [6. 🔗 引用](#6--引用)
 
 <!-- endregion:toc -->
 
@@ -61,10 +61,9 @@
   - 在 demos.2 这个示例中，无论我们用哪种填充规则，最终都会填充出一个一样的三角形。
   - 有关填充规则的详细说明，在 [0031. ctx.cli][3] 中有介绍。
 
-## 6. 🔗 References
+## 6. 🔗 引用
 
-- https://www.zhangxinxu.com/wordpress/2018/10/nonzero-evenodd-fill-mode-rule/
-  - 搞懂 SVG/Canvas 中 nonzero 和 evenodd 填充规则 « 张鑫旭-鑫空间-鑫生活。
+- [搞懂 SVG/Canvas 中 nonzero 和 evenodd 填充规则 « 张鑫旭-鑫空间-鑫生活][2]
 - [TNotes.svg/notes/0024. 使用属性 fill-rule 设置填充规则][1]
   - svg 中跟 fill-rule 相关的笔记
 - [TNotes.canvas/notes/0031. ctx.cli][3]

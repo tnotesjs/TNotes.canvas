@@ -7,7 +7,7 @@
 - [3. 📒 `ctx.save` 和 `ctx.restore`](#3--ctxsave-和-ctxrestore)
 - [4. 💻 demos.2 - 辅助方法 `drawGrid`](#4--demos2---辅助方法-drawgrid)
 - [5. 💻 demos.1 - 画布状态的保存和恢复](#5--demos1---画布状态的保存和恢复)
-- [6. 🔗 References](#6--references)
+- [6. 🔗 引用](#6--引用)
 
 <!-- endregion:toc -->
 
@@ -115,9 +115,10 @@ function draw2() {
 - 最终效果：
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-05-01.png)
 
-## 6. 🔗 References
+## 6. 🔗 引用
 
-- https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/save
-  - `ctx.save()`
-- https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/restore
-  - `ctx.restore()`
+- [CanvasRenderingContext2D：save() 方法][1]
+- [CanvasRenderingContext2D.restore 方法][2]
+
+[1]: https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/save
+[2]: https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/restore

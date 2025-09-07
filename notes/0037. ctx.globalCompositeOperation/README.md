@@ -9,7 +9,7 @@
 - [5. 💻 demos.1 - source & destination](#5--demos1---source--destination)
 - [6. 💻 demos.2 - 颜色合成](#6--demos2---颜色合成)
 - [7. 💻 demos.3 - MDN 官方示例](#7--demos3---mdn-官方示例)
-- [8. 🔗 References](#8--references)
+- [8. 🔗 引用](#8--引用)
 
 <!-- endregion:toc -->
 
@@ -156,7 +156,7 @@
 
 :::
 
-## 8. 🔗 References
+## 8. 🔗 引用
 
 - [MDN - ctx.globalCompositeOperation][1]
 

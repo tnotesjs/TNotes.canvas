@@ -5,7 +5,7 @@
 - [1. 🎯 目标](#1--目标)
 - [2. 🫧 评价](#2--评价)
 - [3. 💻 demos.1 - `ctx.createPattern` 的基本使用](#3--demos1---ctxcreatepattern-的基本使用)
-- [4. 🔗 References](#4--references)
+- [4. 🔗 引用](#4--引用)
 
 <!-- endregion:toc -->
 
@@ -46,7 +46,7 @@
 - 首先绘制了一个菱形的 icon，这个 icon 用于后续的填充素材。然后一共绘制了若干示例，下面是所有示例汇总的最终效果。
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-37-37.png)
 
-## 4. 🔗 References
+## 4. 🔗 引用
 
 - [MDN - CanvasRenderingContext2D: createPattern() method][1]
 

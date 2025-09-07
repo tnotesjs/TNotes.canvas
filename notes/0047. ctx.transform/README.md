@@ -10,7 +10,7 @@
 - [6. 💻 demos.3 - 坐标系倾斜](#6--demos3---坐标系倾斜)
 - [7. 💻 demos.4 - 坐标系旋转](#7--demos4---坐标系旋转)
 - [8. 🤔 扩展：“仿射变换（Affine Transformation）” 是什么？](#8--扩展仿射变换affine-transformation-是什么)
-- [9. 🔗 References](#9--references)
+- [9. 🔗 引用](#9--引用)
 
 <!-- endregion:toc -->
 
@@ -208,7 +208,7 @@ a, b, c, d, e, f 是变换参数
   - **地理信息系统（GIS）**：用于地图投影和坐标转换。
   - **机器学习**：在数据预处理中，仿射变换常用于归一化或标准化数据。
 
-## 9. 🔗 References
+## 9. 🔗 引用
 
 - [MDN - CanvasRenderingContext2D：transform() 方法][1]
 - [维基百科 - 仿射变换][2]

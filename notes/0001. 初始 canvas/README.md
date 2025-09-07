@@ -10,7 +10,7 @@
 - [6. 🆚 前端的两大绘图技术：svg 和 canvas 之间的区别都有哪些？](#6--前端的两大绘图技术svg-和-canvas-之间的区别都有哪些)
 - [7. 🆚 区分 Image 和 Graphic](#7--区分-image-和-graphic)
 - [8. 💻 demos.1 - canvas 的基本使用](#8--demos1---canvas-的基本使用)
-- [9. 🔗 References](#9--references)
+- [9. 🔗 引用](#9--引用)
 
 <!-- endregion:toc -->
 
@@ -184,11 +184,12 @@ ctx.fillRect(10, 10, 50, 50)
   - svg 是基于 xml 的，它类似与 html，是有 DOM 结构的。
   - canvas 的绘图这是基于 JavaScript 来控制，我们定义的 canvas 标签，仅仅是提供一个画布，绘制的内容是不存在对应的 DOM 节点的，即便打开开发者工具查看元素结构，也只能看到一个 `<canvas>` 标签儿。
 
-## 9. 🔗 References
+## 9. 🔗 引用
 
-- http://snapsvg.io/demos/
-  - snapsvg demos
-- https://echarts.apache.org/examples/zh/index.html#chart-type-line
-  - echarts demos
-- https://www.4399.com/
-  - 4399 小游戏
+- [snapsvg demos][1]
+- [echarts demos][2]
+- [4399 小游戏][3]
+
+[1]: http://snapsvg.io/demos/
+[2]: https://echarts.apache.org/examples/zh/index.html#chart-type-line
+[3]: https://www.4399.com/

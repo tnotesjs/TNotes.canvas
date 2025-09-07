@@ -5,7 +5,7 @@
 - [1. 🎯 目标](#1--目标)
 - [2. 🫧 评价](#2--评价)
 - [3. 💻 demos.1 - `createLinearGradient` 的基本使用](#3--demos1---createlineargradient-的基本使用)
-- [4. 🔗 References](#4--references)
+- [4. 🔗 引用](#4--引用)
 
 <!-- endregion:toc -->
 
@@ -37,7 +37,8 @@
   - 比如此时设置的线性渐变是 `(100, 0) -> (400, 0)`，这个区间无法覆盖矩形，对于无法辐射到的区域 `0-100` 和 `400-500` 直接沿用了线性渐变的“终点”颜色。
   - ![2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-59-37.png)
 
-## 4. 🔗 References
+## 4. 🔗 引用
 
-- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient
-  - MDN - `ctx.createLinearGradient`。
+- [CanvasRenderingContext2D.createLinearGradient 方法][1]
+
+[1]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient

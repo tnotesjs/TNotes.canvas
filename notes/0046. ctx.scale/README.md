@@ -6,7 +6,7 @@
 - [2. 🫧 评价](#2--评价)
 - [3. 📒 `ctx.scale`](#3--ctxscale)
 - [4. 💻 demos.1 - `ctx.scale` 的基本使用](#4--demos1---ctxscale-的基本使用)
-- [5. 🔗 References](#5--references)
+- [5. 🔗 引用](#5--引用)
 
 <!-- endregion:toc -->
 
@@ -75,9 +75,8 @@ ctx.scale(sx, sy)
 - `2.html` 镜像效果
 - `3.html` 对比 `2.html`，理解 `ctx.save()`、`ctx.restore()` 在这种坐标变换效果中起到的作用 —— 避免“污染”后续绘图环境。
 
-## 5. 🔗 References
+## 5. 🔗 引用
 
-- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/scale
-- MDN - CanvasRenderingContext2D：scale() 方法
+- [CanvasRenderingContext2D.scale 方法][1]
 
 [1]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/scale

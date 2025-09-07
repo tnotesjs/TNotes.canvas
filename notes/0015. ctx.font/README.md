@@ -5,7 +5,7 @@
 - [1. 🎯 目标](#1--目标)
 - [2. 🫧 评价](#2--评价)
 - [3. 💻 demos.1 - `ctx.font` 的基本使用](#3--demos1---ctxfont-的基本使用)
-- [4. 🔗 References](#4--references)
+- [4. 🔗 引用](#4--引用)
 
 <!-- endregion:toc -->
 
@@ -28,12 +28,10 @@
 - 最终效果
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-18-51.png)
 
-## 4. 🔗 References
+## 4. 🔗 引用
 
-- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/font
-  - MDN - canvas `ctx.font`
-- https://developer.mozilla.org/en-US/docs/Web/CSS/font
-  - MDN - css `font`
+- [CanvasRenderingContext2D.font 属性][1]
+- [font CSS 属性][2]
 
 [1]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/font
 [2]: https://developer.mozilla.org/en-US/docs/Web/CSS/font

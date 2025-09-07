@@ -6,7 +6,7 @@
 - [2. 🫧 评价](#2--评价)
 - [3. 📒 `miterLimit`](#3--miterlimit)
 - [4. 💻 demos.1 - `miterLimit` 的基本使用](#4--demos1---miterlimit-的基本使用)
-- [5. 🔗 References](#5--references)
+- [5. 🔗 引用](#5--引用)
 
 <!-- endregion:toc -->
 
@@ -66,7 +66,8 @@ $$
 - `2.html`
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-11-54.png)
 
-## 5. 🔗 References
+## 5. 🔗 引用
 
-- https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/miterLimit
-  - MDN doc: `miterLimit`
+- [CanvasRenderingContext2D.miterLimit 属性][1]
+
+[1]: https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/miterLimit

@@ -7,7 +7,7 @@
 - [3. 📒 `ctx.translate`](#3--ctxtranslate)
 - [4. 💻 demos.1 - 坐标偏移](#4--demos1---坐标偏移)
 - [5. 💻 demos.2 - 绘制菱形](#5--demos2---绘制菱形)
-- [6. 🔗 References](#6--references)
+- [6. 🔗 引用](#6--引用)
 
 <!-- endregion:toc -->
 
@@ -71,7 +71,8 @@
 - 比如，`ctx.rotate` 旋转的中心点默认是左上角的原点位置，如果在旋转之前使用了 `ctx.translate` 对画布进行了平移，这将会导致坐标原点发生变化，进而导致 `ctx.rotate` 的旋转中心发生变化。
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-15-03-54.png)
 
-## 6. 🔗 References
+## 6. 🔗 引用
 
-- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/translate
-  - MDN - CanvasRenderingContext2D：translate() 方法
+- [CanvasRenderingContext2D.translate 方法][1]
+
+[1]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/translate

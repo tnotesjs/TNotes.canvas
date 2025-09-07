@@ -8,16 +8,17 @@
 - [x] [0056. canvas 在线学习 - 菜鸟教程](https://tnotesjs.github.io/TNotes.canvas/notes/0056.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README)
   - [1. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0056.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README#1--评价)
   - [2. 🔍 在“菜鸟教程”上搜索 canvas](https://tnotesjs.github.io/TNotes.canvas/notes/0056.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README#2--在菜鸟教程上搜索-canvas)
-  - [3. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0056.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README#3--references)
+  - [3. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0056.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README#3--引用)
 - [x] [0052. canvas 在线学习 - 掘金](https://tnotesjs.github.io/TNotes.canvas/notes/0052.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E6%8E%98%E9%87%91/README)
   - [1. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0052.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E6%8E%98%E9%87%91/README#1--评价)
-  - [2. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0052.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E6%8E%98%E9%87%91/README#2--references)
+  - [2. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0052.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20%E6%8E%98%E9%87%91/README#2--引用)
 - [x] [0054. canvas 在线学习 - MDN Canvas tutorial](https://tnotesjs.github.io/TNotes.canvas/notes/0054.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20MDN%20Canvas%20tutorial/README)
   - [1. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0054.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20MDN%20Canvas%20tutorial/README#1--评价)
-  - [2. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0054.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20MDN%20Canvas%20tutorial/README#2--references)
+  - [2. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0054.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20MDN%20Canvas%20tutorial/README#2--引用)
 - [x] [0055. canvas 在线学习 - HTML Canvas Deep Dive](https://tnotesjs.github.io/TNotes.canvas/notes/0055.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20HTML%20Canvas%20Deep%20Dive/README)
   - [1. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0055.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20HTML%20Canvas%20Deep%20Dive/README#1--评价)
-  - [2. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0055.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20HTML%20Canvas%20Deep%20Dive/README#2--references)
+  - [2. 🔍 教程目录](https://tnotesjs.github.io/TNotes.canvas/notes/0055.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20HTML%20Canvas%20Deep%20Dive/README#2--教程目录)
+  - [3. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0055.%20canvas%20%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%20-%20HTML%20Canvas%20Deep%20Dive/README#3--引用)
 
 ## 2. 初始 canvas
 
@@ -30,7 +31,7 @@
   - [6. 🆚 前端的两大绘图技术：svg 和 canvas 之间的区别都有哪些？](https://tnotesjs.github.io/TNotes.canvas/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README#6--前端的两大绘图技术svg-和-canvas-之间的区别都有哪些)
   - [7. 🆚 区分 Image 和 Graphic](https://tnotesjs.github.io/TNotes.canvas/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README#7--区分-image-和-graphic)
   - [8. 💻 demos.1 - canvas 的基本使用](https://tnotesjs.github.io/TNotes.canvas/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README#8--demos1---canvas-的基本使用)
-  - [9. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README#9--references)
+  - [9. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0001.%20%E5%88%9D%E5%A7%8B%20canvas/README#9--引用)
 
 ## 3. 开始使用 canvas
 
@@ -48,7 +49,7 @@
   - [5. 💻 demos.2 - 模拟放大镜的效果](https://tnotesjs.github.io/TNotes.canvas/notes/0003.%20%E5%8C%BA%E5%88%86%20canvas%20%E7%9A%84%20width%E3%80%81height%20%E5%B1%9E%E6%80%A7%E5%92%8C%20style%20%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%9A%84%20width%E3%80%81height%20%E5%80%BC/README#5--demos2---模拟放大镜的效果)
 - [x] [0005. canvas 的默认尺寸 300x150](https://tnotesjs.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300x150/README)
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300x150/README#1--目标)
-  - [2. 💻 demo](https://tnotesjs.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300x150/README#2--demo)
+  - [2. 💻 demos.1 - 理解 canvas 盒模型](https://tnotesjs.github.io/TNotes.canvas/notes/0005.%20canvas%20%E7%9A%84%E9%BB%98%E8%AE%A4%E5%B0%BA%E5%AF%B8%20300x150/README#2--demos1---理解-canvas-盒模型)
 - [x] [0006. 使用 JSDoc 来标注 canvas 变量类型](https://tnotesjs.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README)
   - [1. 🎯 目录](https://tnotesjs.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README#1--目录)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0006.%20%E4%BD%BF%E7%94%A8%20JSDoc%20%E6%9D%A5%E6%A0%87%E6%B3%A8%20canvas%20%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/README#2--评价)
@@ -82,7 +83,7 @@
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0011.%20ctx.miterLimit/README#2--评价)
   - [3. 📒 `miterLimit`](https://tnotesjs.github.io/TNotes.canvas/notes/0011.%20ctx.miterLimit/README#3--miterlimit)
   - [4. 💻 demos.1 - `miterLimit` 的基本使用](https://tnotesjs.github.io/TNotes.canvas/notes/0011.%20ctx.miterLimit/README#4--demos1---miterlimit-的基本使用)
-  - [5. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0011.%20ctx.miterLimit/README#5--references)
+  - [5. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0011.%20ctx.miterLimit/README#5--引用)
 - [x] [0012. ctx.lineTo](https://tnotesjs.github.io/TNotes.canvas/notes/0012.%20ctx.lineTo/README)
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0012.%20ctx.lineTo/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0012.%20ctx.lineTo/README#2--评价)
@@ -102,12 +103,12 @@
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0015.%20ctx.font/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0015.%20ctx.font/README#2--评价)
   - [3. 💻 demos.1 - `ctx.font` 的基本使用](https://tnotesjs.github.io/TNotes.canvas/notes/0015.%20ctx.font/README#3--demos1---ctxfont-的基本使用)
-  - [4. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0015.%20ctx.font/README#4--references)
+  - [4. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0015.%20ctx.font/README#4--引用)
 - [x] [0016. ctx.textBaseline、ctx.textAlign](https://tnotesjs.github.io/TNotes.canvas/notes/0016.%20ctx.textBaseline%E3%80%81ctx.textAlign/README)
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0016.%20ctx.textBaseline%E3%80%81ctx.textAlign/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0016.%20ctx.textBaseline%E3%80%81ctx.textAlign/README#2--评价)
   - [3. 💻 demos.1 - 设置文本的对齐方式](https://tnotesjs.github.io/TNotes.canvas/notes/0016.%20ctx.textBaseline%E3%80%81ctx.textAlign/README#3--demos1---设置文本的对齐方式)
-  - [4. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0016.%20ctx.textBaseline%E3%80%81ctx.textAlign/README#4--references)
+  - [4. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0016.%20ctx.textBaseline%E3%80%81ctx.textAlign/README#4--引用)
 
 ## 6. 矩形 - rect
 
@@ -161,7 +162,7 @@
   - [3. 💻 demos.1 - 自动闭合 vs. 手动闭合](https://tnotesjs.github.io/TNotes.canvas/notes/0022.%20ctx.closePath/README#3--demos1---自动闭合-vs-手动闭合)
   - [4. 💻 demos.2 - 注意 `lineWidth`](https://tnotesjs.github.io/TNotes.canvas/notes/0022.%20ctx.closePath/README#4--demos2---注意-linewidth)
   - [5. 🤔 如果路径未闭合，可以被填充吗？](https://tnotesjs.github.io/TNotes.canvas/notes/0022.%20ctx.closePath/README#5--如果路径未闭合可以被填充吗)
-  - [6. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0022.%20ctx.closePath/README#6--references)
+  - [6. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0022.%20ctx.closePath/README#6--引用)
 - [x] [0023. ctx.beginPath](https://tnotesjs.github.io/TNotes.canvas/notes/0023.%20ctx.beginPath/README)
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0023.%20ctx.beginPath/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0023.%20ctx.beginPath/README#2--评价)
@@ -174,7 +175,7 @@
   - [3. 📒 二次、三次贝塞尔曲线绘制原理](https://tnotesjs.github.io/TNotes.canvas/notes/0025.%20ctx.quadraticCurveTo%E3%80%81ctx.bezierCurveTo/README#3--二次三次贝塞尔曲线绘制原理)
   - [4. 💻 demos.1 - 二次贝塞尔曲线](https://tnotesjs.github.io/TNotes.canvas/notes/0025.%20ctx.quadraticCurveTo%E3%80%81ctx.bezierCurveTo/README#4--demos1---二次贝塞尔曲线)
   - [5. 💻 demos.2 - 三次贝塞尔曲线](https://tnotesjs.github.io/TNotes.canvas/notes/0025.%20ctx.quadraticCurveTo%E3%80%81ctx.bezierCurveTo/README#5--demos2---三次贝塞尔曲线)
-  - [6. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0025.%20ctx.quadraticCurveTo%E3%80%81ctx.bezierCurveTo/README#6--references)
+  - [6. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0025.%20ctx.quadraticCurveTo%E3%80%81ctx.bezierCurveTo/README#6--引用)
 
 ## 9. 阴影 - shadow
 
@@ -192,18 +193,18 @@
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0040.%20ctx.createConicGradient/README#2--评价)
   - [3. 📒 `ctx.createConicGradient(startAngle, x, y)`](https://tnotesjs.github.io/TNotes.canvas/notes/0040.%20ctx.createConicGradient/README#3--ctxcreateconicgradientstartangle-x-y)
   - [4. 💻 demos.1](https://tnotesjs.github.io/TNotes.canvas/notes/0040.%20ctx.createConicGradient/README#4--demos1)
-  - [5. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0040.%20ctx.createConicGradient/README#5--references)
+  - [5. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0040.%20ctx.createConicGradient/README#5--引用)
 - [x] [0041. ctx.createLinearGradient](https://tnotesjs.github.io/TNotes.canvas/notes/0041.%20ctx.createLinearGradient/README)
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0041.%20ctx.createLinearGradient/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0041.%20ctx.createLinearGradient/README#2--评价)
   - [3. 💻 demos.1 - `createLinearGradient` 的基本使用](https://tnotesjs.github.io/TNotes.canvas/notes/0041.%20ctx.createLinearGradient/README#3--demos1---createlineargradient-的基本使用)
-  - [4. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0041.%20ctx.createLinearGradient/README#4--references)
+  - [4. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0041.%20ctx.createLinearGradient/README#4--引用)
 - [x] [0042. ctx.createRadialGradient](https://tnotesjs.github.io/TNotes.canvas/notes/0042.%20ctx.createRadialGradient/README)
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0042.%20ctx.createRadialGradient/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0042.%20ctx.createRadialGradient/README#2--评价)
   - [3. 📒 `ctx.createRadialGradient`](https://tnotesjs.github.io/TNotes.canvas/notes/0042.%20ctx.createRadialGradient/README#3--ctxcreateradialgradient)
   - [4. 💻 demos.1 - `ctx.createRadialGradient` 的基本使用](https://tnotesjs.github.io/TNotes.canvas/notes/0042.%20ctx.createRadialGradient/README#4--demos1---ctxcreateradialgradient-的基本使用)
-  - [5. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0042.%20ctx.createRadialGradient/README#5--references)
+  - [5. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0042.%20ctx.createRadialGradient/README#5--引用)
 
 ## 11. 滤镜 - filter
 
@@ -223,7 +224,7 @@
   - [13. 💻 demos.9 - contrast](https://tnotesjs.github.io/TNotes.canvas/notes/0044.%20ctx.filter/README#13--demos9---contrast)
   - [14. 💻 demos.10 - 使用 url 引用 svg 滤镜](https://tnotesjs.github.io/TNotes.canvas/notes/0044.%20ctx.filter/README#14--demos10---使用-url-引用-svg-滤镜)
   - [15. 💻 demos.11 - opacity](https://tnotesjs.github.io/TNotes.canvas/notes/0044.%20ctx.filter/README#15--demos11---opacity)
-  - [16. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0044.%20ctx.filter/README#16--references)
+  - [16. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0044.%20ctx.filter/README#16--引用)
 
 ## 12. 画布状态的存取 - save&restore
 
@@ -233,7 +234,7 @@
   - [3. 📒 `ctx.save` 和 `ctx.restore`](https://tnotesjs.github.io/TNotes.canvas/notes/0007.%20ctx.save%E3%80%81ctx.restore/README#3--ctxsave-和-ctxrestore)
   - [4. 💻 demos.2 - 辅助方法 `drawGrid`](https://tnotesjs.github.io/TNotes.canvas/notes/0007.%20ctx.save%E3%80%81ctx.restore/README#4--demos2---辅助方法-drawgrid)
   - [5. 💻 demos.1 - 画布状态的保存和恢复](https://tnotesjs.github.io/TNotes.canvas/notes/0007.%20ctx.save%E3%80%81ctx.restore/README#5--demos1---画布状态的保存和恢复)
-  - [6. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0007.%20ctx.save%E3%80%81ctx.restore/README#6--references)
+  - [6. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0007.%20ctx.save%E3%80%81ctx.restore/README#6--引用)
 
 ## 13. 图像 - image
 
@@ -243,7 +244,7 @@
   - [3. 💻 demos.1 - 保持图片原始尺寸](https://tnotesjs.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#3--demos1---保持图片原始尺寸)
   - [4. 💻 demos.2 - 约束图片尺寸](https://tnotesjs.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#4--demos2---约束图片尺寸)
   - [5. 💻 demos.3 - 裁剪图片](https://tnotesjs.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#5--demos3---裁剪图片)
-  - [6. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#6--references)
+  - [6. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0035.%20%E4%BD%BF%E7%94%A8%20ctx.drawImage%20%E5%BC%95%E5%85%A5%E5%9B%BE%E5%83%8F/README#6--引用)
 - [x] [0031. ctx.clip](https://tnotesjs.github.io/TNotes.canvas/notes/0031.%20ctx.clip/README)
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0031.%20ctx.clip/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0031.%20ctx.clip/README#2--评价)
@@ -256,12 +257,12 @@
   - [6. 💻 demos.1 - 裁剪菱形](https://tnotesjs.github.io/TNotes.canvas/notes/0031.%20ctx.clip/README#6--demos1---裁剪菱形)
   - [7. 💻 demos.2 - 裁剪圆形](https://tnotesjs.github.io/TNotes.canvas/notes/0031.%20ctx.clip/README#7--demos2---裁剪圆形)
   - [8. 💻 demos.4 - 问题记录](https://tnotesjs.github.io/TNotes.canvas/notes/0031.%20ctx.clip/README#8--demos4---问题记录)
-  - [9. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0031.%20ctx.clip/README#9--references)
+  - [9. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0031.%20ctx.clip/README#9--引用)
 - [x] [0032. ctx.createPattern](https://tnotesjs.github.io/TNotes.canvas/notes/0032.%20ctx.createPattern/README)
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0032.%20ctx.createPattern/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0032.%20ctx.createPattern/README#2--评价)
   - [3. 💻 demos.1 - `ctx.createPattern` 的基本使用](https://tnotesjs.github.io/TNotes.canvas/notes/0032.%20ctx.createPattern/README#3--demos1---ctxcreatepattern-的基本使用)
-  - [4. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0032.%20ctx.createPattern/README#4--references)
+  - [4. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0032.%20ctx.createPattern/README#4--引用)
 - [x] [0033. ctx.drawImage](https://tnotesjs.github.io/TNotes.canvas/notes/0033.%20ctx.drawImage/README)
   - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
     - [TNotes.yuque.canvas.0033](https://www.yuque.com/tdahuyou/tnotes.yuque/canvas.0033)
@@ -277,7 +278,7 @@
   - [5. 💻 demos.1 - 置灰](https://tnotesjs.github.io/TNotes.canvas/notes/0036.%20ctx.getImageData%E3%80%81ctx.putImageData/README#5--demos1---置灰)
   - [6. 💻 demos.2 - 图像反色处理](https://tnotesjs.github.io/TNotes.canvas/notes/0036.%20ctx.getImageData%E3%80%81ctx.putImageData/README#6--demos2---图像反色处理)
   - [7. 💻 demos.3 - 置蓝](https://tnotesjs.github.io/TNotes.canvas/notes/0036.%20ctx.getImageData%E3%80%81ctx.putImageData/README#7--demos3---置蓝)
-  - [8. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0036.%20ctx.getImageData%E3%80%81ctx.putImageData/README#8--references)
+  - [8. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0036.%20ctx.getImageData%E3%80%81ctx.putImageData/README#8--引用)
 - [x] [0037. ctx.globalCompositeOperation](https://tnotesjs.github.io/TNotes.canvas/notes/0037.%20ctx.globalCompositeOperation/README)
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0037.%20ctx.globalCompositeOperation/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0037.%20ctx.globalCompositeOperation/README#2--评价)
@@ -286,7 +287,7 @@
   - [5. 💻 demos.1 - source & destination](https://tnotesjs.github.io/TNotes.canvas/notes/0037.%20ctx.globalCompositeOperation/README#5--demos1---source--destination)
   - [6. 💻 demos.2 - 颜色合成](https://tnotesjs.github.io/TNotes.canvas/notes/0037.%20ctx.globalCompositeOperation/README#6--demos2---颜色合成)
   - [7. 💻 demos.3 - MDN 官方示例](https://tnotesjs.github.io/TNotes.canvas/notes/0037.%20ctx.globalCompositeOperation/README#7--demos3---mdn-官方示例)
-  - [8. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0037.%20ctx.globalCompositeOperation/README#8--references)
+  - [8. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0037.%20ctx.globalCompositeOperation/README#8--引用)
 - [x] [0038. 使用 ctx.globalCompositeOperation 实现刮刮乐效果](https://tnotesjs.github.io/TNotes.canvas/notes/0038.%20%E4%BD%BF%E7%94%A8%20ctx.globalCompositeOperation%20%E5%AE%9E%E7%8E%B0%E5%88%AE%E5%88%AE%E4%B9%90%E6%95%88%E6%9E%9C/README)
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0038.%20%E4%BD%BF%E7%94%A8%20ctx.globalCompositeOperation%20%E5%AE%9E%E7%8E%B0%E5%88%AE%E5%88%AE%E4%B9%90%E6%95%88%E6%9E%9C/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0038.%20%E4%BD%BF%E7%94%A8%20ctx.globalCompositeOperation%20%E5%AE%9E%E7%8E%B0%E5%88%AE%E5%88%AE%E4%B9%90%E6%95%88%E6%9E%9C/README#2--评价)
@@ -299,7 +300,7 @@
   - [4. 🤔 data url 是什么？为什么将其赋值给 a 元素的 href 属性之后就能实现一键下载了呢？](https://tnotesjs.github.io/TNotes.canvas/notes/0039.%20%E5%BC%95%E7%94%A8%E5%92%8C%E4%B8%8B%E8%BD%BD%20canvas%20%E5%9B%BE%E5%83%8F/README#4--data-url-是什么为什么将其赋值给-a-元素的-href-属性之后就能实现一键下载了呢)
     - [4.1. Data URL 简介](https://tnotesjs.github.io/TNotes.canvas/notes/0039.%20%E5%BC%95%E7%94%A8%E5%92%8C%E4%B8%8B%E8%BD%BD%20canvas%20%E5%9B%BE%E5%83%8F/README#41-data-url-简介)
     - [4.2. 为什么赋值给 a 元素的 href 能实现下载？](https://tnotesjs.github.io/TNotes.canvas/notes/0039.%20%E5%BC%95%E7%94%A8%E5%92%8C%E4%B8%8B%E8%BD%BD%20canvas%20%E5%9B%BE%E5%83%8F/README#42-为什么赋值给-a-元素的-href-能实现下载)
-  - [5. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0039.%20%E5%BC%95%E7%94%A8%E5%92%8C%E4%B8%8B%E8%BD%BD%20canvas%20%E5%9B%BE%E5%83%8F/README#5--references)
+  - [5. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0039.%20%E5%BC%95%E7%94%A8%E5%92%8C%E4%B8%8B%E8%BD%BD%20canvas%20%E5%9B%BE%E5%83%8F/README#5--引用)
 
 ## 14. 坐标系 - coordinate system
 
@@ -308,20 +309,20 @@
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0045.%20ctx.rotate/README#2--评价)
   - [3. 📒 `ctx.rotate`](https://tnotesjs.github.io/TNotes.canvas/notes/0045.%20ctx.rotate/README#3--ctxrotate)
   - [4. 💻 demos.1 - 理解 `ctx.rotate` 旋转的一些特性](https://tnotesjs.github.io/TNotes.canvas/notes/0045.%20ctx.rotate/README#4--demos1---理解-ctxrotate-旋转的一些特性)
-  - [5. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0045.%20ctx.rotate/README#5--references)
+  - [5. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0045.%20ctx.rotate/README#5--引用)
 - [x] [0048. ctx.translate](https://tnotesjs.github.io/TNotes.canvas/notes/0048.%20ctx.translate/README)
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0048.%20ctx.translate/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0048.%20ctx.translate/README#2--评价)
   - [3. 📒 `ctx.translate`](https://tnotesjs.github.io/TNotes.canvas/notes/0048.%20ctx.translate/README#3--ctxtranslate)
   - [4. 💻 demos.1 - 坐标偏移](https://tnotesjs.github.io/TNotes.canvas/notes/0048.%20ctx.translate/README#4--demos1---坐标偏移)
   - [5. 💻 demos.2 - 绘制菱形](https://tnotesjs.github.io/TNotes.canvas/notes/0048.%20ctx.translate/README#5--demos2---绘制菱形)
-  - [6. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0048.%20ctx.translate/README#6--references)
+  - [6. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0048.%20ctx.translate/README#6--引用)
 - [x] [0046. ctx.scale](https://tnotesjs.github.io/TNotes.canvas/notes/0046.%20ctx.scale/README)
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0046.%20ctx.scale/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0046.%20ctx.scale/README#2--评价)
   - [3. 📒 `ctx.scale`](https://tnotesjs.github.io/TNotes.canvas/notes/0046.%20ctx.scale/README#3--ctxscale)
   - [4. 💻 demos.1 - `ctx.scale` 的基本使用](https://tnotesjs.github.io/TNotes.canvas/notes/0046.%20ctx.scale/README#4--demos1---ctxscale-的基本使用)
-  - [5. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0046.%20ctx.scale/README#5--references)
+  - [5. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0046.%20ctx.scale/README#5--引用)
 - [x] [0047. ctx.transform](https://tnotesjs.github.io/TNotes.canvas/notes/0047.%20ctx.transform/README)
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0047.%20ctx.transform/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0047.%20ctx.transform/README#2--评价)
@@ -331,7 +332,7 @@
   - [6. 💻 demos.3 - 坐标系倾斜](https://tnotesjs.github.io/TNotes.canvas/notes/0047.%20ctx.transform/README#6--demos3---坐标系倾斜)
   - [7. 💻 demos.4 - 坐标系旋转](https://tnotesjs.github.io/TNotes.canvas/notes/0047.%20ctx.transform/README#7--demos4---坐标系旋转)
   - [8. 🤔 扩展：“仿射变换（Affine Transformation）” 是什么？](https://tnotesjs.github.io/TNotes.canvas/notes/0047.%20ctx.transform/README#8--扩展仿射变换affine-transformation-是什么)
-  - [9. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0047.%20ctx.transform/README#9--references)
+  - [9. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0047.%20ctx.transform/README#9--引用)
 
 ## 15. 动画效果 - Animation
 
@@ -349,7 +350,7 @@
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0050.%20%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E6%97%B6%E9%92%9F%E6%95%88%E6%9E%9C/README#2--评价)
   - [3. 💻 demos.1 - 动态始终效果实现源码](https://tnotesjs.github.io/TNotes.canvas/notes/0050.%20%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E6%97%B6%E9%92%9F%E6%95%88%E6%9E%9C/README#3--demos1---动态始终效果实现源码)
   - [4. 💻 demos.2 - 菜鸟教程版](https://tnotesjs.github.io/TNotes.canvas/notes/0050.%20%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E6%97%B6%E9%92%9F%E6%95%88%E6%9E%9C/README#4--demos2---菜鸟教程版)
-  - [5. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0050.%20%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E6%97%B6%E9%92%9F%E6%95%88%E6%9E%9C/README#5--references)
+  - [5. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0050.%20%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E6%97%B6%E9%92%9F%E6%95%88%E6%9E%9C/README#5--引用)
 - [x] [0049. 模拟烟花效果](https://tnotesjs.github.io/TNotes.canvas/notes/0049.%20%E6%A8%A1%E6%8B%9F%E7%83%9F%E8%8A%B1%E6%95%88%E6%9E%9C/README)
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0049.%20%E6%A8%A1%E6%8B%9F%E7%83%9F%E8%8A%B1%E6%95%88%E6%9E%9C/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0049.%20%E6%A8%A1%E6%8B%9F%E7%83%9F%E8%8A%B1%E6%95%88%E6%9E%9C/README#2--评价)
@@ -359,7 +360,7 @@
   - [1. 🎯 目标](https://tnotesjs.github.io/TNotes.canvas/notes/0034.%20%E6%A8%A1%E6%8B%9F%E5%A4%AA%E9%98%B3%E7%B3%BB%E6%95%88%E6%9E%9C/README#1--目标)
   - [2. 🫧 评价](https://tnotesjs.github.io/TNotes.canvas/notes/0034.%20%E6%A8%A1%E6%8B%9F%E5%A4%AA%E9%98%B3%E7%B3%BB%E6%95%88%E6%9E%9C/README#2--评价)
   - [3. 💻 demos.1 - 太阳系](https://tnotesjs.github.io/TNotes.canvas/notes/0034.%20%E6%A8%A1%E6%8B%9F%E5%A4%AA%E9%98%B3%E7%B3%BB%E6%95%88%E6%9E%9C/README#3--demos1---太阳系)
-  - [4. 🔗 References](https://tnotesjs.github.io/TNotes.canvas/notes/0034.%20%E6%A8%A1%E6%8B%9F%E5%A4%AA%E9%98%B3%E7%B3%BB%E6%95%88%E6%9E%9C/README#4--references)
+  - [4. 🔗 引用](https://tnotesjs.github.io/TNotes.canvas/notes/0034.%20%E6%A8%A1%E6%8B%9F%E5%A4%AA%E9%98%B3%E7%B3%BB%E6%95%88%E6%9E%9C/README#4--引用)
 
 ## 16. 小游戏
 

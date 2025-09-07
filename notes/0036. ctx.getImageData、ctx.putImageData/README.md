@@ -9,7 +9,7 @@
 - [5. 💻 demos.1 - 置灰](#5--demos1---置灰)
 - [6. 💻 demos.2 - 图像反色处理](#6--demos2---图像反色处理)
 - [7. 💻 demos.3 - 置蓝](#7--demos3---置蓝)
-- [8. 🔗 References](#8--references)
+- [8. 🔗 引用](#8--引用)
 
 <!-- endregion:toc -->
 
@@ -130,7 +130,7 @@ imageData.data[i + 2] = b * 2 // 增强蓝色分量，超过 255 时需要限制
 - 最终效果：
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-51-17.png)
 
-## 8. 🔗 References
+## 8. 🔗 引用
 
 - [MDN - CanvasRenderingContext2D: getImageData() method][1]，读图片数据。
 - [MDN - CanvasRenderingContext2D: putImageData() method][2]，写图片数据。

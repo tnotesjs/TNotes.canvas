@@ -6,7 +6,7 @@
 - [2. 🫧 评价](#2--评价)
 - [3. 📒 `ctx.createConicGradient(startAngle, x, y)`](#3--ctxcreateconicgradientstartangle-x-y)
 - [4. 💻 demos.1](#4--demos1)
-- [5. 🔗 References](#5--references)
+- [5. 🔗 引用](#5--引用)
 
 <!-- endregion:toc -->
 
@@ -47,7 +47,8 @@
 
 :::
 
-## 5. 🔗 References
+## 5. 🔗 引用
 
-- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createConicGradient
-  - MDN - `ctx.createConicGradient(startAngle, x, y)`
+- [CanvasRenderingContext2D.createConicGradient 方法][1]
+
+[1]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createConicGradient

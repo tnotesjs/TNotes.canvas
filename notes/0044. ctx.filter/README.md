@@ -17,7 +17,7 @@
 - [13. 💻 demos.9 - contrast](#13--demos9---contrast)
 - [14. 💻 demos.10 - 使用 url 引用 svg 滤镜](#14--demos10---使用-url-引用-svg-滤镜)
 - [15. 💻 demos.11 - opacity](#15--demos11---opacity)
-- [16. 🔗 References](#16--references)
+- [16. 🔗 引用](#16--引用)
 
 <!-- endregion:toc -->
 
@@ -172,7 +172,8 @@
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-15-06-12-31.png)
 
-## 16. 🔗 References
+## 16. 🔗 引用
 
-- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/filter
-  - MDN - `ctx.filter`
+- [CanvasRenderingContext2D.filter 属性][1]
+
+[1]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/filter

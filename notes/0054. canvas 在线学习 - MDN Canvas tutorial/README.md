@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 🫧 评价](#1--评价)
-- [2. 🔗 References](#2--references)
+- [2. 🔗 引用](#2--引用)
 
 <!-- endregion:toc -->
 
@@ -12,7 +12,8 @@
 - 记录了 MDN 上 canvas 相关的链接。
 - 如果要查阅 canvas api 的使用，可以直接在 mdn 上查阅。
 
-## 2. 🔗 References
+## 2. 🔗 引用
 
-- https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
-  - MDN Canvas tutorial
+- [MDN Canvas tutorial][1]
+
+[1]: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial

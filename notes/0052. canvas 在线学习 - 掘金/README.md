@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 🫧 评价](#1--评价)
-- [2. 🔗 References](#2--references)
+- [2. 🔗 引用](#2--引用)
 
 <!-- endregion:toc -->
 
@@ -15,13 +15,11 @@
   - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-23-12-03-19.png)
   - 会发现上面提到的这篇文章就排在前列。
 
-## 2. 🔗 References
+## 2. 🔗 引用
+
+- [Canvas 从入门到劝朋友放弃（图解版）][1]
+- [掘金上带有 canvas Tag 的文章][2]
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-23-12-00-36.png)
 
 [1]: https://juejin.cn/post/7116784455561248775
 [2]: https://juejin.cn/tag/Canvas
-
-- https://juejin.cn/post/7116784455561248775
-  - Canvas 从入门到劝朋友放弃（图解版）。
-- https://juejin.cn/tag/Canvas
-  - 掘金上带有 canvas Tag 的文章。
-  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-23-12-00-36.png)

@@ -7,7 +7,7 @@
 - [3. 💻 demos.1 - 保持图片原始尺寸](#3--demos1---保持图片原始尺寸)
 - [4. 💻 demos.2 - 约束图片尺寸](#4--demos2---约束图片尺寸)
 - [5. 💻 demos.3 - 裁剪图片](#5--demos3---裁剪图片)
-- [6. 🔗 References](#6--references)
+- [6. 🔗 引用](#6--引用)
 
 <!-- endregion:toc -->
 
@@ -74,7 +74,8 @@
 - 最终效果
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-48-10.png)
 
-## 6. 🔗 References
+## 6. 🔗 引用
 
-- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage
-  - MDN - `ctx.drawImage`
+- [CanvasRenderingContext2D.drawImage 方法][1]
+
+[1]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/**drawImage**

@@ -23,7 +23,7 @@
     "details": "Canvas 笔记",
     "link": "https://tnotesjs.github.io/TNotes.canvas/",
     "created_at": 1741007058000,
-    "updated_at": 1757220375611,
+    "updated_at": 1757553999824,
     "days_since_birth": 9380
   },
   "port": 9380,
@@ -42,7 +42,7 @@
     },
     {
       "text": "📒 TNotes",
-      "link": "https://tnotesjs.github.io/notes"
+      "link": "https://tnotesjs.github.io/TNotes"
     },
     {
       "text": "📂 TNotes.yuque",

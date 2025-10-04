@@ -2,8 +2,6 @@
 
 <!-- region:toc -->
 
-- [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
-  - [TNotes.yuque.canvas.0025](https://www.yuque.com/tdahuyou/tnotes.yuque/canvas.0025)
 - [1. 🎯 目标](#1--目标)
 - [2. 🫧 评价](#2--评价)
 - [3. 📒 二次、三次贝塞尔曲线绘制原理](#3--二次三次贝塞尔曲线绘制原理)

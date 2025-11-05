@@ -1,12 +1,11 @@
 {
   "bilibili": [],
   "tnotes": [],
-  "yuque": [
-    "canvas.0025"
-  ],
+  "yuque": ["canvas.0025"],
   "done": true,
+  "deprecated": false,
   "enableDiscussions": true,
+  "id": "c193340f-ec9c-4529-bb34-8122aed6dc4a",
   "created_at": 1758172022306,
-  "updated_at": 1758172022306,
-  "id": "c193340f-ec9c-4529-bb34-8122aed6dc4a"
+  "updated_at": 1758172022306
 }

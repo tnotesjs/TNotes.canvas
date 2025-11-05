@@ -2,6 +2,13 @@
 
 <!-- region:toc -->
 
+::: details 📚 相关资源
+
+- [📂 TNotes.yuque（笔记附件资源）](https://www.yuque.com/tdahuyou/tnotes.yuque/)
+  - [TNotes.yuque.canvas.0033](https://www.yuque.com/tdahuyou/tnotes.yuque/canvas.0033)
+
+:::
+
 - [1. 🎯 目标](#1--目标)
 - [2. 🫧 评价](#2--评价)
 - [3. 💻 demos.1 - 处理视频图像](#3--demos1---处理视频图像)

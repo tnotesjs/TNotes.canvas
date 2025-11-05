@@ -2,7 +2,6 @@
 
 <!-- region:toc -->
 
-- [canvas](#canvas)
   - [1. canvas 学习资源](#1-canvas-学习资源)
   - [2. 初始 canvas](#2-初始-canvas)
   - [3. 开始使用 canvas](#3-开始使用-canvas)

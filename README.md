@@ -2,22 +2,22 @@
 
 <!-- region:toc -->
 
-  - [1. canvas 学习资源](#1-canvas-学习资源)
-  - [2. 初始 canvas](#2-初始-canvas)
-  - [3. 开始使用 canvas](#3-开始使用-canvas)
-  - [4. 线条 - line](#4-线条---line)
-  - [5. 文本 - text](#5-文本---text)
-  - [6. 矩形 - rect](#6-矩形---rect)
-  - [7. 圆弧 - arc](#7-圆弧---arc)
-  - [8. 路径 - path](#8-路径---path)
-  - [9. 阴影 - shadow](#9-阴影---shadow)
-  - [10. 渐变 - gradient](#10-渐变---gradient)
-  - [11. 滤镜 - filter](#11-滤镜---filter)
-  - [12. 画布状态的存取 - save&restore](#12-画布状态的存取---saverestore)
-  - [13. 图像 - image](#13-图像---image)
-  - [14. 坐标系 - coordinate system](#14-坐标系---coordinate-system)
-  - [15. 动画效果 - Animation](#15-动画效果---animation)
-  - [16. 小游戏](#16-小游戏)
+- [1. canvas 学习资源](#1-canvas-学习资源)
+- [2. 初始 canvas](#2-初始-canvas)
+- [3. 开始使用 canvas](#3-开始使用-canvas)
+- [4. 线条 - line](#4-线条---line)
+- [5. 文本 - text](#5-文本---text)
+- [6. 矩形 - rect](#6-矩形---rect)
+- [7. 圆弧 - arc](#7-圆弧---arc)
+- [8. 路径 - path](#8-路径---path)
+- [9. 阴影 - shadow](#9-阴影---shadow)
+- [10. 渐变 - gradient](#10-渐变---gradient)
+- [11. 滤镜 - filter](#11-滤镜---filter)
+- [12. 画布状态的存取 - save&restore](#12-画布状态的存取---saverestore)
+- [13. 图像 - image](#13-图像---image)
+- [14. 坐标系 - coordinate system](#14-坐标系---coordinate-system)
+- [15. 动画效果 - Animation](#15-动画效果---animation)
+- [16. 小游戏](#16-小游戏)
 
 <!-- endregion:toc -->
 

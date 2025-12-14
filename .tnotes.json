@@ -20,6 +20,8 @@
     },
     "title": "canvas",
     "completed_notes_count": {
+      "25.01": 0,
+      "25.02": 0,
       "25.03": 0,
       "25.04": 0,
       "25.05": 0,
@@ -34,7 +36,7 @@
     "details": "Canvas 笔记",
     "link": "https://tnotesjs.github.io/TNotes.canvas/",
     "created_at": 1741007058000,
-    "updated_at": 1764578435120,
+    "updated_at": 1765719212836,
     "days_since_birth": 9380
   },
   "port": 9380,

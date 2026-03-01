@@ -33,12 +33,13 @@
       "25.11": 57,
       "25.12": 57,
       "26.01": 57,
-      "26.02": 57
+      "26.02": 57,
+      "26.03": 57
     },
     "details": "Canvas 笔记",
     "link": "https://tnotesjs.github.io/TNotes.canvas/",
     "created_at": 1741007058000,
-    "updated_at": 1771856715327,
+    "updated_at": 1772368226062,
     "days_since_birth": 9380
   },
   "port": 9380,

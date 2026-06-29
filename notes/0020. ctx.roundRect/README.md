@@ -2,22 +2,22 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 目标](#1--目标)
-- [2. 🫧 评价](#2--评价)
-- [3. 💻 demos.1 - 使用 `ctx.roundRect()` 来绘制一个圆角矩形路径](#3--demos1---使用-ctxroundrect-来绘制一个圆角矩形路径)
+- [1. 目标](#1-目标)
+- [2. 评价](#2-评价)
+- [3. demos.1 - 使用 `ctx.roundRect()` 来绘制一个圆角矩形路径](#3-demos1---使用-ctxroundrect-来绘制一个圆角矩形路径)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 目标
+## 1. 目标
 
 - 掌握 `ctx.roundRect()` 的基本使用
 
-## 2. 🫧 评价
+## 2. 评价
 
 - 很简单的一个 API，扫一眼 demo 即可。
 - 矩形 4 个角的圆角效果都可以独立设置。
 
-## 3. 💻 demos.1 - 使用 `ctx.roundRect()` 来绘制一个圆角矩形路径
+## 3. demos.1 - 使用 `ctx.roundRect()` 来绘制一个圆角矩形路径
 
 ::: code-group
 

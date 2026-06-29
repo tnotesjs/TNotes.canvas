@@ -32,13 +32,14 @@
       "26.02": 57,
       "26.03": 57,
       "26.04": 57,
+      "26.05": 57,
       "26.06": 57
     },
     "details": "Canvas 笔记",
     "link": "https://tnotesjs.github.io/TNotes.canvas/",
     "created_at": 1741007058000,
-    "updated_at": 1780376758000,
-    "days_since_birth": 9836
+    "updated_at": 1782714080000,
+    "days_since_birth": 9863
   },
   "port": 9380,
   "menuItems": [
@@ -47,24 +48,12 @@
       "link": "/"
     },
     {
-      "text": "⚙️ Settings",
-      "link": "/Settings"
-    },
-    {
-      "text": "🎯 Words",
-      "link": "/Words"
-    },
-    {
       "text": "📒 TNotes",
       "link": "https://tnotesjs.github.io/TNotes"
     },
     {
       "text": "📂 TNotes.yuque",
       "link": "https://www.yuque.com/tdahuyou/tnotes.yuque"
-    },
-    {
-      "text": "🔗 References",
-      "link": "/References"
     }
   ],
   "socialLinks": [

@@ -2,19 +2,19 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 目标](#1--目标)
-- [2. 🫧 评价](#2--评价)
-- [3. 📒 `ctx.transform`](#3--ctxtransform)
-- [4. 💻 demos.1 - 坐标系平移](#4--demos1---坐标系平移)
-- [5. 💻 demos.2 - 坐标系缩放](#5--demos2---坐标系缩放)
-- [6. 💻 demos.3 - 坐标系倾斜](#6--demos3---坐标系倾斜)
-- [7. 💻 demos.4 - 坐标系旋转](#7--demos4---坐标系旋转)
-- [8. 🤔 扩展：“仿射变换（Affine Transformation）” 是什么？](#8--扩展仿射变换affine-transformation-是什么)
-- [9. 🔗 引用](#9--引用)
+- [1. 目标](#1-目标)
+- [2. 评价](#2-评价)
+- [3. `ctx.transform`](#3-ctxtransform)
+- [4. demos.1 - 坐标系平移](#4-demos1---坐标系平移)
+- [5. demos.2 - 坐标系缩放](#5-demos2---坐标系缩放)
+- [6. demos.3 - 坐标系倾斜](#6-demos3---坐标系倾斜)
+- [7. demos.4 - 坐标系旋转](#7-demos4---坐标系旋转)
+- [8. 扩展：“仿射变换（Affine Transformation）” 是什么？](#8-扩展仿射变换affine-transformation-是什么)
+- [9. 引用](#9-引用)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 目标
+## 1. 目标
 
 - 掌握 `ctx.transform` 的基本使用
 - 了解 `ctx.transform` 坐标系的转换公式（不要求背，能结合公式看懂 demos 的坐标系的转换即可）
@@ -22,7 +22,7 @@
 - 知道如何重置转换后的坐标系
 - 知道如何使用 `ctx.transform` 来实现平移 `ctx.translate`、缩放 `ctx.scale` 和旋转 `ctx.rotate` 的效果
 
-## 2. 🫧 评价
+## 2. 评价
 
 - `ctx.transform` 很强大，可以实现很多转换效果，它允许你通过修改坐标系来实现平移、旋转、缩放以及更复杂的线性变换。
 - 对坐标系的操作，比如：平移 `translate()`、缩放 `scale()` 和旋转 `rotate()`，它们都可以通过 `transform` 来实现，如果你更倾向于使用 `transform` 来控制坐标系，那么你可以直接抛弃它们。
@@ -37,7 +37,7 @@
   - **🤔 这里提到的“难在应用”是什么意思？**
   - 就是当你有了一个转换需求后，应该 **传什么样的参数** 才能满足我们需要的转换需求呢？
 
-## 3. 📒 `ctx.transform`
+## 3. `ctx.transform`
 
 - **`ctx.transform`**
   - `ctx.transform` 很强大，可以实现很多转换效果，比如：平移 `translate()`、缩放 `scale()` 和旋转 `rotate()`，它们都可以通过 `transform` 来实现。
@@ -97,7 +97,7 @@ const sin = Math.sin(angle)
 ctx.transform(cos, sin, -sin, cos, 0, 0)
 ```
 
-## 4. 💻 demos.1 - 坐标系平移
+## 4. demos.1 - 坐标系平移
 
 ::: code-group
 
@@ -110,7 +110,7 @@ ctx.transform(cos, sin, -sin, cos, 0, 0)
 - 最终效果：
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-15-11-05.png)
 
-## 5. 💻 demos.2 - 坐标系缩放
+## 5. demos.2 - 坐标系缩放
 
 ::: code-group
 
@@ -123,7 +123,7 @@ ctx.transform(cos, sin, -sin, cos, 0, 0)
 - 最终效果：
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-15-11-15.png)
 
-## 6. 💻 demos.3 - 坐标系倾斜
+## 6. demos.3 - 坐标系倾斜
 
 ::: code-group
 
@@ -136,7 +136,7 @@ ctx.transform(cos, sin, -sin, cos, 0, 0)
 - 最终效果：
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-15-11-25.png)
 
-## 7. 💻 demos.4 - 坐标系旋转
+## 7. demos.4 - 坐标系旋转
 
 ::: code-group
 
@@ -149,7 +149,7 @@ ctx.transform(cos, sin, -sin, cos, 0, 0)
 - 最终效果：
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-15-11-36.png)
 
-## 8. 🤔 扩展：“仿射变换（Affine Transformation）” 是什么？
+## 8. 扩展：“仿射变换（Affine Transformation）” 是什么？
 
 ::: tip
 
@@ -208,7 +208,7 @@ a, b, c, d, e, f 是变换参数
   - **地理信息系统（GIS）**：用于地图投影和坐标转换。
   - **机器学习**：在数据预处理中，仿射变换常用于归一化或标准化数据。
 
-## 9. 🔗 引用
+## 9. 引用
 
 - [MDN - CanvasRenderingContext2D：transform() 方法][1]
 - [维基百科 - 仿射变换][2]

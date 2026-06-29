@@ -2,26 +2,26 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 目标](#1--目标)
-- [2. 🫧 评价](#2--评价)
-- [3. 📒 `ctx.clearRect`](#3--ctxclearrect)
-- [4. 💻 demos.1 - 掌握 `ctx.clearRect` 的基本使用](#4--demos1---掌握-ctxclearrect-的基本使用)
-- [5. 💻 demos.2 - 运动的小球](#5--demos2---运动的小球)
+- [1. 目标](#1-目标)
+- [2. 评价](#2-评价)
+- [3. `ctx.clearRect`](#3-ctxclearrect)
+- [4. demos.1 - 掌握 `ctx.clearRect` 的基本使用](#4-demos1---掌握-ctxclearrect-的基本使用)
+- [5. demos.2 - 运动的小球](#5-demos2---运动的小球)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 目标
+## 1. 目标
 
 - 掌握 `ctx.clearRect` 的基本使用
 - 了解 `ctx.clearRect` 的应用场景
 
-## 2. 🫧 评价
+## 2. 评价
 
 - `ctx.clearRect` 是用来清除画布上指定的矩形区域的，有点儿类似画布上的橡皮擦。
 - 需要理解擦除的本质是让指定的矩形区域变透明，并不是把指定区域中的线条（line）或者路径（path）给删除。
 - 这个 API 常用来做动画效果，原理很简单 —— 不断地擦掉前一帧，然后绘制下一帧。比如，demos.2 不断运动的小球，就是这么绘制的。
 
-## 3. 📒 `ctx.clearRect`
+## 3. `ctx.clearRect`
 
 - **理解擦除的本质**
   - `ctx.clearRect(x, y, width, height)` 用于清除 canvas 上指定矩形区域的像素内容，使其变为完全透明。
@@ -35,7 +35,7 @@
 | 游戏开发 | 避免移动的图形（如角色、子弹）在移动过程中留下残留像素（拖影），通过清除背景区域或整个画布来实现动态更新。 |
 | 用户界面 | 当 Canvas 渲染的 UI 元素（如按钮、进度条、图表）状态变化时，先清除旧内容区域，再绘制新状态，保证界面及时更新。 |
 
-## 4. 💻 demos.1 - 掌握 `ctx.clearRect` 的基本使用
+## 4. demos.1 - 掌握 `ctx.clearRect` 的基本使用
 
 ::: code-group
 
@@ -61,7 +61,7 @@
 
 :::
 
-## 5. 💻 demos.2 - 运动的小球
+## 5. demos.2 - 运动的小球
 
 ::: code-group
 

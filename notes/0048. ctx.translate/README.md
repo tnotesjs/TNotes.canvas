@@ -2,27 +2,27 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 目标](#1--目标)
-- [2. 🫧 评价](#2--评价)
-- [3. 📒 `ctx.translate`](#3--ctxtranslate)
-- [4. 💻 demos.1 - 坐标偏移](#4--demos1---坐标偏移)
-- [5. 💻 demos.2 - 绘制菱形](#5--demos2---绘制菱形)
-- [6. 🔗 引用](#6--引用)
+- [1. 目标](#1-目标)
+- [2. 评价](#2-评价)
+- [3. `ctx.translate`](#3-ctxtranslate)
+- [4. demos.1 - 坐标偏移](#4-demos1---坐标偏移)
+- [5. demos.2 - 绘制菱形](#5-demos2---绘制菱形)
+- [6. 引用](#6-引用)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 目标
+## 1. 目标
 
 - 掌握 `ctx.translate` 的基本使用。
 
-## 2. 🫧 评价
+## 2. 评价
 
 - 需要注意的是使用 `ctx.translate` 对坐标进行移动之后，对后续作图的影响。
 - `demos.2` 使用 `ctx.rect`、`ctx.fillRect`、`ctx.translate` 绘制出了一个菱形，这算是一种绘制菱形的取巧方案（用 rotate 旋转矩形），可以了解一下这种实现方式的思路。
   - 类似的，对于任何图形（可以通过标准绘图 API 绘制的图形旋转得到的图形），都可以通过类似的方案绘制出来。
   - 在绘制菱形等其它不规则图形的时候，更多情况下会优先使用更加灵活的 `path` 来实现。
 
-## 3. 📒 `ctx.translate`
+## 3. `ctx.translate`
 
 - `ctx.translate(x, y)`
   - `ctx.translate` 用于移动画布和其原点到一个新的位置，可以通过正负值来控制偏移的方向。
@@ -33,7 +33,7 @@
   - 这玩意儿移动的是整个坐标系，而非指定的某个图像。
   - 这种变换是对后续的所有画布绘制操作起作用的，而不会影响已经绘制到画布上的内容。
 
-## 4. 💻 demos.1 - 坐标偏移
+## 4. demos.1 - 坐标偏移
 
 ::: code-group
 
@@ -55,7 +55,7 @@
     - y 向下偏移 200px
   - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-23-11-18-16.png)
 
-## 5. 💻 demos.2 - 绘制菱形
+## 5. demos.2 - 绘制菱形
 
 - 需求描述：
   - 画布上有一个正方形，请通过 `ctx.rotate` 旋转，将这个正方形变为菱形。
@@ -71,7 +71,7 @@
 - 比如，`ctx.rotate` 旋转的中心点默认是左上角的原点位置，如果在旋转之前使用了 `ctx.translate` 对画布进行了平移，这将会导致坐标原点发生变化，进而导致 `ctx.rotate` 的旋转中心发生变化。
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-15-03-54.png)
 
-## 6. 🔗 引用
+## 6. 引用
 
 - [CanvasRenderingContext2D.translate 方法][1]
 

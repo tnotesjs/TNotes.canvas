@@ -2,23 +2,23 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 目标](#1--目标)
-- [2. 🫧 评价](#2--评价)
-- [3. 💻 demos.1 - `createLinearGradient` 的基本使用](#3--demos1---createlineargradient-的基本使用)
-- [4. 🔗 引用](#4--引用)
+- [1. 目标](#1-目标)
+- [2. 评价](#2-评价)
+- [3. demos.1 - `createLinearGradient` 的基本使用](#3-demos1---createlineargradient-的基本使用)
+- [4. 引用](#4-引用)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 目标
+## 1. 目标
 
 - 掌握 `createLinearGradient` 的基本使用
 
-## 2. 🫧 评价
+## 2. 评价
 
 - 线性渐变，就是指定两点的坐标，从开始到结束位置上的各个阶段都可以配置颜色。
 - 对于两点沿线方向未覆盖的区域，会自动沿用终点颜色。
 
-## 3. 💻 demos.1 - `createLinearGradient` 的基本使用
+## 3. demos.1 - `createLinearGradient` 的基本使用
 
 ::: code-group
 
@@ -37,7 +37,7 @@
   - 比如此时设置的线性渐变是 `(100, 0) -> (400, 0)`，这个区间无法覆盖矩形，对于无法辐射到的区域 `0-100` 和 `400-500` 直接沿用了线性渐变的“终点”颜色。
   - ![2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-59-37.png)
 
-## 4. 🔗 引用
+## 4. 引用
 
 - [CanvasRenderingContext2D.createLinearGradient 方法][1]
 

@@ -2,22 +2,22 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 目标](#1--目标)
-- [2. 🫧 评价](#2--评价)
-- [3. 📒 `ctx.getImageData`、`ctx.putImageData`](#3--ctxgetimagedatactxputimagedata)
-- [4. 🔍 查看素材原图](#4--查看素材原图)
-- [5. 💻 demos.1 - 置灰](#5--demos1---置灰)
-- [6. 💻 demos.2 - 图像反色处理](#6--demos2---图像反色处理)
-- [7. 💻 demos.3 - 置蓝](#7--demos3---置蓝)
-- [8. 🔗 引用](#8--引用)
+- [1. 目标](#1-目标)
+- [2. 评价](#2-评价)
+- [3. `ctx.getImageData`、`ctx.putImageData`](#3-ctxgetimagedatactxputimagedata)
+- [4. 查看素材原图](#4-查看素材原图)
+- [5. demos.1 - 置灰](#5-demos1---置灰)
+- [6. demos.2 - 图像反色处理](#6-demos2---图像反色处理)
+- [7. demos.3 - 置蓝](#7-demos3---置蓝)
+- [8. 引用](#8-引用)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 目标
+## 1. 目标
 
 - 掌握 `ctx.getImageData`、`ctx.putImageData` 的基本使用
 
-## 2. 🫧 评价
+## 2. 评价
 
 - 先对 `ctx.getImageData`、`ctx.putImageData` 的使用有个基本的了解即可。想要玩 6️⃣ 它们，还需要去学习图像颜色处理的更多知识。
 - 文档中提到的示例，处理逻辑都是：
@@ -29,7 +29,7 @@
   - 读取图像数据是敏感操作，当我们以直接使用浏览器打开本地文件（`file://`）方式打开页面时，`ctx.getImageData` 会抛出 `cross-origin` 异常。这个问题可以通过 `Live Server` 来解决。
   - 这是浏览器的同源策略（CORS）安全机制导致的限制，需要在 HTTP 服务器环境下才能正常访问图像像素数据。
 
-## 3. 📒 `ctx.getImageData`、`ctx.putImageData`
+## 3. `ctx.getImageData`、`ctx.putImageData`
 
 - `ctx.getImageData`、`ctx.putImageData` 这俩 API 的功能很强大。
   - 拿到了整个图像的所有像素点数据，能玩出很多效果 —— 这涉及到“数字图像处理”和“计算机图形学”的相关知识，笔记中仅对 demos 中实现的数字图像处理的最终效果做了简单的说明。
@@ -84,14 +84,14 @@ imageData.data[i + 2] = b * 2 // 增强蓝色分量，超过 255 时需要限制
 
 :::
 
-## 4. 🔍 查看素材原图
+## 4. 查看素材原图
 
 - 翻了翻相册，随便儿找了张图作为以下 demos 的素材。
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-50-13.png)
 - Footprints
   - 这是在上海租的第四个房子的照片儿…… 呆了一年左右
 
-## 5. 💻 demos.1 - 置灰
+## 5. demos.1 - 置灰
 
 ::: code-group
 
@@ -108,7 +108,7 @@ imageData.data[i + 2] = b * 2 // 增强蓝色分量，超过 255 时需要限制
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-28-22-05-46.png)
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-28-22-07-44.png)
 
-## 6. 💻 demos.2 - 图像反色处理
+## 6. demos.2 - 图像反色处理
 
 ::: code-group
 
@@ -119,7 +119,7 @@ imageData.data[i + 2] = b * 2 // 增强蓝色分量，超过 255 时需要限制
 - 最终效果：
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-51-02.png)
 
-## 7. 💻 demos.3 - 置蓝
+## 7. demos.3 - 置蓝
 
 ::: code-group
 
@@ -130,7 +130,7 @@ imageData.data[i + 2] = b * 2 // 增强蓝色分量，超过 255 时需要限制
 - 最终效果：
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-51-17.png)
 
-## 8. 🔗 引用
+## 8. 引用
 
 - [MDN - CanvasRenderingContext2D: getImageData() method][1]，读图片数据。
 - [MDN - CanvasRenderingContext2D: putImageData() method][2]，写图片数据。

@@ -2,26 +2,26 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 目标](#1--目标)
-- [2. 🫧 评价](#2--评价)
-- [3. 📒 `miterLimit`](#3--miterlimit)
-- [4. 💻 demos.1 - `miterLimit` 的基本使用](#4--demos1---miterlimit-的基本使用)
-- [5. 🔗 引用](#5--引用)
+- [1. 目标](#1-目标)
+- [2. 评价](#2-评价)
+- [3. `miterLimit`](#3-miterlimit)
+- [4. demos.1 - `miterLimit` 的基本使用](#4-demos1---miterlimit-的基本使用)
+- [5. 引用](#5-引用)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 目标
+## 1. 目标
 
 - `miterLimit` 的基本使用
 
-## 2. 🫧 评价
+## 2. 评价
 
 - `miterLimit` 的作用非常简单，一言以蔽之 —— 约束角的尖锐程度。
 - 越大的值意味着允许越尖锐的角。
 - 若角的尖锐程度超过了 `miterLimit` 设置的阈值，那么 `miter` 尖角就会自动转为 `bevel` 平角。
 - `miterLimit` 有计算公式，它的值跟 `miterLength`（斜接长度）、`lineWidth`（线条宽度）有关。
 
-## 3. 📒 `miterLimit`
+## 3. `miterLimit`
 
 - `miterLimit` 控制的是角从 `miter` 类型变为 `bevel` 类型的阈值。
 - 本节介绍的内容，和下面这个公式有关。
@@ -51,7 +51,7 @@ $$
   - 角可以尖、可以长，但是得有个度，这个度就是 `miterLimit`。
   - 换算公式： $miterLimit = miterLength / lineWidth$
 
-## 4. 💻 demos.1 - `miterLimit` 的基本使用
+## 4. demos.1 - `miterLimit` 的基本使用
 
 ::: code-group
 
@@ -66,7 +66,7 @@ $$
 - `2.html`
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-11-54.png)
 
-## 5. 🔗 引用
+## 5. 引用
 
 - [CanvasRenderingContext2D.miterLimit 属性][1]
 

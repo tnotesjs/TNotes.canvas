@@ -2,27 +2,27 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 目标](#1--目标)
-- [2. 🫧 评价](#2--评价)
-- [3. 📒 `ctx.clip` 简介](#3--ctxclip-简介)
-- [4. 📒 `fillRule` 填充规则 - `nonzero` 和 `evenodd`](#4--fillrule-填充规则---nonzero-和-evenodd)
+- [1. 目标](#1-目标)
+- [2. 评价](#2-评价)
+- [3. `ctx.clip` 简介](#3-ctxclip-简介)
+- [4. `fillRule` 填充规则 - `nonzero` 和 `evenodd`](#4-fillrule-填充规则---nonzero-和-evenodd)
   - [4.1. `nonzero` 非零填充规则](#41-nonzero-非零填充规则)
   - [4.2. evenodd 奇偶填充规则](#42-evenodd-奇偶填充规则)
   - [4.3. 小结](#43-小结)
-- [5. 💻 demos.3 - 理解 fillRule](#5--demos3---理解-fillrule)
-- [6. 💻 demos.1 - 裁剪菱形](#6--demos1---裁剪菱形)
-- [7. 💻 demos.2 - 裁剪圆形](#7--demos2---裁剪圆形)
-- [8. 💻 demos.4 - 问题记录](#8--demos4---问题记录)
-- [9. 🔗 引用](#9--引用)
+- [5. demos.3 - 理解 fillRule](#5-demos3---理解-fillrule)
+- [6. demos.1 - 裁剪菱形](#6-demos1---裁剪菱形)
+- [7. demos.2 - 裁剪圆形](#7-demos2---裁剪圆形)
+- [8. demos.4 - 问题记录](#8-demos4---问题记录)
+- [9. 引用](#9-引用)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 目标
+## 1. 目标
 
 - 掌握 `ctx.clip` 的基本使用
 - 理解 `fillRule` 填充规则 - `nonzero` 和 `evenodd`
 
-## 2. 🫧 评价
+## 2. 评价
 
 - ctx.clip 的基本使用是比较简单的，但是填充规则不太好理解，并且暂时也还不清楚填充规则有何实际的应用场景……
 - 对于填充规则的介绍，笔记中的大量内容引用了[“张鑫旭”老师的博客文章 —— 搞懂 SVG/Canvas 中 nonzero 和 evenodd 填充规则][1]。
@@ -30,7 +30,7 @@
 - 在阅读“`fillRule` 填充规则 - `nonzero` 和 `evenodd`”的时候，可以结合着 `demos.3` 一起看。
 - ⏰ `demos.4` 没看懂最终的渲染结果……
 
-## 3. 📒 `ctx.clip` 简介
+## 3. `ctx.clip` 简介
 
 - `ctx.clip` 用来裁剪图像，基本语法如下：
 
@@ -45,7 +45,7 @@ clip(path, fillRule)
   - `nonzero` 非零填充规则
   - `evenodd` 奇偶填充规则
 
-## 4. 📒 `fillRule` 填充规则 - `nonzero` 和 `evenodd`
+## 4. `fillRule` 填充规则 - `nonzero` 和 `evenodd`
 
 - 通用知识点
   - 只要是路径填充，都有两种规则，nonzero 和 evenodd。无论是 SVG 中的路径填充，还是 Canvas 中的路径填充，如果还有其他和路径相关的技术（甚至设计软件），也离不开这两种填充规则。换句话说，**这是超越各种语言，普世通用的知识点**。
@@ -125,7 +125,7 @@ clip(path, fillRule)
 | 判断依据         | 交点数量的奇偶性               | 环绕数的代数和         |
 | 处理嵌套图形     | 自动挖空（内外层都填充奇数次） | 可通过方向控制是否填充 |
 
-## 5. 💻 demos.3 - 理解 fillRule
+## 5. demos.3 - 理解 fillRule
 
 ::: code-group
 
@@ -135,7 +135,7 @@ clip(path, fillRule)
 
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-34-46.png)
 
-## 6. 💻 demos.1 - 裁剪菱形
+## 6. demos.1 - 裁剪菱形
 
 ::: code-group
 
@@ -145,7 +145,7 @@ clip(path, fillRule)
 
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-34-27.png)
 
-## 7. 💻 demos.2 - 裁剪圆形
+## 7. demos.2 - 裁剪圆形
 
 ::: code-group
 
@@ -155,7 +155,7 @@ clip(path, fillRule)
 
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-34-35.png)
 
-## 8. 💻 demos.4 - 问题记录
+## 8. demos.4 - 问题记录
 
 ::: code-group
 
@@ -167,7 +167,7 @@ clip(path, fillRule)
 - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-25-22-23-48.png)
 - ![svg](./assets/1.svg)
 
-## 9. 🔗 引用
+## 9. 引用
 
 - [搞懂 SVG/Canvas 中 nonzero 和 evenodd 填充规则 « 张鑫旭-鑫空间-鑫生活][1]
 - [CanvasRenderingContext2D.clip 方法][2]

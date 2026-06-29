@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 🫧 评价](#1--评价)
-- [2. 💻 demos.1 - 使用 `ctx.strokeRect()` 来绘制一个描边矩形](#2--demos1---使用-ctxstrokerect-来绘制一个描边矩形)
+- [1. 评价](#1-评价)
+- [2. demos.1 - 使用 `ctx.strokeRect()` 来绘制一个描边矩形](#2-demos1---使用-ctxstrokerect-来绘制一个描边矩形)
 
 <!-- endregion:toc -->
 
-## 1. 🫧 评价
+## 1. 评价
 
 - 掌握 `ctx.strokeRect()` 的基本使用
 
-## 2. 💻 demos.1 - 使用 `ctx.strokeRect()` 来绘制一个描边矩形
+## 2. demos.1 - 使用 `ctx.strokeRect()` 来绘制一个描边矩形
 
 ::: code-group
 

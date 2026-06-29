@@ -1,326 +1,520 @@
 [
   {
-    "text": "1. canvas 学习资源",
+    "text": "canvas 学习资源",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0053. canvas 学习资源",
-        "link": "/notes/0053. canvas 学习资源/README"
+        "link": "/notes/0053. canvas 学习资源/README",
+        "tocLineIndex": 1,
+        "nodeId": "note:0053"
       },
       {
         "text": "✅ 0056. canvas 在线学习 - 菜鸟教程",
-        "link": "/notes/0056. canvas 在线学习 - 菜鸟教程/README"
+        "link": "/notes/0056. canvas 在线学习 - 菜鸟教程/README",
+        "tocLineIndex": 2,
+        "nodeId": "note:0056"
       },
       {
         "text": "✅ 0052. canvas 在线学习 - 掘金",
-        "link": "/notes/0052. canvas 在线学习 - 掘金/README"
+        "link": "/notes/0052. canvas 在线学习 - 掘金/README",
+        "tocLineIndex": 3,
+        "nodeId": "note:0052"
       },
       {
         "text": "✅ 0054. canvas 在线学习 - MDN Canvas tutorial",
-        "link": "/notes/0054. canvas 在线学习 - MDN Canvas tutorial/README"
+        "link": "/notes/0054. canvas 在线学习 - MDN Canvas tutorial/README",
+        "tocLineIndex": 4,
+        "nodeId": "note:0054"
       },
       {
         "text": "✅ 0055. canvas 在线学习 - HTML Canvas Deep Dive",
-        "link": "/notes/0055. canvas 在线学习 - HTML Canvas Deep Dive/README"
+        "link": "/notes/0055. canvas 在线学习 - HTML Canvas Deep Dive/README",
+        "tocLineIndex": 5,
+        "nodeId": "note:0055"
       }
-    ]
+    ],
+    "folderPath": [
+      "canvas 学习资源"
+    ],
+    "tocLineIndex": 0,
+    "nodeId": "line:0"
   },
   {
-    "text": "2. 初始 canvas",
+    "text": "初始 canvas",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0001. 初始 canvas",
-        "link": "/notes/0001. 初始 canvas/README"
+        "link": "/notes/0001. 初始 canvas/README",
+        "tocLineIndex": 7,
+        "nodeId": "note:0001"
       }
-    ]
+    ],
+    "folderPath": [
+      "初始 canvas"
+    ],
+    "tocLineIndex": 6,
+    "nodeId": "line:6"
   },
   {
-    "text": "3. 开始使用 canvas",
+    "text": "开始使用 canvas",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0057. 汇总开始学习 canvas 之前需要掌握的一些基础知识",
-        "link": "/notes/0057. 汇总开始学习 canvas 之前需要掌握的一些基础知识/README"
+        "link": "/notes/0057. 汇总开始学习 canvas 之前需要掌握的一些基础知识/README",
+        "tocLineIndex": 9,
+        "nodeId": "note:0057"
       },
       {
         "text": "✅ 0002. 判断浏览器是否支持 canvas",
-        "link": "/notes/0002. 判断浏览器是否支持 canvas/README"
+        "link": "/notes/0002. 判断浏览器是否支持 canvas/README",
+        "tocLineIndex": 10,
+        "nodeId": "note:0002"
       },
       {
         "text": "✅ 0003. 区分 canvas 的 width、height 属性和 style 中设置的 width、height 值",
-        "link": "/notes/0003. 区分 canvas 的 width、height 属性和 style 中设置的 width、height 值/README"
+        "link": "/notes/0003. 区分 canvas 的 width、height 属性和 style 中设置的 width、height 值/README",
+        "tocLineIndex": 11,
+        "nodeId": "note:0003"
       },
       {
         "text": "✅ 0005. canvas 的默认尺寸 300x150",
-        "link": "/notes/0005. canvas 的默认尺寸 300x150/README"
+        "link": "/notes/0005. canvas 的默认尺寸 300x150/README",
+        "tocLineIndex": 12,
+        "nodeId": "note:0005"
       },
       {
         "text": "✅ 0006. 使用 JSDoc 来标注 canvas 变量类型",
-        "link": "/notes/0006. 使用 JSDoc 来标注 canvas 变量类型/README"
+        "link": "/notes/0006. 使用 JSDoc 来标注 canvas 变量类型/README",
+        "tocLineIndex": 13,
+        "nodeId": "note:0006"
       },
       {
         "text": "✅ 0017. 绘制网格",
-        "link": "/notes/0017. 绘制网格/README"
+        "link": "/notes/0017. 绘制网格/README",
+        "tocLineIndex": 14,
+        "nodeId": "note:0017"
       }
-    ]
+    ],
+    "folderPath": [
+      "开始使用 canvas"
+    ],
+    "tocLineIndex": 8,
+    "nodeId": "line:8"
   },
   {
-    "text": "4. 线条 - line",
+    "text": "线条 - line",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0008. ctx.lineCap",
-        "link": "/notes/0008. ctx.lineCap/README"
+        "link": "/notes/0008. ctx.lineCap/README",
+        "tocLineIndex": 16,
+        "nodeId": "note:0008"
       },
       {
         "text": "✅ 0009. ctx.lineDashOffset",
-        "link": "/notes/0009. ctx.lineDashOffset/README"
+        "link": "/notes/0009. ctx.lineDashOffset/README",
+        "tocLineIndex": 17,
+        "nodeId": "note:0009"
       },
       {
         "text": "✅ 0010. ctx.setLineDash",
-        "link": "/notes/0010. ctx.setLineDash/README"
+        "link": "/notes/0010. ctx.setLineDash/README",
+        "tocLineIndex": 18,
+        "nodeId": "note:0010"
       },
       {
         "text": "✅ 0011. ctx.miterLimit",
-        "link": "/notes/0011. ctx.miterLimit/README"
+        "link": "/notes/0011. ctx.miterLimit/README",
+        "tocLineIndex": 19,
+        "nodeId": "note:0011"
       },
       {
         "text": "✅ 0012. ctx.lineTo",
-        "link": "/notes/0012. ctx.lineTo/README"
+        "link": "/notes/0012. ctx.lineTo/README",
+        "tocLineIndex": 20,
+        "nodeId": "note:0012"
       },
       {
         "text": "✅ 0013. ctx.lineJoin",
-        "link": "/notes/0013. ctx.lineJoin/README"
+        "link": "/notes/0013. ctx.lineJoin/README",
+        "tocLineIndex": 21,
+        "nodeId": "note:0013"
       }
-    ]
+    ],
+    "folderPath": [
+      "线条 - line"
+    ],
+    "tocLineIndex": 15,
+    "nodeId": "line:15"
   },
   {
-    "text": "5. 文本 - text",
+    "text": "文本 - text",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0014. ctx.fillText、ctx.strokeText",
-        "link": "/notes/0014. ctx.fillText、ctx.strokeText/README"
+        "link": "/notes/0014. ctx.fillText、ctx.strokeText/README",
+        "tocLineIndex": 23,
+        "nodeId": "note:0014"
       },
       {
         "text": "✅ 0015. ctx.font",
-        "link": "/notes/0015. ctx.font/README"
+        "link": "/notes/0015. ctx.font/README",
+        "tocLineIndex": 24,
+        "nodeId": "note:0015"
       },
       {
         "text": "✅ 0016. ctx.textBaseline、ctx.textAlign",
-        "link": "/notes/0016. ctx.textBaseline、ctx.textAlign/README"
+        "link": "/notes/0016. ctx.textBaseline、ctx.textAlign/README",
+        "tocLineIndex": 25,
+        "nodeId": "note:0016"
       }
-    ]
+    ],
+    "folderPath": [
+      "文本 - text"
+    ],
+    "tocLineIndex": 22,
+    "nodeId": "line:22"
   },
   {
-    "text": "6. 矩形 - rect",
+    "text": "矩形 - rect",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0018. ctx.fillRect",
-        "link": "/notes/0018. ctx.fillRect/README"
+        "link": "/notes/0018. ctx.fillRect/README",
+        "tocLineIndex": 27,
+        "nodeId": "note:0018"
       },
       {
         "text": "✅ 0019. ctx.strokeRect",
-        "link": "/notes/0019. ctx.strokeRect/README"
+        "link": "/notes/0019. ctx.strokeRect/README",
+        "tocLineIndex": 28,
+        "nodeId": "note:0019"
       },
       {
         "text": "✅ 0020. ctx.roundRect",
-        "link": "/notes/0020. ctx.roundRect/README"
+        "link": "/notes/0020. ctx.roundRect/README",
+        "tocLineIndex": 29,
+        "nodeId": "note:0020"
       },
       {
         "text": "✅ 0021. ctx.rect",
-        "link": "/notes/0021. ctx.rect/README"
+        "link": "/notes/0021. ctx.rect/README",
+        "tocLineIndex": 30,
+        "nodeId": "note:0021"
       },
       {
         "text": "✅ 0004. ctx.clearRect",
-        "link": "/notes/0004. ctx.clearRect/README"
+        "link": "/notes/0004. ctx.clearRect/README",
+        "tocLineIndex": 31,
+        "nodeId": "note:0004"
       }
-    ]
+    ],
+    "folderPath": [
+      "矩形 - rect"
+    ],
+    "tocLineIndex": 26,
+    "nodeId": "line:26"
   },
   {
-    "text": "7. 圆弧 - arc",
+    "text": "圆弧 - arc",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0024. ctx.arc",
-        "link": "/notes/0024. ctx.arc/README"
+        "link": "/notes/0024. ctx.arc/README",
+        "tocLineIndex": 33,
+        "nodeId": "note:0024"
       },
       {
         "text": "✅ 0026. ctx.ellipse",
-        "link": "/notes/0026. ctx.ellipse/README"
+        "link": "/notes/0026. ctx.ellipse/README",
+        "tocLineIndex": 34,
+        "nodeId": "note:0026"
       },
       {
         "text": "✅ 0027. ctx.arcTo",
-        "link": "/notes/0027. ctx.arcTo/README"
+        "link": "/notes/0027. ctx.arcTo/README",
+        "tocLineIndex": 35,
+        "nodeId": "note:0027"
       }
-    ]
+    ],
+    "folderPath": [
+      "圆弧 - arc"
+    ],
+    "tocLineIndex": 32,
+    "nodeId": "line:32"
   },
   {
-    "text": "8. 路径 - path",
+    "text": "路径 - path",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0022. ctx.closePath",
-        "link": "/notes/0022. ctx.closePath/README"
+        "link": "/notes/0022. ctx.closePath/README",
+        "tocLineIndex": 37,
+        "nodeId": "note:0022"
       },
       {
         "text": "✅ 0023. ctx.beginPath",
-        "link": "/notes/0023. ctx.beginPath/README"
+        "link": "/notes/0023. ctx.beginPath/README",
+        "tocLineIndex": 38,
+        "nodeId": "note:0023"
       },
       {
         "text": "✅ 0025. ctx.quadraticCurveTo、ctx.bezierCurveTo",
-        "link": "/notes/0025. ctx.quadraticCurveTo、ctx.bezierCurveTo/README"
+        "link": "/notes/0025. ctx.quadraticCurveTo、ctx.bezierCurveTo/README",
+        "tocLineIndex": 39,
+        "nodeId": "note:0025"
       }
-    ]
+    ],
+    "folderPath": [
+      "路径 - path"
+    ],
+    "tocLineIndex": 36,
+    "nodeId": "line:36"
   },
   {
-    "text": "9. 阴影 - shadow",
+    "text": "阴影 - shadow",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0043. ctx.shadow 系列",
-        "link": "/notes/0043. ctx.shadow 系列/README"
+        "link": "/notes/0043. ctx.shadow 系列/README",
+        "tocLineIndex": 41,
+        "nodeId": "note:0043"
       }
-    ]
+    ],
+    "folderPath": [
+      "阴影 - shadow"
+    ],
+    "tocLineIndex": 40,
+    "nodeId": "line:40"
   },
   {
-    "text": "10. 渐变 - gradient",
+    "text": "渐变 - gradient",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0040. ctx.createConicGradient",
-        "link": "/notes/0040. ctx.createConicGradient/README"
+        "link": "/notes/0040. ctx.createConicGradient/README",
+        "tocLineIndex": 43,
+        "nodeId": "note:0040"
       },
       {
         "text": "✅ 0041. ctx.createLinearGradient",
-        "link": "/notes/0041. ctx.createLinearGradient/README"
+        "link": "/notes/0041. ctx.createLinearGradient/README",
+        "tocLineIndex": 44,
+        "nodeId": "note:0041"
       },
       {
         "text": "✅ 0042. ctx.createRadialGradient",
-        "link": "/notes/0042. ctx.createRadialGradient/README"
+        "link": "/notes/0042. ctx.createRadialGradient/README",
+        "tocLineIndex": 45,
+        "nodeId": "note:0042"
       }
-    ]
+    ],
+    "folderPath": [
+      "渐变 - gradient"
+    ],
+    "tocLineIndex": 42,
+    "nodeId": "line:42"
   },
   {
-    "text": "11. 滤镜 - filter",
+    "text": "滤镜 - filter",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0044. ctx.filter",
-        "link": "/notes/0044. ctx.filter/README"
+        "link": "/notes/0044. ctx.filter/README",
+        "tocLineIndex": 47,
+        "nodeId": "note:0044"
       }
-    ]
+    ],
+    "folderPath": [
+      "滤镜 - filter"
+    ],
+    "tocLineIndex": 46,
+    "nodeId": "line:46"
   },
   {
-    "text": "12. 画布状态的存取 - save&restore",
+    "text": "画布状态的存取 - save&restore",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0007. ctx.save、ctx.restore",
-        "link": "/notes/0007. ctx.save、ctx.restore/README"
+        "link": "/notes/0007. ctx.save、ctx.restore/README",
+        "tocLineIndex": 49,
+        "nodeId": "note:0007"
       }
-    ]
+    ],
+    "folderPath": [
+      "画布状态的存取 - save&restore"
+    ],
+    "tocLineIndex": 48,
+    "nodeId": "line:48"
   },
   {
-    "text": "13. 图像 - image",
+    "text": "图像 - image",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0035. 使用 ctx.drawImage 引入图像",
-        "link": "/notes/0035. 使用 ctx.drawImage 引入图像/README"
+        "link": "/notes/0035. 使用 ctx.drawImage 引入图像/README",
+        "tocLineIndex": 51,
+        "nodeId": "note:0035"
       },
       {
         "text": "✅ 0031. ctx.clip",
-        "link": "/notes/0031. ctx.clip/README"
+        "link": "/notes/0031. ctx.clip/README",
+        "tocLineIndex": 52,
+        "nodeId": "note:0031"
       },
       {
         "text": "✅ 0032. ctx.createPattern",
-        "link": "/notes/0032. ctx.createPattern/README"
+        "link": "/notes/0032. ctx.createPattern/README",
+        "tocLineIndex": 53,
+        "nodeId": "note:0032"
       },
       {
         "text": "✅ 0033. ctx.drawImage",
-        "link": "/notes/0033. ctx.drawImage/README"
+        "link": "/notes/0033. ctx.drawImage/README",
+        "tocLineIndex": 54,
+        "nodeId": "note:0033"
       },
       {
         "text": "✅ 0036. ctx.getImageData、ctx.putImageData",
-        "link": "/notes/0036. ctx.getImageData、ctx.putImageData/README"
+        "link": "/notes/0036. ctx.getImageData、ctx.putImageData/README",
+        "tocLineIndex": 55,
+        "nodeId": "note:0036"
       },
       {
         "text": "✅ 0037. ctx.globalCompositeOperation",
-        "link": "/notes/0037. ctx.globalCompositeOperation/README"
+        "link": "/notes/0037. ctx.globalCompositeOperation/README",
+        "tocLineIndex": 56,
+        "nodeId": "note:0037"
       },
       {
         "text": "✅ 0038. 使用 ctx.globalCompositeOperation 实现刮刮乐效果",
-        "link": "/notes/0038. 使用 ctx.globalCompositeOperation 实现刮刮乐效果/README"
+        "link": "/notes/0038. 使用 ctx.globalCompositeOperation 实现刮刮乐效果/README",
+        "tocLineIndex": 57,
+        "nodeId": "note:0038"
       },
       {
         "text": "✅ 0039. 引用和下载 canvas 图像",
-        "link": "/notes/0039. 引用和下载 canvas 图像/README"
+        "link": "/notes/0039. 引用和下载 canvas 图像/README",
+        "tocLineIndex": 58,
+        "nodeId": "note:0039"
       }
-    ]
+    ],
+    "folderPath": [
+      "图像 - image"
+    ],
+    "tocLineIndex": 50,
+    "nodeId": "line:50"
   },
   {
-    "text": "14. 坐标系 - coordinate system",
+    "text": "坐标系 - coordinate system",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0045. ctx.rotate",
-        "link": "/notes/0045. ctx.rotate/README"
+        "link": "/notes/0045. ctx.rotate/README",
+        "tocLineIndex": 60,
+        "nodeId": "note:0045"
       },
       {
         "text": "✅ 0048. ctx.translate",
-        "link": "/notes/0048. ctx.translate/README"
+        "link": "/notes/0048. ctx.translate/README",
+        "tocLineIndex": 61,
+        "nodeId": "note:0048"
       },
       {
         "text": "✅ 0046. ctx.scale",
-        "link": "/notes/0046. ctx.scale/README"
+        "link": "/notes/0046. ctx.scale/README",
+        "tocLineIndex": 62,
+        "nodeId": "note:0046"
       },
       {
         "text": "✅ 0047. ctx.transform",
-        "link": "/notes/0047. ctx.transform/README"
+        "link": "/notes/0047. ctx.transform/README",
+        "tocLineIndex": 63,
+        "nodeId": "note:0047"
       }
-    ]
+    ],
+    "folderPath": [
+      "坐标系 - coordinate system"
+    ],
+    "tocLineIndex": 59,
+    "nodeId": "line:59"
   },
   {
-    "text": "15. 动画效果 - Animation",
+    "text": "动画效果 - Animation",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0028. 矩形边框旋转动画",
-        "link": "/notes/0028. 矩形边框旋转动画/README"
+        "link": "/notes/0028. 矩形边框旋转动画/README",
+        "tocLineIndex": 65,
+        "nodeId": "note:0028"
       },
       {
         "text": "✅ 0029. 线条穿梭动画",
-        "link": "/notes/0029. 线条穿梭动画/README"
+        "link": "/notes/0029. 线条穿梭动画/README",
+        "tocLineIndex": 66,
+        "nodeId": "note:0029"
       },
       {
         "text": "✅ 0030. 模拟进度条动画效果",
-        "link": "/notes/0030. 模拟进度条动画效果/README"
+        "link": "/notes/0030. 模拟进度条动画效果/README",
+        "tocLineIndex": 67,
+        "nodeId": "note:0030"
       },
       {
         "text": "✅ 0050. 实现动态时钟效果",
-        "link": "/notes/0050. 实现动态时钟效果/README"
+        "link": "/notes/0050. 实现动态时钟效果/README",
+        "tocLineIndex": 68,
+        "nodeId": "note:0050"
       },
       {
         "text": "✅ 0049. 模拟烟花效果",
-        "link": "/notes/0049. 模拟烟花效果/README"
+        "link": "/notes/0049. 模拟烟花效果/README",
+        "tocLineIndex": 69,
+        "nodeId": "note:0049"
       },
       {
         "text": "✅ 0034. 模拟太阳系效果",
-        "link": "/notes/0034. 模拟太阳系效果/README"
+        "link": "/notes/0034. 模拟太阳系效果/README",
+        "tocLineIndex": 70,
+        "nodeId": "note:0034"
       }
-    ]
+    ],
+    "folderPath": [
+      "动画效果 - Animation"
+    ],
+    "tocLineIndex": 64,
+    "nodeId": "line:64"
   },
   {
-    "text": "16. 小游戏",
+    "text": "小游戏",
     "collapsed": true,
     "items": [
       {
         "text": "✅ 0051. 贪吃蛇小游戏",
-        "link": "/notes/0051. 贪吃蛇小游戏/README"
+        "link": "/notes/0051. 贪吃蛇小游戏/README",
+        "tocLineIndex": 72,
+        "nodeId": "note:0051"
       }
-    ]
+    ],
+    "folderPath": [
+      "小游戏"
+    ],
+    "tocLineIndex": 71,
+    "nodeId": "line:71"
   }
 ]

@@ -2,24 +2,24 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 目标](#1--目标)
-- [2. 🫧 评价](#2--评价)
-- [3. 📒 `ctx.globalCompositeOperation`](#3--ctxglobalcompositeoperation)
-- [4. 💻 demos common 模块简介](#4--demos-common-模块简介)
-- [5. 💻 demos.1 - source & destination](#5--demos1---source--destination)
-- [6. 💻 demos.2 - 颜色合成](#6--demos2---颜色合成)
-- [7. 💻 demos.3 - MDN 官方示例](#7--demos3---mdn-官方示例)
-- [8. 🔗 引用](#8--引用)
+- [1. 目标](#1-目标)
+- [2. 评价](#2-评价)
+- [3. `ctx.globalCompositeOperation`](#3-ctxglobalcompositeoperation)
+- [4. demos common 模块简介](#4-demos-common-模块简介)
+- [5. demos.1 - source & destination](#5-demos1---source--destination)
+- [6. demos.2 - 颜色合成](#6-demos2---颜色合成)
+- [7. demos.3 - MDN 官方示例](#7-demos3---mdn-官方示例)
+- [8. 引用](#8-引用)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 目标
+## 1. 目标
 
 - 掌握 `ctx.globalCompositeOperation` 的基本使用
 - 了解每个模式的大致效果
 - 知道在什么场景下使用哪种模式
 
-## 2. 🫧 评价
+## 2. 评价
 
 - 先熟悉几个重要词汇：
   - composite（合成）表示合成操作，可选值见笔记中的表格
@@ -43,7 +43,7 @@
   - 至于如何微调就先甭想了。
   - 补充：若确实有微调的需求，可以尝试从 `source`、`destination` 入手，比如使用 `ctx.getImageData` 获取到源、目标图像的所有像素信息，再进行像素计算进行微调，并结合 `ctx.globalCompositeOperation` 设置不同的混合模式来预览效果。
 
-## 3. 📒 `ctx.globalCompositeOperation`
+## 3. `ctx.globalCompositeOperation`
 
 - `ctx.globalCompositeOperation`
   - 在画布上绘制新图形时，`ctx.globalCompositeOperation` 用于设置要在绘制新图形时使用的合成操作的类型。
@@ -81,7 +81,7 @@
 | `color` | 保留了底层的亮度，同时采用了顶层的色调和色度 |
 | `luminosity` | 保持底层的色调和色度，同时采用顶层的亮度 |
 
-## 4. 💻 demos common 模块简介
+## 4. demos common 模块简介
 
 ::: code-group
 
@@ -92,7 +92,7 @@
 - `composite` 是一个辅助函数，封装一些通用的逻辑，以便后续 demos 使用。
 - 重点关注核心逻辑 core logic 部分即可。
 
-## 5. 💻 demos.1 - source & destination
+## 5. demos.1 - source & destination
 
 ::: code-group
 
@@ -104,7 +104,7 @@
 
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-30-15-39-44.png)
 
-## 6. 💻 demos.2 - 颜色合成
+## 6. demos.2 - 颜色合成
 
 ::: code-group
 
@@ -116,7 +116,7 @@
 
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-30-15-39-13.png)
 
-## 7. 💻 demos.3 - MDN 官方示例
+## 7. demos.3 - MDN 官方示例
 
 ::: code-group
 
@@ -156,7 +156,7 @@
 
 :::
 
-## 8. 🔗 引用
+## 8. 引用
 
 - [MDN - ctx.globalCompositeOperation][1]
 

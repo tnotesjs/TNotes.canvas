@@ -2,18 +2,18 @@
 
 <!-- region:toc -->
 
-- [1. 🫧 评价](#1--评价)
-- [2. 🔍 教程目录](#2--教程目录)
-- [3. 🔗 引用](#3--引用)
+- [1. 评价](#1-评价)
+- [2. 教程目录](#2-教程目录)
+- [3. 引用](#3-引用)
 
 <!-- endregion:toc -->
 
-## 1. 🫧 评价
+## 1. 评价
 
 - [HTML Canvas Deep Dive][1] 一个免费的 canvas 在线教程，内容都是英文。
 - 教程中也提到了 webgl、threejs 等跟 3d 绘图相关的内容。
 
-## 2. 🔍 教程目录
+## 2. 教程目录
 
 - `1 HTML Canvas Deep Dive` - 1 HTML 画布深入探索
 - `2 Basic Drawing` - 2 基础绘图
@@ -30,7 +30,7 @@
 - `13 Mobile Devices and Performance Optimization` - 13 移动设备与性能优化
 - `14 Next Steps` - 14 后续步骤
 
-## 3. 🔗 引用
+## 3. 引用
 
 - [HTML Canvas Deep Dive][1]
 - [作者 github - joshmarinacci][2]

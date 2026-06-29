@@ -2,17 +2,17 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 目标](#1--目标)
-- [2. 🫧 评价](#2--评价)
-- [3. 💻 demos.1 - 使用 `ctx.lineJoin` 设置线条连接处的样式](#3--demos1---使用-ctxlinejoin-设置线条连接处的样式)
+- [1. 目标](#1-目标)
+- [2. 评价](#2-评价)
+- [3. demos.1 - 使用 `ctx.lineJoin` 设置线条连接处的样式](#3-demos1---使用-ctxlinejoin-设置线条连接处的样式)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 目标
+## 1. 目标
 
 - 学会使用 `ctx.lineJoin` 设置线条连接处的样式。
 
-## 2. 🫧 评价
+## 2. 评价
 
 - `lineJoin` 设置的是线条连接点处的角样式，可选值：
   - miter `>` 尖角
@@ -21,7 +21,7 @@
 - 看一张图就明白了：
   - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-18-20-14-47.png)
 
-## 3. 💻 demos.1 - 使用 `ctx.lineJoin` 设置线条连接处的样式
+## 3. demos.1 - 使用 `ctx.lineJoin` 设置线条连接处的样式
 
 ::: code-group
 

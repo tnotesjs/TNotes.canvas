@@ -2,25 +2,25 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 目标](#1--目标)
-- [2. 🫧 评价](#2--评价)
-- [3. 📒 `ctx.save` 和 `ctx.restore`](#3--ctxsave-和-ctxrestore)
-- [4. 💻 demos.2 - 辅助方法 `drawGrid`](#4--demos2---辅助方法-drawgrid)
-- [5. 💻 demos.1 - 画布状态的保存和恢复](#5--demos1---画布状态的保存和恢复)
-- [6. 🔗 引用](#6--引用)
+- [1. 目标](#1-目标)
+- [2. 评价](#2-评价)
+- [3. `ctx.save` 和 `ctx.restore`](#3-ctxsave-和-ctxrestore)
+- [4. demos.2 - 辅助方法 `drawGrid`](#4-demos2---辅助方法-drawgrid)
+- [5. demos.1 - 画布状态的保存和恢复](#5-demos1---画布状态的保存和恢复)
+- [6. 引用](#6-引用)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 目标
+## 1. 目标
 
 - 掌握 `ctx.save` 和 `ctx.restore` 的基本用法。
 - 知道画布状态的存储结构是栈结构，遵循 LIFO 规则。【扩展】
 
-## 2. 🫧 评价
+## 2. 评价
 
 - 画笔状态的存储和恢复还是比较常见的操作，需要掌握一些常见的写法。
 
-## 3. 📒 `ctx.save` 和 `ctx.restore`
+## 3. `ctx.save` 和 `ctx.restore`
 
 - `ctx.save()` 和 `ctx.restore()` 方法用于保存和恢复画布（Canvas）的状态。
 - `ctx.save()`
@@ -78,7 +78,7 @@ function draw2() {
 }
 ```
 
-## 4. 💻 demos.2 - 辅助方法 `drawGrid`
+## 4. demos.2 - 辅助方法 `drawGrid`
 
 ::: code-group
 
@@ -103,7 +103,7 @@ function draw2() {
   - 会发现发现中间调用 `drawGrid` 完成网格绘制，由于其对 `ctx.font` 做了修改，导致了对最终绘制的文案 `hello world` 的样式造成了影响。
 - `ctx.save()` 和 `ctx.restore()` 的作用是保存和恢复画布的状态，实现一个 “局部画布状态” 的效果，函数内、外的画布状态隔离。
 
-## 5. 💻 demos.1 - 画布状态的保存和恢复
+## 5. demos.1 - 画布状态的保存和恢复
 
 ::: code-group
 
@@ -115,7 +115,7 @@ function draw2() {
 - 最终效果：
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-03-23-05-01.png)
 
-## 6. 🔗 引用
+## 6. 引用
 
 - [CanvasRenderingContext2D：save() 方法][1]
 - [CanvasRenderingContext2D.restore 方法][2]

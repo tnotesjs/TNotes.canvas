@@ -2,20 +2,20 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 目标](#1--目标)
-- [2. 🫧 评价](#2--评价)
-- [3. 💻 demos.1 - 保持图片原始尺寸](#3--demos1---保持图片原始尺寸)
-- [4. 💻 demos.2 - 约束图片尺寸](#4--demos2---约束图片尺寸)
-- [5. 💻 demos.3 - 裁剪图片](#5--demos3---裁剪图片)
-- [6. 🔗 引用](#6--引用)
+- [1. 目标](#1-目标)
+- [2. 评价](#2-评价)
+- [3. demos.1 - 保持图片原始尺寸](#3-demos1---保持图片原始尺寸)
+- [4. demos.2 - 约束图片尺寸](#4-demos2---约束图片尺寸)
+- [5. demos.3 - 裁剪图片](#5-demos3---裁剪图片)
+- [6. 引用](#6-引用)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 目标
+## 1. 目标
 
 - 掌握 `ctx.drawImage` 的基本使用
 
-## 2. 🫧 评价
+## 2. 评价
 
 - `ctx.drawImage` draw 表示画，Image 表示图片，顾名思义，这 API 是用来画图片的。
 - `ctx.drawImage` 常见有 3 种写法，其中“截图”功能比较 🐂 🍺，可以玩出很多花样。
@@ -40,7 +40,7 @@
     - 展示指定的图像
 ```
 
-## 3. 💻 demos.1 - 保持图片原始尺寸
+## 3. demos.1 - 保持图片原始尺寸
 
 ::: code-group
 
@@ -51,7 +51,7 @@
 - 最终效果
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-47-57.png)
 
-## 4. 💻 demos.2 - 约束图片尺寸
+## 4. demos.2 - 约束图片尺寸
 
 ::: code-group
 
@@ -62,7 +62,7 @@
 - 最终效果
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-48-03.png)
 
-## 5. 💻 demos.3 - 裁剪图片
+## 5. demos.3 - 裁剪图片
 
 ::: code-group
 
@@ -74,7 +74,7 @@
 - 最终效果
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-04-11-48-10.png)
 
-## 6. 🔗 引用
+## 6. 引用
 
 - [CanvasRenderingContext2D.drawImage 方法][1]
 

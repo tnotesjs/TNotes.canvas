@@ -2,17 +2,17 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 目标](#1--目标)
-- [2. 💻 demos.1 - 理解 canvas 盒模型](#2--demos1---理解-canvas-盒模型)
+- [1. 目标](#1-目标)
+- [2. demos.1 - 理解 canvas 盒模型](#2-demos1---理解-canvas-盒模型)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 目标
+## 1. 目标
 
 - `<canvas>` 盒模型
   - 知道 `<canvas>` 默认是 `300x150` 的行盒即可。
 
-## 2. 💻 demos.1 - 理解 canvas 盒模型
+## 2. demos.1 - 理解 canvas 盒模型
 
 ::: code-group
 

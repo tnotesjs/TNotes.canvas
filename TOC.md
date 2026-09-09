@@ -1,11 +1,9 @@
-- canvas 学习资源
-  - [x] 0053. canvas 学习资源
+- [x] 0053. canvas 学习资源
   - [x] 0056. canvas 在线学习 - 菜鸟教程
   - [x] 0052. canvas 在线学习 - 掘金
   - [x] 0054. canvas 在线学习 - MDN Canvas tutorial
   - [x] 0055. canvas 在线学习 - HTML Canvas Deep Dive
-- 初始 canvas
-  - [x] 0001. 初始 canvas
+- [x] 0001. 初始 canvas
 - 开始使用 canvas
   - [x] 0057. 汇总开始学习 canvas 之前需要掌握的一些基础知识
   - [x] 0002. 判断浏览器是否支持 canvas
